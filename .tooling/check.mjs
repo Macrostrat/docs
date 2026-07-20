@@ -10,7 +10,7 @@
 //   Dangling links  -> WARNING (the renderer degrades them to plain text).
 // Use --strict to escalate warnings to errors. Use as a CI gate before the build.
 
-import { readFileSync, readdirSync, statSync, existsSync } from "node:fs";
+import { readFileSync, readdirSync, statSync, lstatSync, existsSync } from "node:fs";
 import { join, resolve, relative, basename, extname, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -31,6 +31,7 @@ const mdFiles = [];
   for (const name of readdirSync(dir)) {
     if (name.startsWith(".")) continue;
     const p = join(dir, name);
+    if (lstatSync(p).isSymbolicLink()) continue; // skip symlinks (don't follow / crash on dangling)
     if (statSync(p).isDirectory()) walk(p);
     else if (extname(p).toLowerCase() === ".md") mdFiles.push(p);
   }

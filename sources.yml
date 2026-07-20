@@ -34,6 +34,15 @@ sources:
     mount: formats/column-ingestion
     # The stratigraphic-column ingestion format spec — iterates with its parser.
 
+  # TODO: xDD notes — replaces the old `content/Guides/xDD` symlink hack in the
+  # web repo (which pointed at a dep that isn't checked out). Confirm the `notes`
+  # path exists in the source, then enable:
+  # - id: xdd-notes
+  #   repo: https://github.com/UW-Macrostrat/macrostrat-xdd.git
+  #   ref: main
+  #   path: notes
+  #   mount: guides/xdd
+
   # Add further code-coupled sources here, e.g.:
   # - id: web-components
   #   repo: https://github.com/UW-Macrostrat/web-components.git
