@@ -1,0 +1,16 @@
+{
+  "name": "@macrostrat/docs-tooling",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "description": "Assembly, verification, and asset-sync tooling for the Macrostrat documentation vault.",
+  "scripts": {
+    "assemble": "node assemble.mjs",
+    "assemble:publish": "node assemble.mjs --mode=publish",
+    "assemble:workspace": "node assemble.mjs --mode=workspace",
+    "check": "node check.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.5.0"
+  }
+}

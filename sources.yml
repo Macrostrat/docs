@@ -1,0 +1,42 @@
+# sources.yml — federation manifest for the Macrostrat documentation vault
+#
+# Standalone prose lives directly in this repo and needs NO entry here.
+# Each entry below pulls a *code-coupled* doc set from its home repository into
+# the assembled site, so those docs version and review with the code they describe.
+#
+# Schema (per source):
+#   id:       stable slug (used for logging + workspace clone dirs)
+#   repo:     git URL of the source repository
+#   ref:      branch or tag to track (default: main). Pin a tag for stability.
+#   path:     subdirectory within the source to pull (default: repo root)
+#   include:  optional list of globs within `path` to select (default: all *.md)
+#   mount:    where the pulled docs land in the assembled tree (under /docs)
+#
+# The same manifest drives two assembly modes (see .tooling/README.md):
+#   publish   — read-only, lightweight clone → flat tree for the website build
+#   workspace — editable partial+sparse clones for cross-repo doc authoring
+
+sources:
+  - id: macrostrat-platform
+    repo: https://github.com/UW-Macrostrat/macrostrat.git
+    ref: main
+    path: docs
+    mount: platform
+    # Install/run, system architecture, testing — code-coupled to the core repo.
+
+  - id: column-ingestion-format
+    repo: https://github.com/Macrostrat/column-ingestion.git
+    ref: main
+    include:
+      - "Format documentation.md"
+      - "Future updates.md"
+      - "README.md"
+    mount: formats/column-ingestion
+    # The stratigraphic-column ingestion format spec — iterates with its parser.
+
+  # Add further code-coupled sources here, e.g.:
+  # - id: web-components
+  #   repo: https://github.com/UW-Macrostrat/web-components.git
+  #   ref: main
+  #   path: docs
+  #   mount: libraries/web-components
