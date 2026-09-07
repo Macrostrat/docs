@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
+  "packageManager": "yarn@4.17.1",
   "description": "Assembly, verification, and asset-sync tooling for the Macrostrat documentation vault.",
   "scripts": {
     "assemble": "node assemble.mjs",
@@ -11,6 +12,8 @@
     "check": "node check.mjs"
   },
   "dependencies": {
+    "@mdx-js/mdx": "^2.3.0",
+    "remark-frontmatter": "^4.0.1",
     "yaml": "^2.5.0"
   }
 }

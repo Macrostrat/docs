@@ -1,7 +1,8 @@
 # docs-assets
 
-Local working mirror of the documentation **asset store** — a semantically
-organized, versioned bucket on `storage.macrostrat.org` (Ceph-backed S3).
+Local working mirror of the documentation **asset store**: the `web/docs/` prefix
+of the public `assets` bucket on `storage.macrostrat.org` (Ceph-backed S3), beside
+the site's other media. Published URL: `https://storage.macrostrat.org/assets/web/docs/<path>`.
 
 ## The model
 
@@ -16,12 +17,13 @@ organized, versioned bucket on `storage.macrostrat.org` (Ceph-backed S3).
 
 ## Workflow
 
-1. Drop a file into this directory, mirroring the bucket's path layout
-   (e.g. `docs-assets/web/section-editor/demo.gif`).
+1. Drop a file into this directory, mirroring the assembled page tree
+   (`<mount>/<page-slug>/<name>.<ext>`, e.g. `docs-assets/platform/using-raster-layers-in-qgis/wmts-dialog.png`).
 2. Sync it up: `.tooling/sync-assets.sh push`.
-3. Reference it from Markdown by its stable store URL.
+3. Reference it from Markdown by its stable store URL
+   (`https://storage.macrostrat.org/assets/web/docs/<path>`).
 
-In dev, reference resolution falls back to this local directory, so you can
-preview a doc before pushing the asset. The reference-integrity check
-(`.tooling/check.mjs`) verifies, at build time, that every referenced asset
+Push the asset **before** the doc that cites it: remote URLs preview directly in
+Obsidian and on GitHub, so there is no local fallback, and the reference-integrity
+check (`.tooling/check.mjs`) verifies at build time that every referenced asset
 actually resolves.

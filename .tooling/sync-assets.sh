@@ -5,12 +5,12 @@
 #   ./sync-assets.sh pull     # bucket -> local docs-assets/
 #
 # Requires the AWS CLI (or swap for rclone) configured with credentials scoped to
-# the docs-assets bucket on storage.macrostrat.org (Ceph RGW, S3-compatible).
+# the `assets` bucket on storage.macrostrat.org (Ceph RGW, S3-compatible); docs media lives under web/docs/.
 set -euo pipefail
 
 # --- config (override via environment) -------------------------------------
 : "${DOCS_ASSETS_ENDPOINT:=https://storage.macrostrat.org}"
-: "${DOCS_ASSETS_BUCKET:=s3://docs-assets}"
+: "${DOCS_ASSETS_BUCKET:=s3://assets/web/docs}"
 
 here="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 local_dir="$here/docs-assets"

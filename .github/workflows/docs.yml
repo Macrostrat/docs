@@ -1,0 +1,50 @@
+name: Documentation
+# Assemble and check the federated documentation set on every change, and
+# tell the website to rebuild when main changes.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install tooling
+        working-directory: .tooling
+        run: |
+          corepack enable
+          yarn install --immutable
+      - name: Assemble
+        run: node .tooling/assemble.mjs --mode=publish --out=.assembled
+      - name: Check references
+        run: node .tooling/check.mjs .assembled
+
+  # Rebuild the website so dev.macrostrat.org picks up the new content.
+  # Needs a WEB_DISPATCH_TOKEN secret: a fine-grained personal access token
+  # with "Contents: read and write" on UW-Macrostrat/web. Skipped when unset.
+  notify-web:
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    env:
+      WEB_DISPATCH_TOKEN: ${{ secrets.WEB_DISPATCH_TOKEN }}
+    steps:
+      - name: Dispatch docs-updated to UW-Macrostrat/web
+        if: env.WEB_DISPATCH_TOKEN != ''
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ env.WEB_DISPATCH_TOKEN }}
+          repository: UW-Macrostrat/web
+          event-type: docs-updated
+          client-payload: '{"ref": "${{ github.sha }}"}'
+      - name: No token configured
+        if: env.WEB_DISPATCH_TOKEN == ''
+        run: echo "WEB_DISPATCH_TOKEN is not set; the website was not notified."

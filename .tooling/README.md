@@ -7,8 +7,14 @@ Maintainers and CI use it to compose and check the federated doc set.
 ## Setup
 
 ```sh
-cd .tooling && yarn install    # or npm install
+cd .tooling && yarn install
 ```
+
+The website build never calls these scripts by hand: `yarn docs:assemble` in the
+`UW-Macrostrat/web` repository (`scripts/assemble-docs.sh`) clones this vault,
+installs this directory and runs assemble + check into the site's `content/`.
+The same two commands run in this repository's own CI on every pull request
+(`.github/workflows/docs.yml`), which also notifies the website when `main` changes.
 
 ## Assemble — `assemble.mjs`
 
@@ -17,7 +23,7 @@ sources into one tree. One manifest, two modes:
 
 ```sh
 # Publish mode (what the website build runs): read-only, throwaway clones.
-node assemble.mjs --mode=publish --out=../../web/content
+node assemble.mjs --mode=publish --out=../.assembled
 
 # Workspace mode: editable partial + sparse clones under ../.workspace/,
 # for aligning documentation across repositories, then branch-and-push per source.
@@ -35,11 +41,11 @@ node assemble.mjs --mode=workspace
 
 Reference-integrity gate over an assembled tree: verifies every `[[wikilink]]`
 resolves and every referenced asset is reachable (local file exists / remote URL
-returns 200). Exits non-zero on any dangling reference — wire it into CI before
-the image build.
+returns 200). Missing assets are errors; unresolved wikilinks are warnings
+unless `--strict` is given. CI runs it after every assembly.
 
 ```sh
-node check.mjs ../../web/content
+node check.mjs ../.assembled
 ```
 
 ## Sync assets — `sync-assets.sh`
