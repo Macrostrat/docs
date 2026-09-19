@@ -35,6 +35,28 @@ it. Nothing here needs to be built to be edited — Obsidian previews it locally
 - **Drafts** — put work-in-progress under a `__drafts__/` folder to keep it out
   of the published index.
 
+## Site pages and records (`Site/`)
+
+The website's own pages, About, Support, Community, Publications, are prose in this
+vault too, under `Site/`, so anyone can fix a grant number or add a collaborator by
+pull request. They differ from documentation pages in two ways:
+
+- **`route:` frontmatter** names the site address (`route: /about`). The website
+  renders these pages as *shells*: the prose, with components inserted at the HTML
+  comments marked `<!-- slot: ... -->`. They are not part of the `/docs` navigation.
+- **Records live in `Site/data/`** as YAML: `supporters.yml`, `apps.yml`,
+  `integrations.yml`, `contact.yml`, `people.yml`. Anything with identity and
+  repetition (a person, an app, a supporter) is a record, not a paragraph. Each file
+  starts with a comment describing its fields; the website reads them, and the check
+  will validate them against a schema.
+- **News posts** are ordinary pages under `News/`, one file per post, with `title`,
+  `date`, `author` (an id from `people.yml`), `summary`, `tags`, `image` and `kind`
+  (`major` posts also go to the newsletter; `minor` ones stay on the site). Draft a
+  post under `__drafts__/News/` until it is ready.
+
+Media for these pages (logos, photos, post images) goes to the asset store like any
+other media.
+
 ## Tooling
 
 The `.tooling/` directory holds the assembly, reference-integrity check, and
