@@ -1,3 +1,7 @@
+---
+title: Code style for the website
+---
+
 # Code style
 
 - Prefer Hyperscript (using the `@macrostrat/hyper` package) over JSX.

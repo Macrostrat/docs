@@ -34,12 +34,11 @@ observations, and the system tracks every change. The vision was first described
 The v2 site you are reading is in **beta**. The capabilities named in that paper are
 documented as they arrive:
 
-- Map ingestion and harmonization: [[Maps]]
-- Stratigraphic column data: [[Macrostrat stratigraphic columns]] and
-  [[Accessing column data]]
-- The lexicon: [[Macrostrat lexicon]]
-- Data services and the API: [[Macrostrat data services]] and
-  [[The Macrostrat Geologic API]]
+- How the system works: [[How Macrostrat works]]
+- Map ingestion and harmonization: [[Map ingestion]] and [[Maps|contributing maps]]
+- Stratigraphic column data: [[Stratigraphic columns]] and [[Accessing column data]]
+- The lexicon: [[Geologic lexicon]]
+- Data services and the API: [[Data services]] and [[The Macrostrat Geologic API]]
 - Change tracking and contributor accounts: coming with the beta
 
 ## How to cite

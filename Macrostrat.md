@@ -3,25 +3,37 @@ permalink: index
 title: Documentation
 ---
 
-Macrostrat is a geological model of the Earth's crust and its stratigraphic
-framework. It is currently developed at the eponymous lab at University of
-Wisconsin–Madison, by a team of geologists and software engineers.
+Macrostrat is a digital model of the Earth's crust: a database that links geologic
+maps, stratigraphic columns and a shared geologic vocabulary into one framework
+through space and time. It is developed by the Macrostrat lab at the University of
+Wisconsin–Madison together with a growing community of geologists and developers, and
+it underlies the [Rockd](https://rockd.org) mobile app and many other applications.
 
-The Macrostrat data platform underlies [Rockd](https://rockd.org/), a mobile
-application that allows users to explore the geology of the world around them.
+These pages explain what Macrostrat is, how it works, and how to use and contribute to
+it.
 
-- [[Community]]
-- [[Frequently asked questions]]
-- [[Architecture]]
+## Start here
 
-Macrostrat's documentation website is part of a push to open up the platform
-more fully to contributors in [[Version 2]].
+- **[[How Macrostrat works]]**: the system's building blocks, including
+  [[Stratigraphic columns]], the [[Age model]], the [[Geologic lexicon]],
+  [[Geologic maps]] and how they are [[Linking data|linked]]
+- **[[Using Macrostrat]]**: the website, the API and map tiles, and GIS
+- **[[Contributing]]**: adding maps, columns and corrections, and working on the
+  software and these docs
+- **[[Platform]]**: architecture, repositories and developer documentation for running
+  Macrostrat
 
-The documentation is open-source, and we encourage contributions. Please
-contribute on [GitHub](https://github.com/UW-Macrostrat/docs).
+## Background
 
-## Sections
+- [[Scientific approach]]: why Macrostrat exists and the science it supports
+- [[History and Version 2]]: where Macrostrat came from and where it is going
+- [[Related systems]]: the data systems Macrostrat connects with
+- [[Glossary]]: the vocabulary used throughout these pages
 
-- [Legacy documentation](/docs/legacy)
-- [Web components](/docs/web-components)
-- [Python](/docs/python-libraries)
+## Other documentation
+
+- [Web components](/docs/web-components): Macrostrat's React component library
+- [Python libraries](/docs/python-libraries): Macrostrat's Python packages
+
+These pages are open source, and contributions are welcome: see
+[Macrostrat/docs on GitHub](https://github.com/Macrostrat/docs).
