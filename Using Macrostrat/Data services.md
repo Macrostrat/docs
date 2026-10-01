@@ -1,38 +1,66 @@
-Macrostrat has emerged as the go-to resource for digital geological map and
-geologic column data.
+---
+title: Data services
+---
 
-There are two main reasons for this:
+Macrostrat's data are available through public web services, free to use under a
+[CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). Macrostrat's own
+website and the Rockd app are built on the same services that are open to everyone.
 
-1. Macrostrat currently contains voluminous geologic map and column data that
-   cannot be accessed in aggregate anywhere else.
-   - Over 300 different geologic maps, containing more than 2.5 million rock
-     unit polygons covering the world, have been integrated into a single,
-     unified, queryable environment in Macrostrat.
-   - Additionally, more than 35,000 rock units from over 1,500 regional columns
-     covering all of North America and limited other regions are publicly
-     available.
-2. Macrostrat has a public "REST" application programming interface (API) that
-   makes the full complement of data available in Findable, Accessible,
-   Interoperable, and Reusable (FAIR) fashion with a CC-BY license.
+## The Macrostrat API
 
-Many third-party applications and users take advantage of Macrostrat data
-services:
+The general-purpose API at [`https://macrostrat.org/api`](https://macrostrat.org/api)
+(version 2, the default) exposes Macrostrat's columns, units, maps and lexicon. Each
+route describes its own parameters when called without arguments. The main families of
+routes are:
 
-- Mancos
-- StraboSpot
-- Flyover Country
-- MinDat
-- The iNaturalist web and mobile applications
-- A California Academy of Sciences interactive museum kiosk
-- Local geological surveys and individual scientists.
+| Routes | Provide |
+| --- | --- |
+| `/columns`, `/units`, `/sections` | [[Stratigraphic columns]], their units and packages, filterable by location, age, lithology, name, project and more |
+| `/age_model` | The surfaces and ages of a column's [[Age model]] |
+| `/geologic_units/map` | The map units at or near a location, from the integrated geologic map |
+| `/defs/...` | The [[Geologic lexicon]]: lithologies, lithology attributes, environments, economic attributes, intervals, timescales, stratigraphic names and concepts, map sources, projects and references |
+| `/fossils`, `/measurements` | Fossil collections and measurements linked to units |
 
-## Usage
+Responses are available as JSON and CSV, and many routes also return GeoJSON or
+TopoJSON for use in GIS. Every response states its license, and records carry
+references to their original sources.
 
-Macrostrat’s data services have become impactful community resources for
-geologic information:
+For a guided tour with examples, see [[The Macrostrat Geologic API]] and
+[[Accessing column data]].
 
-- Our geologic map server has served more than 2 billion tile requests since
-  logging began in 2018 (~10 per second)
-- Over the last 28 days, our other data APIs have served 3.8 million requests
-  (~2 per second).
-- Conservatively, these amount to 100,000 requests for information each day.
+## Map tiles
+
+Macrostrat's tile server at [`https://tiles.macrostrat.org`](https://tiles.macrostrat.org/docs)
+serves the integrated geologic map as tiles for web maps and GIS:
+
+- **Vector tiles** of the carto map at `https://tiles.macrostrat.org/carto/{z}/{x}/{y}`,
+  with map units and lines as separate layers carrying their attributes. A lighter
+  variant with fewer attributes is available at `/carto-slim/{z}/{x}/{y}`.
+- **Raster tiles** of the same map, pre-styled, at
+  `https://tiles.macrostrat.org/carto/{z}/{x}/{y}.png`.
+- **Raster layers** derived from remote sensing and other gridded data, such as
+  mineral maps, under `/rasters/...`, including WMTS endpoints for GIS (see
+  [[Using raster layers in QGIS]]).
+
+The tile server's interactive API documentation is at
+[`tiles.macrostrat.org/docs`](https://tiles.macrostrat.org/docs).
+
+## In development
+
+New services are being built as part of Macrostrat v2 and are not yet stable:
+
+- **API version 3**, a Python service for map ingestion, compilations, column
+  ingestion and user accounts;
+- direct, query-based access to curated views of the database for contributors and
+  integrations;
+- tiles for individual maps and compilations, alongside the carto map;
+- an elevation service backed by global digital elevation models.
+
+## Use and impact
+
+Macrostrat's services are used by a wide range of applications, including
+[Rockd](https://rockd.org), StraboSpot, Mindat, iNaturalist, Flyover Country and
+Mancos, a California Academy of Sciences museum kiosk, geological surveys and
+individual researchers. As of 2023, the tile server had served more than 2 billion
+requests since logging began in 2018, and the data APIs were serving millions of
+requests each month.

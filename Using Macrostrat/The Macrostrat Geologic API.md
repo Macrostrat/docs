@@ -5,7 +5,7 @@ route, but we don’t yet provide a human-readable guide to our basic
 capabilities, outside of the description of the data system’s structure given in
 [Peters et al., 2018](https://doi.org/10.1029/2018GC007467).
 
-This document seeks to fill that gap so [[CriticalMAAS]] performers can explore
+This document seeks to fill that gap so CriticalMAAS performers can explore
 and use some of our “out-of-the-box” capabilities while we extend our online
 documentation and build extensions tailored to critical minerals. Please leave
 comments if you have any questions, or contact Daven Quinn and Shanan Peters on

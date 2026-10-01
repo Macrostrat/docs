@@ -6,7 +6,7 @@ Information about Macrostrat columns can be accessed through our
 Column footprints can be downloaded for some or all Macrostrat columns through
 the [`/columns`](https://macrostrat.org/api/columns) API route. This API route
 can be filtered by many parameters, which drives
-[[Macrostrat column filtering]].
+column filtering in Macrostrat's web interfaces.
 
 - The `all` query parameter will download all columns
 - The output format can be controlled with the `format` parameter, with options
