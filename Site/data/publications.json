@@ -1,0 +1,4699 @@
+[
+  {
+    "id": "24870050/2NFBUWKV",
+    "type": "article-journal",
+    "abstract": "Geochemical data from sedimentary rocks are the primary source of information regarding Earth's surface evolution through time, including its air and water envelopes and interactions with life and deep Earth processes. The Sedimentary Geochemistry and Paleoenvironments Project (SGP) is a scientific consortium centered around open data and community-driven development of cyberinfrastructure tools and resources for sedimentary geochemistry and Earth history. Here we describe the SGP Phase 2 data release, which focused on incorporating Paleoproterozoic and Mesoproterozoic (2500–1000 million years ago) data and better accommodating carbonate data. This data release was built through the involvement of >200 researchers worldwide in academia, government, and industry, and provides the largest available public data resource for our user community in the academic fields of geochemistry, sedimentology, tectonics, paleontology, Earth history, and paleoclimate, as well as the petroleum and minerals industries. The dataset now encompasses 126,006 samples and 4,132,371 geochemical analyses. In addition to direct entry by SGP Team Members, we have ingested and incorporated datasets from the Geoscience Australia OZCHEM database, the Alberta Geological Survey, and the Deep-Time Marine Sedimentary Element Database (DM-SED) compilation. This paper details sampling in the Phase 2 dataset with respect to age, geography, lithology, and other geological characteristics, documents access via our search website and API, discusses possible issues and/or biases in the dataset that could impact analyses, describes plans for governance and stewardship of data from Indigenous lands, and serves as the citable reference paper for the data release.",
+    "citation-key": "Farrell2026",
+    "container-title": "Chemical Geology",
+    "DOI": "10.1016/j.chemgeo.2026.123311",
+    "ISSN": "0009-2541",
+    "journalAbbreviation": "Chemical Geology",
+    "page": "123311",
+    "shortTitle": "The Sedimentary geochemistry and paleoenvironments project phase 2 data release",
+    "source": "ScienceDirect",
+    "title": "The Sedimentary geochemistry and paleoenvironments project phase 2 data release: An open data resource for the study of Earth's environmental history",
+    "title-short": "The Sedimentary geochemistry and paleoenvironments project phase 2 data release",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S000925412600080X",
+    "author": [
+      {
+        "family": "Farrell",
+        "given": "Úna C."
+      },
+      {
+        "family": "Olson",
+        "given": "Hunter C."
+      },
+      {
+        "family": "Thompson",
+        "given": "Maya O."
+      },
+      {
+        "family": "Abshire",
+        "given": "Michelle L."
+      },
+      {
+        "family": "Adeboye",
+        "given": "Oyeleye O."
+      },
+      {
+        "family": "Ahm",
+        "given": "Anne-Sofie C."
+      },
+      {
+        "family": "Alcott",
+        "given": "Lewis J."
+      },
+      {
+        "family": "Algeo",
+        "given": "Thomas J."
+      },
+      {
+        "family": "Anderson",
+        "given": "Ross P."
+      },
+      {
+        "family": "Ansari",
+        "given": "Arif H."
+      },
+      {
+        "family": "Bastos",
+        "given": "Lucas Pinto Heckert"
+      },
+      {
+        "family": "Bauer",
+        "given": "Kohen W."
+      },
+      {
+        "family": "Beaty",
+        "given": "Brian"
+      },
+      {
+        "family": "Birdwell",
+        "given": "Justin E."
+      },
+      {
+        "family": "Bowyer",
+        "given": "Fred T."
+      },
+      {
+        "family": "Brocks",
+        "given": "Jochen J."
+      },
+      {
+        "family": "Brunoir",
+        "given": "Tessa"
+      },
+      {
+        "family": "Busch",
+        "given": "James F."
+      },
+      {
+        "family": "Canfield",
+        "given": "Donald E."
+      },
+      {
+        "family": "Caxito",
+        "given": "Fabrício A."
+      },
+      {
+        "family": "Chang",
+        "given": "Chao"
+      },
+      {
+        "family": "Cheng",
+        "given": "Meng"
+      },
+      {
+        "family": "Clemente",
+        "given": "Jean N. R."
+      },
+      {
+        "family": "Cordie",
+        "given": "David R."
+      },
+      {
+        "family": "Crockford",
+        "given": "Peter W."
+      },
+      {
+        "family": "Cui",
+        "given": "Huan"
+      },
+      {
+        "family": "Cunningham",
+        "given": "Celeste M."
+      },
+      {
+        "family": "Dahl",
+        "given": "Tais W."
+      },
+      {
+        "family": "de Paula",
+        "given": "Janaina Rodrigues"
+      },
+      {
+        "family": "Dehler",
+        "given": "Carol M."
+      },
+      {
+        "family": "Del Mouro",
+        "given": "Lucas"
+      },
+      {
+        "family": "Dewing",
+        "given": "Keith"
+      },
+      {
+        "family": "do Carmo",
+        "given": "Dermeval Aparecido"
+      },
+      {
+        "family": "Dornbos",
+        "given": "Stephen Q."
+      },
+      {
+        "family": "Drabon",
+        "given": "Nadja"
+      },
+      {
+        "family": "Dumoulin",
+        "given": "Julie A."
+      },
+      {
+        "family": "Ejeh",
+        "given": "Omabehere Innocent"
+      },
+      {
+        "family": "Ellefson",
+        "given": "Emily"
+      },
+      {
+        "family": "Elrick",
+        "given": "Maya"
+      },
+      {
+        "family": "Emmings",
+        "given": "Joseph F."
+      },
+      {
+        "family": "Eric",
+        "given": "Bokanda Ekoko"
+      },
+      {
+        "family": "Fang",
+        "given": "Hao"
+      },
+      {
+        "family": "Fazio",
+        "given": "Gabriella"
+      },
+      {
+        "family": "Fernandes",
+        "given": "Henrique A."
+      },
+      {
+        "family": "French",
+        "given": "Katherine L."
+      },
+      {
+        "family": "Gaines",
+        "given": "Robert R."
+      },
+      {
+        "family": "Gaschnig",
+        "given": "Richard M."
+      },
+      {
+        "family": "Gibson",
+        "given": "Timothy M."
+      },
+      {
+        "family": "Gilleaudeau",
+        "given": "Geoffrey J."
+      },
+      {
+        "family": "Goldberg",
+        "given": "Karin"
+      },
+      {
+        "family": "Gong",
+        "given": "Zheng"
+      },
+      {
+        "family": "Hagen",
+        "given": "Amy P. I."
+      },
+      {
+        "family": "Halverson",
+        "given": "Galen P."
+      },
+      {
+        "family": "Hantsoo",
+        "given": "Kalev"
+      },
+      {
+        "family": "Haxen",
+        "given": "Emma R."
+      },
+      {
+        "family": "Henderson",
+        "given": "Miles A."
+      },
+      {
+        "family": "Hippertt",
+        "given": "João P. T. M."
+      },
+      {
+        "family": "Hodgskiss",
+        "given": "Malcolm S. W."
+      },
+      {
+        "family": "Hoffman",
+        "given": "Paul F."
+      },
+      {
+        "family": "Huang",
+        "given": "Edward C."
+      },
+      {
+        "family": "Johnson",
+        "given": "Benjamin W."
+      },
+      {
+        "family": "Kabanov",
+        "given": "Pavel B."
+      },
+      {
+        "family": "Kang",
+        "given": "Junyao"
+      },
+      {
+        "family": "Keller",
+        "given": "C. Brenhin"
+      },
+      {
+        "family": "Kendall",
+        "given": "Brian"
+      },
+      {
+        "family": "Kimmig",
+        "given": "Julien"
+      },
+      {
+        "family": "Kimmig",
+        "given": "Sara R."
+      },
+      {
+        "family": "Kipp",
+        "given": "Michael A."
+      },
+      {
+        "family": "Knoll",
+        "given": "Andrew H."
+      },
+      {
+        "family": "Kreitsmann",
+        "given": "Timmu"
+      },
+      {
+        "family": "Kulkarni",
+        "given": "Anurag A."
+      },
+      {
+        "family": "Kunert",
+        "given": "Alexandra"
+      },
+      {
+        "family": "Kunzmann",
+        "given": "Marcus"
+      },
+      {
+        "family": "Lai",
+        "given": "Jiankang"
+      },
+      {
+        "family": "Lease",
+        "given": "Richard O."
+      },
+      {
+        "family": "Li",
+        "given": "Chao"
+      },
+      {
+        "family": "Li",
+        "given": "Sen"
+      },
+      {
+        "family": "Lipp",
+        "given": "Alex G."
+      },
+      {
+        "family": "Liu",
+        "given": "Yang"
+      },
+      {
+        "family": "Loydell",
+        "given": "David K."
+      },
+      {
+        "family": "Lu",
+        "given": "Xinze"
+      },
+      {
+        "family": "Maloney",
+        "given": "Katie M."
+      },
+      {
+        "family": "Mänd",
+        "given": "Kaarel"
+      },
+      {
+        "family": "Millikin",
+        "given": "Alexie E. G."
+      },
+      {
+        "family": "Mills",
+        "given": "N. Tanner"
+      },
+      {
+        "family": "Motomura",
+        "given": "Kento"
+      },
+      {
+        "family": "Mwinde",
+        "given": "Chiza N."
+      },
+      {
+        "family": "Nelson",
+        "given": "Lyle L."
+      },
+      {
+        "family": "Nieminski",
+        "given": "Nora M."
+      },
+      {
+        "family": "O'Connell",
+        "given": "Brennan"
+      },
+      {
+        "family": "O'Sullivan",
+        "given": "Edel"
+      },
+      {
+        "family": "Okubo",
+        "given": "Juliana"
+      },
+      {
+        "family": "Olah",
+        "given": "Jaden K."
+      },
+      {
+        "family": "Ossa",
+        "given": "Frantz Ossa"
+      },
+      {
+        "family": "Ostrander",
+        "given": "Chadlin M."
+      },
+      {
+        "family": "Paiste",
+        "given": "Kärt"
+      },
+      {
+        "family": "Partin",
+        "given": "Camille A."
+      },
+      {
+        "family": "Pereira",
+        "given": "Egberto"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Playter",
+        "given": "Tiffany"
+      },
+      {
+        "family": "Porter",
+        "given": "Susannah M."
+      },
+      {
+        "family": "Poulton",
+        "given": "Simon W."
+      },
+      {
+        "family": "Pruss",
+        "given": "Sara B."
+      },
+      {
+        "family": "Qiu",
+        "given": "Zhen"
+      },
+      {
+        "family": "Quinn",
+        "given": "Daven P."
+      },
+      {
+        "family": "Remírez",
+        "given": "Mariano"
+      },
+      {
+        "family": "Richiano",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Richoz",
+        "given": "Sylvain"
+      },
+      {
+        "family": "Rico",
+        "given": "Kathryn I."
+      },
+      {
+        "family": "Ritzer",
+        "given": "Samantha R."
+      },
+      {
+        "family": "Roney",
+        "given": "Zachary"
+      },
+      {
+        "family": "Rooney",
+        "given": "Alan D."
+      },
+      {
+        "family": "Rose",
+        "given": "William C."
+      },
+      {
+        "family": "Rugen",
+        "given": "Elias J."
+      },
+      {
+        "family": "Sahoo",
+        "given": "Swapan K."
+      },
+      {
+        "family": "Schoepfer",
+        "given": "Shane D."
+      },
+      {
+        "family": "Sclafani",
+        "given": "Judith A."
+      },
+      {
+        "family": "Sheldon",
+        "given": "Nathan D."
+      },
+      {
+        "family": "Shen",
+        "given": "Yanan"
+      },
+      {
+        "family": "Shields",
+        "given": "Graham A."
+      },
+      {
+        "family": "Singh",
+        "given": "Pulkit"
+      },
+      {
+        "family": "Singh",
+        "given": "Arvind Kumar"
+      },
+      {
+        "family": "Slotznick",
+        "given": "Sarah P."
+      },
+      {
+        "family": "Smith",
+        "given": "Emily F."
+      },
+      {
+        "family": "Song",
+        "given": "Haijun"
+      },
+      {
+        "family": "Spinks",
+        "given": "Sam C."
+      },
+      {
+        "family": "Stockey",
+        "given": "Richard G."
+      },
+      {
+        "family": "Strauss",
+        "given": "Justin V."
+      },
+      {
+        "family": "Stüeken",
+        "given": "Eva E."
+      },
+      {
+        "family": "Sun",
+        "given": "Zongyuan"
+      },
+      {
+        "family": "Tang",
+        "given": "Dongjie"
+      },
+      {
+        "family": "Tarhan",
+        "given": "Lidya G."
+      },
+      {
+        "family": "Thomson",
+        "given": "Danielle"
+      },
+      {
+        "family": "Tosca",
+        "given": "Nicholas J."
+      },
+      {
+        "family": "Tostevin",
+        "given": "Rosalie"
+      },
+      {
+        "family": "Tu",
+        "given": "Chenyi"
+      },
+      {
+        "family": "Vizcaíno",
+        "given": "Maoli N."
+      },
+      {
+        "family": "Wang",
+        "given": "Yuxuan"
+      },
+      {
+        "family": "Wang",
+        "given": "Changle"
+      },
+      {
+        "family": "Wang",
+        "given": "Xiaomei"
+      },
+      {
+        "family": "Warren",
+        "given": "Lucas Veríssimo"
+      },
+      {
+        "family": "Webb",
+        "given": "Lucy C."
+      },
+      {
+        "family": "Wilby",
+        "given": "Philip R."
+      },
+      {
+        "family": "Woltz",
+        "given": "Christina R."
+      },
+      {
+        "family": "Wood",
+        "given": "Rachel"
+      },
+      {
+        "family": "Wu",
+        "given": "Yuyang"
+      },
+      {
+        "family": "Yang",
+        "given": "Xiuqing"
+      },
+      {
+        "family": "Yurchenko",
+        "given": "Inessa A."
+      },
+      {
+        "family": "Zhang",
+        "given": "Junpeng"
+      },
+      {
+        "family": "Whiteside",
+        "given": "Jessica H."
+      },
+      {
+        "family": "Gill",
+        "given": "Benjamin C."
+      },
+      {
+        "family": "Mehra",
+        "given": "Akshay K."
+      },
+      {
+        "family": "Lau",
+        "given": "Kimberly V."
+      },
+      {
+        "family": "Planavsky",
+        "given": "Noah"
+      },
+      {
+        "family": "Johnston",
+        "given": "David T."
+      },
+      {
+        "family": "Sperling",
+        "given": "Erik A."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          19
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/3AG3TAP4",
+    "type": "article-journal",
+    "citation-key": "Flament2026",
+    "source": "Google Scholar",
+    "title": "The Deep Earth Origin of the Great Unconformity",
+    "URL": "https://assets-eu.researchsquare.com/files/rs-8246233/v1_covered_316b403c-4d9e-40ac-ac68-82967dc69de7.pdf",
+    "author": [
+      {
+        "family": "Flament",
+        "given": "Nicolas"
+      },
+      {
+        "family": "Dhungana",
+        "given": "Santosh"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/698Y34HF",
+    "type": "article-journal",
+    "citation-key": "Gearty2026",
+    "container-title": "Big Earth Data",
+    "DOI": "10.1080/20964471.2025.2537516",
+    "ISSN": "2096-4471, 2574-5417",
+    "issue": "1",
+    "journalAbbreviation": "Big Earth Data",
+    "language": "en",
+    "page": "1-17",
+    "shortTitle": "deeptime",
+    "source": "DOI.org (Crossref)",
+    "title": "deeptime: an R package that facilitates highly customizable and reproducible visualizations of data over geological time intervals",
+    "title-short": "deeptime",
+    "URL": "https://www.tandfonline.com/doi/full/10.1080/20964471.2025.2537516",
+    "volume": "10",
+    "author": [
+      {
+        "family": "Gearty",
+        "given": "William"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          2
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/DJCL2YPH",
+    "type": "article-journal",
+    "citation-key": "Maslov2026",
+    "container-title": "Litologiâ i poleznye iskopaemye",
+    "issue": "1",
+    "page": "3–19",
+    "source": "Google Scholar",
+    "title": "Average chemical composition of sandy and clay rocks of large structural zones of continents of different ages on various discriminant diagrams",
+    "URL": "https://journals.rcsi.science/0024-497X/article/view/405881",
+    "author": [
+      {
+        "family": "Maslov",
+        "given": "A. V."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/JR9U378W",
+    "type": "article",
+    "abstract": "Intelligent landslide hazard interpretation is critical for disaster prevention, yet current paradigms struggle to simultaneously extract visual features and high-level geoscientific semantics, while general-purpose vision-language models (VLMs) suffer from perceptual limitations and domain hallucinations in complex geological scenarios. To address these challenges, we propose an instruction-driven agentic framework comprising three components. First, LandslideBench, a multimodal fine-grained dataset with seven subtype labels, high-resolution imagery, pixel-level masks, and high-quality textual descriptions, is constructed via multi-VLM cross-validation and interactive annotation. Then, LandslideVLM, a landslide-oriented VLM, is fine-tuned via LoRA on LandslideBench to enhance geological semantic understanding. Finally, LandslideAgent, a domain rule-enhanced agent taking LandslideVLM as its cognitive backbone, employs a dual-rule controller incorporating structured report metadata constraints and cross-validation identification constraints to regulate automated tool invocation. Experiments demonstrate that LandslideBench provides effective baselines across five mainstream models on fine-grained classification and semantic segmentation. LandslideVLM achieves accuracy improvements of 10.96%, 32.87%, and 15.91% on landslide discrimination, fine-grained classification, and semantic description quality, respectively. LandslideAgent further enables autonomous multi-source spatial data inference, realizing full-process intelligence for landslide identification and analysis.",
+    "citation-key": "Liu2026",
+    "DOI": "10.48550/arXiv.2606.18661",
+    "note": "arXiv:2606.18661 [cs.CV]",
+    "number": "arXiv:2606.18661",
+    "publisher": "arXiv",
+    "shortTitle": "LandslideAgent with Multimodal LandslideBench",
+    "source": "arXiv.org",
+    "title": "LandslideAgent with Multimodal LandslideBench: A Domain-Rule-Augmented Agent for Autonomous Landslide Identification and Analysis",
+    "title-short": "LandslideAgent with Multimodal LandslideBench",
+    "URL": "http://arxiv.org/abs/2606.18661",
+    "author": [
+      {
+        "family": "Liu",
+        "given": "Chengfu"
+      },
+      {
+        "family": "Hou",
+        "given": "Dongyang"
+      },
+      {
+        "family": "Xiang",
+        "given": "Junwu"
+      },
+      {
+        "family": "Yang",
+        "given": "Cheng"
+      },
+      {
+        "family": "Cui",
+        "given": "Xuezhi"
+      },
+      {
+        "family": "Wang",
+        "given": "Zeyuan"
+      },
+      {
+        "family": "Liu",
+        "given": "Liangtian"
+      },
+      {
+        "family": "Miao",
+        "given": "Zelang"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          6,
+          17
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/NPDLHDLA",
+    "type": "article-journal",
+    "citation-key": "Husson2026",
+    "container-title": "Earth and Planetary Science Letters",
+    "page": "119810",
+    "publisher": "Elsevier",
+    "source": "Google Scholar",
+    "title": "Shifting carbonate burial between oceanic and continental crust across Earth history",
+    "URL": "https://www.sciencedirect.com/science/article/pii/S0012821X25006089",
+    "volume": "677",
+    "author": [
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/PW5Q8SWK",
+    "type": "article-journal",
+    "citation-key": "Gan2026",
+    "container-title": "Communications Earth & Environment",
+    "publisher": "Nature Publishing Group UK London",
+    "source": "Google Scholar",
+    "title": "Continental weathering as a driver of the Ediacaran Shuram Excursion",
+    "URL": "https://www.nature.com/articles/s43247-026-03625-6",
+    "author": [
+      {
+        "family": "Gan",
+        "given": "Tian"
+      },
+      {
+        "family": "Gilleaudeau",
+        "given": "Geoffrey J."
+      },
+      {
+        "family": "Pedersen",
+        "given": "Matthew G."
+      },
+      {
+        "family": "Doerrler",
+        "given": "Andrew D."
+      },
+      {
+        "family": "Maksimenko",
+        "given": "Vadim"
+      },
+      {
+        "family": "Grazhdankin",
+        "given": "Dmitriy V."
+      },
+      {
+        "family": "Hellmann",
+        "given": "Jan L."
+      },
+      {
+        "family": "Nana Yobo",
+        "given": "Lucien"
+      },
+      {
+        "family": "Xiao",
+        "given": "Shuhai"
+      },
+      {
+        "family": "Liu",
+        "given": "Xiao-Ming"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/VEUJ4NK6",
+    "type": "article-journal",
+    "citation-key": "Capel2026",
+    "container-title": "Historical Biology",
+    "DOI": "10.1080/08912963.2025.2568087",
+    "ISSN": "0891-2963, 1029-2381",
+    "issue": "5",
+    "journalAbbreviation": "Historical Biology",
+    "language": "en",
+    "page": "1272-1282",
+    "shortTitle": "Towards an improved assessment of global plant diversity in deep time",
+    "source": "DOI.org (Crossref)",
+    "title": "Towards an improved assessment of global plant diversity in deep time: further insights from the Palaeozoic fossil record",
+    "title-short": "Towards an improved assessment of global plant diversity in deep time",
+    "URL": "https://www.tandfonline.com/doi/full/10.1080/08912963.2025.2568087",
+    "volume": "38",
+    "author": [
+      {
+        "family": "Capel",
+        "given": "Eliott"
+      },
+      {
+        "family": "Monnet",
+        "given": "Claude"
+      },
+      {
+        "family": "Cascales-Miñana",
+        "given": "Borja"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          4
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/VXN5NCPU",
+    "type": "article-journal",
+    "citation-key": "Na",
+    "language": "en",
+    "source": "Zotero",
+    "title": "From radiation to provinces: spatial scaling of Cambrian diversity",
+    "author": [
+      {
+        "family": "Na",
+        "given": "Lin"
+      },
+      {
+        "family": "Li",
+        "given": "Qijian"
+      },
+      {
+        "family": "Kocsis",
+        "given": "Ádám T"
+      },
+      {
+        "family": "Kiessling",
+        "given": "Wolfgang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/WLUYM4CC",
+    "type": "article-journal",
+    "abstract": "The rise of atmospheric oxygen during the Great Oxidation Event (GOE) (ca. 2.5 to 2.1 billion years ago) permanently transformed Earth’s biogeochemical cycles. The chemistry of contemporaneous marine carbonates provides a window into operation of the carbon cycle across this transition. Specifically, carbonate rocks co-eval with the GOE preserve a large and long-lived positive carbon isotope (\n              \n                \n                  \n                    δ\n                    13\n                  \n                \n              \n              C) excursion, the Lomagundi–Jatuli excursion (LJE), that canonically is interpreted as an increase in organic matter burial linked to the oxygenation of Earth’s surface. However, the cause, synchroneity, and global nature of the LJE remain contentious due to significant uncertainties in the excursion’s timing and magnitude. These uncertainties stem from the incomplete, time-uncertain, and spatially variable nature of the shallow-water sedimentary record. Here, we use Bayesian inference to reconstruct Paleoproterozoic\n              \n                \n                  \n                    δ\n                    13\n                  \n                \n              \n              C from globally distributed stratigraphic observations. Our inference reaffirms that the LJE is a global excursion, although its expression varies locally, and provides revised estimates for its timing and magnitude. We find that\n              \n                \n                  \n                    δ\n                    13\n                  \n                \n              \n              C most likely began to increase at 2,445 Ma, subsequently returning to baseline values at 2,018 Ma. The most likely excursion peak occurs at 2,130 Ma, and it is very unlikely (5% probability) that peak\n              \n                \n                  \n                    δ\n                    13\n                  \n                \n              \n              C values exceeded 9.1\n              \n                \n                  ‰\n                \n              \n              . Altogether, our results indicate the LJE has an earlier onset, longer duration, and lower magnitude than previously thought. The initial\n              \n                \n                  \n                    δ\n                    13\n                  \n                \n              \n              C increase occurs before or contemporaneously with both the earliest rise of atmospheric O\n              2\n              and Paleoproterozoic “snowball” glaciations, hinting at a mechanistic link among the LJE, the GOE, and climate.",
+    "citation-key": "Edmonsond2026",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "DOI": "10.1073/pnas.2512767123",
+    "ISSN": "0027-8424, 1091-6490",
+    "issue": "2",
+    "journalAbbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+    "language": "en",
+    "page": "e2512767123",
+    "source": "DOI.org (Crossref)",
+    "title": "Timing and magnitude of the Lomagundi–Jatuli carbon isotope excursion",
+    "URL": "https://pnas.org/doi/10.1073/pnas.2512767123",
+    "volume": "123",
+    "author": [
+      {
+        "family": "Edmonsond",
+        "given": "Stacey"
+      },
+      {
+        "family": "Dyer",
+        "given": "Blake"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          1,
+          13
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/39B2EKGE",
+    "type": "article-journal",
+    "abstract": "The fossil record often creates an illusion of sudden evolutionary bursts, which may reflect preservation biases rather than actual biological events. The Great Ordovician Biodiversification Event (GOBE) appears to mark the abrupt rise of diverse reef-building metazoans during the late Darriwilian (~460 Ma), seemingly contradicting gradual evolutionary models. Here, we demonstrate this apparent burst is largely an artifact of a global sea-level fall (~475 to 460 Ma) that produced widespread unconformities. Integrated stratigraphic and fossil occurrence data reveal early reef-builders likely appeared earlier than the late Middle Ordovician, but their record was erased by sea-level-driven erosion. During the peak of this sea-level fall (Dapingian Stage, 471 to 469 Ma), both carbonate deposition and fossil occurrences were minimal, with significant correlation between carbonate preservation and reef-builder occurrences. The subsequent transgression enabled these already-diversified organisms to recolonize shallow-water environments simultaneously across multiple regions, generating a misleading impression of sudden diversification. This “Sppil–Rongis effect” biased our understanding of the GOBE in reef ecosystems, illustrating how stratigraphic incompleteness can distort evolutionary patterns. Rather than a discrete evolutionary event, the GOBE reflects a continuous trajectory, interrupted and reshaped by sea-level fluctuations.",
+    "citation-key": "Jeon2025",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "DOI": "10.1073/pnas.2511406122",
+    "ISSN": "0027-8424, 1091-6490",
+    "issue": "27",
+    "journalAbbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+    "language": "en",
+    "page": "e2511406122",
+    "source": "DOI.org (Crossref)",
+    "title": "Preservation bias obscures gradual Ordovician reef evolution",
+    "URL": "https://pnas.org/doi/10.1073/pnas.2511406122",
+    "volume": "122",
+    "author": [
+      {
+        "family": "Jeon",
+        "given": "Juwan"
+      },
+      {
+        "family": "Li",
+        "given": "Qi-Jian"
+      },
+      {
+        "family": "Lee",
+        "given": "Jeong-Hyun"
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          7,
+          8
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/49R8SCDH",
+    "type": "article-journal",
+    "citation-key": "Dean2025",
+    "container-title": "Current Biology",
+    "DOI": "10.1016/j.cub.2025.03.025",
+    "ISSN": "0960-9822",
+    "issue": "9",
+    "page": "1973-1988.e6",
+    "publisher": "Elsevier BV",
+    "title": "The structure of the end-Cretaceous dinosaur fossil record in North America",
+    "URL": "http://dx.doi.org/10.1016/j.cub.2025.03.025",
+    "volume": "35",
+    "author": [
+      {
+        "family": "Dean",
+        "given": "Christopher D."
+      },
+      {
+        "family": "Chiarenza",
+        "given": "Alfio Alessandro"
+      },
+      {
+        "family": "Doser",
+        "given": "Jeffrey W."
+      },
+      {
+        "family": "Farnsworth",
+        "given": "Alexander"
+      },
+      {
+        "family": "Jones",
+        "given": "Lewis A."
+      },
+      {
+        "family": "Lyster",
+        "given": "Sinéad J."
+      },
+      {
+        "family": "Outhwaite",
+        "given": "Charlotte L."
+      },
+      {
+        "family": "Valdes",
+        "given": "Paul J."
+      },
+      {
+        "family": "Butler",
+        "given": "Richard J."
+      },
+      {
+        "family": "Mannion",
+        "given": "Philip D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          5
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/5PV6HFMK",
+    "type": "article-journal",
+    "citation-key": "Hammarlund2025",
+    "container-title": "Nature Communications",
+    "DOI": "10.1038/s41467-025-57345-0",
+    "ISSN": "2041-1723",
+    "issue": "1",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Benthic diel oxygen variability and stress as potential drivers for animal diversification in the Neoproterozoic-Palaeozoic",
+    "URL": "http://dx.doi.org/10.1038/s41467-025-57345-0",
+    "volume": "16",
+    "author": [
+      {
+        "family": "Hammarlund",
+        "given": "Emma U."
+      },
+      {
+        "family": "Bukkuri",
+        "given": "Anuraag"
+      },
+      {
+        "family": "Norling",
+        "given": "Magnus D."
+      },
+      {
+        "family": "Islam",
+        "given": "Mazharul"
+      },
+      {
+        "family": "Posth",
+        "given": "Nicole R."
+      },
+      {
+        "family": "Baratchart",
+        "given": "Etienne"
+      },
+      {
+        "family": "Carroll",
+        "given": "Christopher"
+      },
+      {
+        "family": "Amend",
+        "given": "Sarah R."
+      },
+      {
+        "family": "Gatenby",
+        "given": "Robert A."
+      },
+      {
+        "family": "Pienta",
+        "given": "Kenneth J."
+      },
+      {
+        "family": "Brown",
+        "given": "Joel S."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Hancke",
+        "given": "Kasper"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          3,
+          21
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/DGRCRW6Q",
+    "type": "article-journal",
+    "abstract": "Abstract\n            Animals with multi‐element skeletons, including the vertebrates, echinoderms and arthropods, are some of the most biodiverse and ecologically important animal groups. Understanding the relative impact of the myriad geological and biological factors which impact on the quality of multi‐element skeletal fossils is thus crucial for disentangling perceived changes in biodiversity through time and shedding light on gaps in the fossil record. We have characterized the specimen‐level taphonomic history of virtually the entire Palaeozoic fossil record of echinoids, the class of echinoderms which includes the living sea urchins. We find that the majority of this fossil record consists of disarticulated skeletal elements and as preservational quality increases, so does the proportion of specimens which can be identified with higher taxonomic precision. We then assessed the relative impacts of multiple geological and biological factors on our specimen quality, identifying that fine‐grained host matrix, as well as siliciclastic lithology are the biggest factors in determining quality of fossil echinoid preservation, while aspects intrinsic to specific taxonomic groups also play a role. Differential sampling of the fossil record seems to play little role in influencing the distribution of taphonomic grades, and fluctuations in the North American record of siliciclastic rocks are positively correlated with fluctuations in taphonomic grades. Our results highlight that the factors controlling the animal macrofossil record are varied, and that the interplay between these variables, taphonomic grade, and taxonomic precision impacts on our ability to use the fossil record to understand macroevolution.",
+    "citation-key": "Thompson2025",
+    "container-title": "Palaeontology",
+    "DOI": "10.1111/pala.70008",
+    "ISSN": "0031-0239, 1475-4983",
+    "issue": "3",
+    "journalAbbreviation": "Palaeontology",
+    "language": "en",
+    "page": "e70008",
+    "source": "DOI.org (Crossref)",
+    "title": "Taphonomic controls on a multi‐element marine skeletal fossil record",
+    "URL": "https://onlinelibrary.wiley.com/doi/10.1111/pala.70008",
+    "volume": "68",
+    "author": [
+      {
+        "family": "Thompson",
+        "given": "Jeffrey R."
+      },
+      {
+        "family": "Dean",
+        "given": "Christopher D."
+      },
+      {
+        "family": "Ford",
+        "given": "Madeline"
+      },
+      {
+        "family": "Ewin",
+        "given": "Timothy A. M."
+      }
+    ],
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          22
+        ]
+      ]
+    },
+    "issued": {
+      "date-parts": [
+        [
+          "2025"
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat"
+    ]
+  },
+  {
+    "id": "24870050/IQ7FVRUM",
+    "type": "article-journal",
+    "citation-key": "Lovelace2025",
+    "container-title": "Zoological Journal of the Linnean Society",
+    "DOI": "10.1093/zoolinnean/zlae153",
+    "issue": "1",
+    "note": "Author list incomplete (website lists 'Lovelace, Kufner, et al.'); DOI still pending at Crossref.",
+    "page": "zlae153",
+    "title": "Rethinking dinosaur origins: oldest known equatorial dinosaur-bearing assemblage (mid-late Carnian Popo Agie FM, Wyoming, USA)",
+    "volume": "203",
+    "author": [
+      {
+        "family": "Lovelace",
+        "given": "D. M."
+      },
+      {
+        "family": "Kufner",
+        "given": "A. M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/LESEMJAU",
+    "type": "article-journal",
+    "citation-key": "Segessenman2025",
+    "container-title": "Precambrian Research",
+    "DOI": "10.1016/j.precamres.2025.107875",
+    "ISSN": "0301-9268",
+    "page": "107875",
+    "publisher": "Elsevier BV",
+    "title": "Continental-scale carbonate sedimentation and environmental correlates of the Shuram-Wonoka excursion",
+    "URL": "http://dx.doi.org/10.1016/j.precamres.2025.107875",
+    "volume": "427",
+    "author": [
+      {
+        "family": "Segessenman",
+        "given": "Daniel C."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          9
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/M8QSGKVL",
+    "type": "article-journal",
+    "citation-key": "Boulila2025",
+    "container-title": "Communications Earth &amp; Environment",
+    "DOI": "10.1038/s43247-025-02370-6",
+    "ISSN": "2662-4435",
+    "issue": "1",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "A tectonically driven 60 million-year biogeochemical redox cycle paces marine biodiversity",
+    "URL": "http://dx.doi.org/10.1038/s43247-025-02370-6",
+    "volume": "6",
+    "author": [
+      {
+        "family": "Boulila",
+        "given": "Slah"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Müller",
+        "given": "R. Dietmar"
+      },
+      {
+        "family": "Zaffos",
+        "given": "Andrew"
+      },
+      {
+        "family": "Farkaš",
+        "given": "Juraj"
+      },
+      {
+        "family": "Haq",
+        "given": "Bilal U."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2025",
+          6,
+          6
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/6PVKIYGC",
+    "type": "article-journal",
+    "citation-key": "Walton2024",
+    "container-title": "Earth and Planetary Science Letters",
+    "DOI": "10.1016/j.epsl.2024.118640",
+    "ISSN": "0012-821X",
+    "page": "118640",
+    "publisher": "Elsevier BV",
+    "title": "Phanerozoic biological reworking of the continental carbonate rock reservoir",
+    "URL": "http://dx.doi.org/10.1016/j.epsl.2024.118640",
+    "volume": "632",
+    "author": [
+      {
+        "family": "Walton",
+        "given": "Craig R."
+      },
+      {
+        "family": "Shorttle",
+        "given": "Oliver"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          4
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/8M2EJKFP",
+    "type": "article-journal",
+    "citation-key": "Jones2024",
+    "container-title": "Geosphere",
+    "DOI": "10.1130/ges02815.1",
+    "ISSN": "1553-040X",
+    "issue": "6",
+    "page": "1456-1467",
+    "publisher": "Geological Society of America",
+    "title": "<i>rmacrostrat</i>: An R package for accessing and retrieving data from the Macrostrat geological database",
+    "URL": "http://dx.doi.org/10.1130/ges02815.1",
+    "volume": "20",
+    "author": [
+      {
+        "family": "Jones",
+        "given": "Lewis A."
+      },
+      {
+        "family": "Dean",
+        "given": "Christopher D."
+      },
+      {
+        "family": "Gearty",
+        "given": "William"
+      },
+      {
+        "family": "Allen",
+        "given": "Bethany J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          10,
+          30
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/DHB7CQI4",
+    "type": "article-journal",
+    "citation-key": "Howes2024",
+    "container-title": "Earth and Planetary Science Letters",
+    "DOI": "10.1016/j.epsl.2024.118697",
+    "ISSN": "0012-821X",
+    "page": "118697",
+    "publisher": "Elsevier BV",
+    "title": "The where, when, and how of ooid formation: What ooids tell us about ancient seawater chemistry",
+    "URL": "http://dx.doi.org/10.1016/j.epsl.2024.118697",
+    "volume": "637",
+    "author": [
+      {
+        "family": "Howes",
+        "given": "Bolton"
+      },
+      {
+        "family": "Mehra",
+        "given": "Akshay"
+      },
+      {
+        "family": "Geyman",
+        "given": "Emily"
+      },
+      {
+        "family": "Wilcots",
+        "given": "Julia"
+      },
+      {
+        "family": "Manzuk",
+        "given": "Ryan"
+      },
+      {
+        "family": "Deutsch",
+        "given": "Curtis"
+      },
+      {
+        "family": "Maloof",
+        "given": "Adam"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          7
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/F9ZMLMB6",
+    "type": "article-journal",
+    "citation-key": "Smiley2024",
+    "container-title": "Science Advances",
+    "DOI": "10.1126/sciadv.adn6842",
+    "ISSN": "2375-2548",
+    "issue": "25",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "title": "Tectonic extension and paleoelevation influence mammalian diversity dynamics in the Basin and Range Province of western North America",
+    "URL": "http://dx.doi.org/10.1126/sciadv.adn6842",
+    "volume": "10",
+    "author": [
+      {
+        "family": "Smiley",
+        "given": "Tara M."
+      },
+      {
+        "family": "Bahadori",
+        "given": "Alireza"
+      },
+      {
+        "family": "Rasbury",
+        "given": "E. Troy"
+      },
+      {
+        "family": "Holt",
+        "given": "William E."
+      },
+      {
+        "family": "Badgley",
+        "given": "Catherine"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          6,
+          21
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/M9TTUMTL",
+    "type": "article-journal",
+    "citation-key": "Evans2024",
+    "container-title": "Global and Planetary Change",
+    "DOI": "10.1016/j.gloplacha.2024.104547",
+    "ISSN": "0921-8181",
+    "page": "104547",
+    "publisher": "Elsevier BV",
+    "title": "The Ediacara Biota of the Wood Canyon formation: Latest Precambrian macrofossils and sedimentary structures from the southern Great Basin",
+    "URL": "http://dx.doi.org/10.1016/j.gloplacha.2024.104547",
+    "volume": "241",
+    "author": [
+      {
+        "family": "Evans",
+        "given": "Scott D."
+      },
+      {
+        "family": "Smith",
+        "given": "Emily F."
+      },
+      {
+        "family": "Vayda",
+        "given": "Prescott"
+      },
+      {
+        "family": "Nelson",
+        "given": "Lyle L."
+      },
+      {
+        "family": "Xiao",
+        "given": "Shuhai"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          10
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/RJZYASJT",
+    "type": "article-journal",
+    "citation-key": "Gazdewich2024",
+    "container-title": "Geochemistry, Geophysics, Geosystems",
+    "DOI": "10.1029/2023gc011376",
+    "ISSN": "1525-2027, 1525-2027",
+    "issue": "3",
+    "publisher": "American Geophysical Union (AGU)",
+    "title": "Authigenic Carbonate Burial Within the Late Devonian Western Canada Sedimentary Basin and Its Impact on the Global Carbon Cycle",
+    "URL": "http://dx.doi.org/10.1029/2023gc011376",
+    "volume": "25",
+    "author": [
+      {
+        "family": "Gazdewich",
+        "given": "Sean"
+      },
+      {
+        "family": "Hauck",
+        "given": "Tyler"
+      },
+      {
+        "family": "Husson",
+        "given": "Jon"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2024",
+          3
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/4RCVT524",
+    "type": "article-journal",
+    "citation-key": "Capel2023",
+    "container-title": "Palaeontology",
+    "DOI": "10.1111/pala.12644",
+    "ISSN": "0031-0239, 1475-4983",
+    "issue": "2",
+    "publisher": "Wiley",
+    "title": "The effect of geological biases on our perception of early land plant radiation",
+    "URL": "http://dx.doi.org/10.1111/pala.12644",
+    "volume": "66",
+    "author": [
+      {
+        "family": "Capel",
+        "given": "Eliott"
+      },
+      {
+        "family": "Monnet",
+        "given": "Claude"
+      },
+      {
+        "family": "Cleal",
+        "given": "Christopher J."
+      },
+      {
+        "family": "Xue",
+        "given": "Jinzhuang"
+      },
+      {
+        "family": "Servais",
+        "given": "Thomas"
+      },
+      {
+        "family": "Cascales‐Miñana",
+        "given": "Borja"
+      }
+    ],
+    "editor": [
+      {
+        "family": "Bomfleur",
+        "given": "Benjamin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          3
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/7QZRBYTA",
+    "type": "chapter",
+    "citation-key": "Segessenman2023a",
+    "container-title": "Laurentia: Turning Points in the Evolution of a Continent",
+    "DOI": "10.1130/2022.1220(21)",
+    "ISBN": "978-0-8137-1220-8 978-0-8137-8220-1",
+    "page": "399-424",
+    "publisher": "Geological Society of America",
+    "title": "Macrostratigraphy of the Ediacaran System in North America",
+    "URL": "http://dx.doi.org/10.1130/2022.1220(21)",
+    "author": [
+      {
+        "family": "Segessenman",
+        "given": "Daniel C."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          1,
+          23
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/C246VZJU",
+    "type": "article-journal",
+    "citation-key": "Boulila2023",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "DOI": "10.1073/pnas.2221149120",
+    "ISSN": "0027-8424, 1091-6490",
+    "issue": "29",
+    "publisher": "National Academy of Sciences",
+    "title": "Earth’s interior dynamics drive marine fossil diversity cycles of tens of millions of years",
+    "URL": "http://dx.doi.org/10.1073/pnas.2221149120",
+    "volume": "120",
+    "author": [
+      {
+        "family": "Boulila",
+        "given": "Slah"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Müller",
+        "given": "R. Dietmar"
+      },
+      {
+        "family": "Haq",
+        "given": "Bilal U."
+      },
+      {
+        "family": "Hara",
+        "given": "Nathan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          7,
+          10
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/HNT7M2YQ",
+    "type": "article-journal",
+    "citation-key": "Husson2023",
+    "container-title": "Geochemical Perspectives Letters",
+    "DOI": "10.7185/geochemlet.2316",
+    "ISSN": "2410-339X, 2410-3403",
+    "page": "1-6",
+    "publisher": "European Association of Geochemistry",
+    "title": "River chemistry reveals a large decrease in dolomite abundance across the Phanerozoic",
+    "URL": "http://dx.doi.org/10.7185/geochemlet.2316",
+    "volume": "26",
+    "author": [
+      {
+        "family": "Husson",
+        "given": "J.M."
+      },
+      {
+        "family": "Coogan",
+        "given": "L.A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          5
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/ITRNIVHP",
+    "type": "article-journal",
+    "citation-key": "Sessa2023",
+    "container-title": "Geochemistry, Geophysics, Geosystems",
+    "DOI": "10.1029/2022gc010655",
+    "ISSN": "1525-2027, 1525-2027",
+    "issue": "3",
+    "publisher": "American Geophysical Union (AGU)",
+    "title": "The Extending Ocean Drilling Pursuits (eODP) Project: Synthesizing Scientific Ocean Drilling Data",
+    "URL": "http://dx.doi.org/10.1029/2022gc010655",
+    "volume": "24",
+    "author": [
+      {
+        "family": "Sessa",
+        "given": "Jocelyn A."
+      },
+      {
+        "family": "Fraass",
+        "given": "Andrew J."
+      },
+      {
+        "family": "LeVay",
+        "given": "Leah J."
+      },
+      {
+        "family": "Jamson",
+        "given": "Katie M."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          2,
+          23
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/IV9AVBE5",
+    "type": "article-journal",
+    "citation-key": "Tasistro-Hart2023",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "DOI": "10.1073/pnas.2309084120",
+    "ISSN": "0027-8424, 1091-6490",
+    "issue": "37",
+    "publisher": "National Academy of Sciences",
+    "title": "Phanerozoic flooding of North America and the Great Unconformity",
+    "URL": "http://dx.doi.org/10.1073/pnas.2309084120",
+    "volume": "120",
+    "author": [
+      {
+        "family": "Tasistro-Hart",
+        "given": "Adrian R."
+      },
+      {
+        "family": "Macdonald",
+        "given": "Francis A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          9,
+          5
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/MFZ5XQWP",
+    "type": "article-journal",
+    "citation-key": "Ye2023",
+    "container-title": "Paleobiology",
+    "DOI": "10.1017/pab.2022.46",
+    "ISSN": "0094-8373, 1938-5331",
+    "issue": "3",
+    "page": "394-413",
+    "publisher": "Cambridge University Press (CUP)",
+    "title": "Bedrock geological map predictions for Phanerozoic fossil occurrences",
+    "URL": "http://dx.doi.org/10.1017/pab.2022.46",
+    "volume": "49",
+    "author": [
+      {
+        "family": "Ye",
+        "given": "Shan"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          1,
+          27
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/U78W2NX6",
+    "type": "article-journal",
+    "citation-key": "Walton2023",
+    "container-title": "Science Advances",
+    "DOI": "10.1126/sciadv.ade6923",
+    "ISSN": "2375-2548",
+    "issue": "18",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "title": "Evolution of the crustal phosphorus reservoir",
+    "URL": "http://dx.doi.org/10.1126/sciadv.ade6923",
+    "volume": "9",
+    "author": [
+      {
+        "family": "Walton",
+        "given": "Craig R."
+      },
+      {
+        "family": "Hao",
+        "given": "Jihua"
+      },
+      {
+        "family": "Huang",
+        "given": "Fang"
+      },
+      {
+        "family": "Jenner",
+        "given": "Frances E."
+      },
+      {
+        "family": "Williams",
+        "given": "Helen"
+      },
+      {
+        "family": "Zerkle",
+        "given": "Aubrey L."
+      },
+      {
+        "family": "Lipp",
+        "given": "Alex"
+      },
+      {
+        "family": "Hazen",
+        "given": "Robert M."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Shorttle",
+        "given": "Oliver"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          5,
+          5
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/UMATTJB6",
+    "type": "article-journal",
+    "citation-key": "Segessenman2023",
+    "container-title": "Paleobiology",
+    "DOI": "10.1017/pab.2023.31",
+    "ISSN": "0094-8373, 1938-5331",
+    "issue": "1",
+    "page": "150-163",
+    "publisher": "Cambridge University Press (CUP)",
+    "title": "Transgression–regression cycles drive correlations in Ediacaran–Cambrian rock and fossil records",
+    "URL": "http://dx.doi.org/10.1017/pab.2023.31",
+    "volume": "50",
+    "author": [
+      {
+        "family": "Segessenman",
+        "given": "Daniel C."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          12,
+          4
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/XDF9E2FX",
+    "type": "article-journal",
+    "citation-key": "Wang2023",
+    "container-title": "Nature",
+    "DOI": "10.1038/s41586-022-05654-5",
+    "ISSN": "0028-0836, 1476-4687",
+    "issue": "7951",
+    "page": "265-269",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "The evolution of the marine carbonate factory",
+    "URL": "http://dx.doi.org/10.1038/s41586-022-05654-5",
+    "volume": "615",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Jiuyuan"
+      },
+      {
+        "family": "Tarhan",
+        "given": "Lidya G."
+      },
+      {
+        "family": "Jacobson",
+        "given": "Andrew D."
+      },
+      {
+        "family": "Oehlert",
+        "given": "Amanda M."
+      },
+      {
+        "family": "Planavsky",
+        "given": "Noah J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          2,
+          22
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/XF2JJNYL",
+    "type": "article-journal",
+    "citation-key": "Quinn2023",
+    "container-title": "Geoscience Data Journal",
+    "DOI": "10.1002/gdj3.189",
+    "ISSN": "2049-6060, 2049-6060",
+    "issue": "1",
+    "page": "11-26",
+    "publisher": "Wiley",
+    "title": "Building a multi‐scale, collaborative, and time‐integrated digital crust: The next stage of the Macrostrat data system",
+    "URL": "http://dx.doi.org/10.1002/gdj3.189",
+    "volume": "11",
+    "author": [
+      {
+        "family": "Quinn",
+        "given": "Daven P."
+      },
+      {
+        "family": "Idzikowski",
+        "given": "Casey R."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          10,
+          18
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/XXMUHTZI",
+    "type": "article-journal",
+    "citation-key": "Balseiro2023",
+    "container-title": "Paleobiology",
+    "DOI": "10.1017/pab.2023.16",
+    "ISSN": "0094-8373, 1938-5331",
+    "issue": "4",
+    "page": "733-746",
+    "publisher": "Cambridge University Press (CUP)",
+    "title": "Relative oversampling of carbonate rocks in the North American marine fossil record",
+    "URL": "http://dx.doi.org/10.1017/pab.2023.16",
+    "volume": "49",
+    "author": [
+      {
+        "family": "Balseiro",
+        "given": "Diego"
+      },
+      {
+        "family": "Powell",
+        "given": "Matthew G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2023",
+          5,
+          29
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/CKYNDJCY",
+    "type": "article-journal",
+    "citation-key": "Emmings2022",
+    "container-title": "Science Advances",
+    "DOI": "10.1126/sciadv.abj5687",
+    "ISSN": "2375-2548",
+    "issue": "11",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "title": "Pyrite mega-analysis reveals modes of anoxia through geological time",
+    "URL": "http://dx.doi.org/10.1126/sciadv.abj5687",
+    "volume": "8",
+    "author": [
+      {
+        "family": "Emmings",
+        "given": "Joseph F."
+      },
+      {
+        "family": "Poulton",
+        "given": "Simon W."
+      },
+      {
+        "family": "Walsh",
+        "given": "Joanna"
+      },
+      {
+        "family": "Leeming",
+        "given": "Kathryn A."
+      },
+      {
+        "family": "Ross",
+        "given": "Ian"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          3,
+          18
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/GIJ6MCDF",
+    "type": "article-journal",
+    "citation-key": "Peters2022",
+    "container-title": "Annual Review of Earth and Planetary Sciences",
+    "DOI": "10.1146/annurev-earth-032320-081427",
+    "ISSN": "0084-6597, 1545-4495",
+    "issue": "1",
+    "page": "419-449",
+    "publisher": "Annual Reviews",
+    "title": "Macrostratigraphy: Insights into Cyclic and Secular Evolution of the Earth-Life System",
+    "URL": "http://dx.doi.org/10.1146/annurev-earth-032320-081427",
+    "volume": "50",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Quinn",
+        "given": "Daven P."
+      },
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      },
+      {
+        "family": "Gaines",
+        "given": "Robert R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          5,
+          31
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/ZGSYHALW",
+    "type": "article-journal",
+    "citation-key": "Chen2022",
+    "container-title": "Earth and Planetary Science Letters",
+    "DOI": "10.1016/j.epsl.2021.117352",
+    "ISSN": "0012-821X",
+    "page": "117352",
+    "publisher": "Elsevier BV",
+    "title": "Feedback between surface and deep processes: Insight from time series analysis of sedimentary record",
+    "URL": "http://dx.doi.org/10.1016/j.epsl.2021.117352",
+    "volume": "579",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Guoxiong"
+      },
+      {
+        "family": "Cheng",
+        "given": "Qiuming"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Spencer",
+        "given": "Christopher J."
+      },
+      {
+        "family": "Zhao",
+        "given": "Molei"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2022",
+          2
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/F4D8QPVJ",
+    "type": "article-journal",
+    "citation-key": "Peters2021",
+    "container-title": "Geology",
+    "DOI": "10.1130/g49037.1",
+    "ISSN": "0091-7613, 1943-2682",
+    "issue": "10",
+    "page": "1235-1239",
+    "publisher": "Geological Society of America",
+    "title": "Igneous rock area and age in continental crust",
+    "URL": "http://dx.doi.org/10.1130/g49037.1",
+    "volume": "49",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Walton",
+        "given": "Craig R."
+      },
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      },
+      {
+        "family": "Quinn",
+        "given": "Daven P."
+      },
+      {
+        "family": "Shorttle",
+        "given": "Oliver"
+      },
+      {
+        "family": "Keller",
+        "given": "C. Brenhin"
+      },
+      {
+        "family": "Gaines",
+        "given": "Robert R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          6,
+          24
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/IHUQM5B5",
+    "type": "article-journal",
+    "citation-key": "Loughney2021",
+    "container-title": "Science Advances",
+    "DOI": "10.1126/sciadv.abh4470",
+    "ISSN": "2375-2548",
+    "issue": "45",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "title": "Tectonic influence on Cenozoic mammal richness and sedimentation history of the Basin and Range, western North America",
+    "URL": "http://dx.doi.org/10.1126/sciadv.abh4470",
+    "volume": "7",
+    "author": [
+      {
+        "family": "Loughney",
+        "given": "Katharine M."
+      },
+      {
+        "family": "Badgley",
+        "given": "Catherine"
+      },
+      {
+        "family": "Bahadori",
+        "given": "Alireza"
+      },
+      {
+        "family": "Holt",
+        "given": "William E."
+      },
+      {
+        "family": "Rasbury",
+        "given": "E. Troy"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          11,
+          5
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/IQ7PMW6Z",
+    "type": "article-journal",
+    "citation-key": "Key2021",
+    "container-title": "Palaeobiodiversity and Palaeoenvironments",
+    "DOI": "10.1007/s12549-021-00507-x",
+    "ISSN": "1867-1594, 1867-1608",
+    "issue": "2",
+    "page": "253-263",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Trepostome bryozoans buck the trend and ignore calcite-aragonite seas",
+    "URL": "http://dx.doi.org/10.1007/s12549-021-00507-x",
+    "volume": "102",
+    "author": [
+      {
+        "family": "Key",
+        "given": "Marcus M."
+      },
+      {
+        "family": "Wyse Jackson",
+        "given": "Patrick N."
+      },
+      {
+        "family": "Reid",
+        "given": "Catherine M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          10,
+          9
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/PGHXUH53",
+    "type": "article-journal",
+    "citation-key": "Lipp2021",
+    "container-title": "Geochemical Perspectives Letters",
+    "DOI": "10.7185/geochemlet.2109",
+    "ISSN": "2410-339X, 2410-3403",
+    "page": "21-26",
+    "publisher": "European Association of Geochemistry",
+    "title": "The composition and weathering of the continents over geologic time",
+    "URL": "http://dx.doi.org/10.7185/geochemlet.2109",
+    "author": [
+      {
+        "family": "Lipp",
+        "given": "A.G."
+      },
+      {
+        "family": "Shorttle",
+        "given": "O."
+      },
+      {
+        "family": "Sperling",
+        "given": "E.A."
+      },
+      {
+        "family": "Brocks",
+        "given": "J.J."
+      },
+      {
+        "family": "Cole",
+        "given": "D.B."
+      },
+      {
+        "family": "Crockford",
+        "given": "P.W."
+      },
+      {
+        "family": "Del Mouro",
+        "given": "L."
+      },
+      {
+        "family": "Dewing",
+        "given": "K."
+      },
+      {
+        "family": "Dornbos",
+        "given": "S.Q."
+      },
+      {
+        "family": "Emmings",
+        "given": "J.F."
+      },
+      {
+        "family": "Farrell",
+        "given": "U.C."
+      },
+      {
+        "family": "Jarrett",
+        "given": "A."
+      },
+      {
+        "family": "Johnson",
+        "given": "B.W."
+      },
+      {
+        "family": "Kabanov",
+        "given": "P."
+      },
+      {
+        "family": "Keller",
+        "given": "C.B."
+      },
+      {
+        "family": "Kunzmann",
+        "given": "M."
+      },
+      {
+        "family": "Miller",
+        "given": "A.J."
+      },
+      {
+        "family": "Mills",
+        "given": "N.T."
+      },
+      {
+        "family": "O’Connell",
+        "given": "B."
+      },
+      {
+        "family": "Peters",
+        "given": "S.E."
+      },
+      {
+        "family": "Planavsky",
+        "given": "N.J."
+      },
+      {
+        "family": "Ritzer",
+        "given": "S.R."
+      },
+      {
+        "family": "Schoepfer",
+        "given": "S.D."
+      },
+      {
+        "family": "Wilby",
+        "given": "P.R."
+      },
+      {
+        "family": "Yang",
+        "given": "J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2021",
+          3
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/83HS9HKD",
+    "type": "article-journal",
+    "citation-key": "DavisBarnes2020",
+    "container-title": "Sedimentology",
+    "DOI": "10.1111/sed.12695",
+    "ISSN": "0037-0746, 1365-3091",
+    "issue": "4",
+    "page": "2065-2094",
+    "publisher": "Wiley",
+    "title": "Authigenic carbonate burial in the Late Devonian–Early Mississippian Bakken Formation (Williston Basin, USA)",
+    "URL": "http://dx.doi.org/10.1111/sed.12695",
+    "volume": "67",
+    "author": [
+      {
+        "family": "Davis Barnes",
+        "given": "Ben"
+      },
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Tosca",
+        "given": "Nicholas"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          1,
+          29
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/N5XEX823",
+    "type": "article-journal",
+    "citation-key": "Close2020",
+    "container-title": "Science",
+    "DOI": "10.1126/science.aay8309",
+    "ISSN": "0036-8075, 1095-9203",
+    "issue": "6489",
+    "page": "420-424",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "title": "The spatial structure of Phanerozoic marine animal diversity",
+    "URL": "http://dx.doi.org/10.1126/science.aay8309",
+    "volume": "368",
+    "author": [
+      {
+        "family": "Close",
+        "given": "R. A."
+      },
+      {
+        "family": "Benson",
+        "given": "R. B. J."
+      },
+      {
+        "family": "Saupe",
+        "given": "E. E."
+      },
+      {
+        "family": "Clapham",
+        "given": "M. E."
+      },
+      {
+        "family": "Butler",
+        "given": "R. J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2020",
+          4,
+          24
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/9HR7PDWV",
+    "type": "article-journal",
+    "citation-key": "Balseiro2019",
+    "container-title": "Geology",
+    "DOI": "10.1130/g46858.1",
+    "ISSN": "0091-7613, 1943-2682",
+    "issue": "2",
+    "page": "118-122",
+    "publisher": "Geological Society of America",
+    "title": "Carbonate collapse and the late Paleozoic ice age marine biodiversity crisis",
+    "URL": "http://dx.doi.org/10.1130/g46858.1",
+    "volume": "48",
+    "author": [
+      {
+        "family": "Balseiro",
+        "given": "Diego"
+      },
+      {
+        "family": "Powell",
+        "given": "Matthew G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          11,
+          22
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/DPBBZ8GC",
+    "type": "article-journal",
+    "citation-key": "Keating-Bitonti2019",
+    "container-title": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "DOI": "10.1016/j.palaeo.2019.01.006",
+    "ISSN": "0031-0182",
+    "page": "134-142",
+    "publisher": "Elsevier BV",
+    "title": "Influence of increasing carbonate saturation in Atlantic bottom water during the late Miocene",
+    "URL": "http://dx.doi.org/10.1016/j.palaeo.2019.01.006",
+    "volume": "518",
+    "author": [
+      {
+        "family": "Keating-Bitonti",
+        "given": "Caitlin R."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2019",
+          3
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/AEDXNF3Y",
+    "type": "article-journal",
+    "citation-key": "Schachat2018",
+    "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+    "DOI": "10.1098/rspb.2017.2631",
+    "ISSN": "0962-8452, 1471-2954",
+    "issue": "1871",
+    "page": "20172631",
+    "publisher": "The Royal Society",
+    "title": "Phanerozoic <i>p</i>O<sub>2</sub> and the early evolution of terrestrial animals",
+    "URL": "http://dx.doi.org/10.1098/rspb.2017.2631",
+    "volume": "285",
+    "author": [
+      {
+        "family": "Schachat",
+        "given": "Sandra R."
+      },
+      {
+        "family": "Labandeira",
+        "given": "Conrad C."
+      },
+      {
+        "family": "Saltzman",
+        "given": "Matthew R."
+      },
+      {
+        "family": "Cramer",
+        "given": "Bradley D."
+      },
+      {
+        "family": "Payne",
+        "given": "Jonathan L."
+      },
+      {
+        "family": "Boyce",
+        "given": "C. Kevin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          1,
+          24
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/ETGUN2VH",
+    "type": "book",
+    "citation-key": "Cohen2018",
+    "DOI": "10.1017/9781108681445",
+    "ISBN": "978-1-108-68144-5 978-1-108-71785-4",
+    "publisher": "Cambridge University Press",
+    "title": "Integrating Macrostrat and Rockd into Undergraduate Earth Science Teaching",
+    "URL": "http://dx.doi.org/10.1017/9781108681445",
+    "author": [
+      {
+        "family": "Cohen",
+        "given": "Phoebe A."
+      },
+      {
+        "family": "Lockwood",
+        "given": "Rowan"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          10,
+          20
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/L3W9IILF",
+    "type": "article-journal",
+    "citation-key": "Husson2018",
+    "container-title": "Emerging Topics in Life Sciences",
+    "DOI": "10.1042/etls20170152",
+    "ISSN": "2397-8554, 2397-8562",
+    "issue": "2",
+    "page": "125-136",
+    "publisher": "Portland Press Ltd.",
+    "title": "Nature of the sedimentary rock record and its implications for Earth system evolution",
+    "URL": "http://dx.doi.org/10.1042/etls20170152",
+    "volume": "2",
+    "author": [
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Lyons",
+        "given": "Timothy W."
+      },
+      {
+        "family": "Droser",
+        "given": "Mary L."
+      },
+      {
+        "family": "Lau",
+        "given": "Kimberly V."
+      },
+      {
+        "family": "Porter",
+        "given": "Susannah M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          7,
+          20
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/P29N7HHJ",
+    "type": "article-journal",
+    "citation-key": "Isson2018",
+    "container-title": "Nature",
+    "DOI": "10.1038/s41586-018-0408-4",
+    "ISSN": "0028-0836, 1476-4687",
+    "issue": "7719",
+    "page": "471-475",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Reverse weathering as a long-term stabilizer of marine pH and planetary climate",
+    "URL": "http://dx.doi.org/10.1038/s41586-018-0408-4",
+    "volume": "560",
+    "author": [
+      {
+        "family": "Isson",
+        "given": "Terry T."
+      },
+      {
+        "family": "Planavsky",
+        "given": "Noah J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          8
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/TEVTL6SL",
+    "type": "article-journal",
+    "citation-key": "Keller2018",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "DOI": "10.1073/pnas.1804350116",
+    "ISSN": "0027-8424, 1091-6490",
+    "issue": "4",
+    "page": "1136-1145",
+    "publisher": "National Academy of Sciences",
+    "title": "Neoproterozoic glacial origin of the Great Unconformity",
+    "URL": "http://dx.doi.org/10.1073/pnas.1804350116",
+    "volume": "116",
+    "author": [
+      {
+        "family": "Keller",
+        "given": "C. Brenhin"
+      },
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      },
+      {
+        "family": "Mitchell",
+        "given": "Ross N."
+      },
+      {
+        "family": "Bottke",
+        "given": "William F."
+      },
+      {
+        "family": "Gernon",
+        "given": "Thomas M."
+      },
+      {
+        "family": "Boehnke",
+        "given": "Patrick"
+      },
+      {
+        "family": "Bell",
+        "given": "Elizabeth A."
+      },
+      {
+        "family": "Swanson-Hysell",
+        "given": "Nicholas L."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          12,
+          31
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/W329JWS8",
+    "type": "article-journal",
+    "citation-key": "Peters2018a",
+    "container-title": "Geochemistry, Geophysics, Geosystems",
+    "DOI": "10.1029/2018gc007467",
+    "ISSN": "1525-2027, 1525-2027",
+    "issue": "4",
+    "page": "1393-1409",
+    "publisher": "American Geophysical Union (AGU)",
+    "title": "Macrostrat: A Platform for Geological Data Integration and Deep‐Time Earth Crust Research",
+    "URL": "http://dx.doi.org/10.1029/2018gc007467",
+    "volume": "19",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      },
+      {
+        "family": "Czaplewski",
+        "given": "John"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          4
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/WEN6JAKK",
+    "type": "article-journal",
+    "citation-key": "Peters2018",
+    "container-title": "The Sedimentary Record",
+    "DOI": "10.2110/sedred.2018.1.4",
+    "ISSN": "1543-8740",
+    "issue": "1",
+    "page": "4-9",
+    "publisher": "Society for Sedimentary Geology",
+    "title": "We need a global comprehensive stratigraphic database: here’s a start",
+    "URL": "http://dx.doi.org/10.2110/sedred.2018.1.4",
+    "volume": "16",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Birgenheier",
+        "given": "Lauren"
+      },
+      {
+        "family": "Harper",
+        "given": "Howard"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2018",
+          3,
+          31
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/7HEPNI8C",
+    "type": "article-journal",
+    "citation-key": "Zaffos2017",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "DOI": "10.1073/pnas.1702297114",
+    "ISSN": "0027-8424, 1091-6490",
+    "issue": "22",
+    "page": "5653-5658",
+    "publisher": "National Academy of Sciences",
+    "title": "Plate tectonic regulation of global marine animal diversity",
+    "URL": "http://dx.doi.org/10.1073/pnas.1702297114",
+    "volume": "114",
+    "author": [
+      {
+        "family": "Zaffos",
+        "given": "Andrew"
+      },
+      {
+        "family": "Finnegan",
+        "given": "Seth"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          5,
+          15
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/98NZSGRD",
+    "type": "article-journal",
+    "citation-key": "Peters2017",
+    "container-title": "Geology",
+    "DOI": "10.1130/g38931.1",
+    "ISSN": "0091-7613, 1943-2682",
+    "issue": "6",
+    "page": "487-490",
+    "publisher": "Geological Society of America",
+    "title": "The rise and fall of stromatolites in shallow marine environments",
+    "URL": "http://dx.doi.org/10.1130/g38931.1",
+    "volume": "45",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      },
+      {
+        "family": "Wilcots",
+        "given": "Julia"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          3,
+          27
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/9ARQ9CK5",
+    "type": "article-journal",
+    "citation-key": "Schott2017",
+    "container-title": "Bulletin of the Eastern Section of the National Association of Geoscience Teachers",
+    "issue": "2",
+    "page": "1-4",
+    "title": "Rockd: Geology at your fingertips in a mobile world",
+    "URL": "https://www.hcc.edu/Documents/Faculty-Staff/winters-trobaugh%20%27cli-fi%20@%202y%27%20Spring%202017%20NAGT-ES%20Bulletin%20CB.pdf",
+    "volume": "67",
+    "author": [
+      {
+        "family": "Schott",
+        "given": "R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/EJ5FKKAA",
+    "type": "article-journal",
+    "citation-key": "Husson2017",
+    "container-title": "Earth and Planetary Science Letters",
+    "DOI": "10.1016/j.epsl.2016.12.012",
+    "ISSN": "0012-821X",
+    "page": "68-75",
+    "publisher": "Elsevier BV",
+    "title": "Atmospheric oxygenation driven by unsteady growth of the continental sedimentary reservoir",
+    "URL": "http://dx.doi.org/10.1016/j.epsl.2016.12.012",
+    "volume": "460",
+    "author": [
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          2
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/RWKVVUFS",
+    "type": "article-journal",
+    "citation-key": "Peters2017a",
+    "container-title": "Geology",
+    "DOI": "10.1130/g38861.1",
+    "ISSN": "1943-2682, 0091-7613",
+    "issue": "4",
+    "page": "323-326",
+    "publisher": "Geological Society of America",
+    "title": "Sediment cycling on continental and oceanic crust",
+    "URL": "http://dx.doi.org/10.1130/g38861.1",
+    "volume": "45",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Husson",
+        "given": "Jon M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2017",
+          4,
+          1
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/7BVJPRWJ",
+    "type": "article-journal",
+    "citation-key": "Chan2016",
+    "container-title": "The Sedimentary Record",
+    "DOI": "10.2110/sedred.2016.1.4",
+    "ISSN": "1543-8740",
+    "issue": "1",
+    "page": "4-10",
+    "publisher": "Society for Sedimentary Geology",
+    "title": "The Future of Field Geology, Open Data Sharing and CyberTechnology in Earth Science",
+    "URL": "http://dx.doi.org/10.2110/sedred.2016.1.4",
+    "volume": "14",
+    "author": [
+      {
+        "family": "Chan",
+        "given": "Marjorie A."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Tikoff",
+        "given": "Basil"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          3,
+          31
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/ZLWIKFC8",
+    "type": "article-journal",
+    "citation-key": "Nelsen2016",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "DOI": "10.1073/pnas.1517943113",
+    "ISSN": "0027-8424, 1091-6490",
+    "issue": "9",
+    "page": "2442-2447",
+    "publisher": "National Academy of Sciences",
+    "title": "Delayed fungal evolution did not cause the Paleozoic peak in coal production",
+    "URL": "http://dx.doi.org/10.1073/pnas.1517943113",
+    "volume": "113",
+    "author": [
+      {
+        "family": "Nelsen",
+        "given": "Matthew P."
+      },
+      {
+        "family": "DiMichele",
+        "given": "William A."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Boyce",
+        "given": "C. Kevin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2016",
+          1,
+          19
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/5X58ZV9F",
+    "type": "article-journal",
+    "citation-key": "Heavens2015",
+    "container-title": "The Sedimentary Record",
+    "DOI": "10.2110/sedred.2015.4.4",
+    "ISSN": "1543-8740",
+    "issue": "4",
+    "page": "4-10",
+    "publisher": "Society for Sedimentary Geology",
+    "title": "Injecting Climate Modeling into Deep Time Studies: Ideas for Nearly Every Project",
+    "URL": "http://dx.doi.org/10.2110/sedred.2015.4.4",
+    "volume": "13",
+    "author": [
+      {
+        "family": "Heavens",
+        "given": "Nicholas G."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Isaacson",
+        "given": "Peter E."
+      },
+      {
+        "family": "Montañez",
+        "given": "Isabel P."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          12,
+          31
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/8G7ETQCC",
+    "type": "article-journal",
+    "citation-key": "Thomson2015",
+    "container-title": "Geology",
+    "DOI": "10.1130/g36332.1",
+    "ISSN": "1943-2682, 0091-7613",
+    "issue": "3",
+    "page": "215-218",
+    "publisher": "Geological Society of America",
+    "title": "Swimming reptiles make their mark in the Early Triassic: Delayed ecologic recovery increased the preservation potential of vertebrate swim tracks",
+    "URL": "http://dx.doi.org/10.1130/g36332.1",
+    "volume": "43",
+    "author": [
+      {
+        "family": "Thomson",
+        "given": "Tracy J."
+      },
+      {
+        "family": "Droser",
+        "given": "Mary L."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          3
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/I2T7A2PS",
+    "type": "book",
+    "citation-key": "Carroll2015",
+    "DOI": "10.1017/cbo9781139047685",
+    "ISBN": "978-1-107-00859-5 978-1-107-40120-4 978-1-139-04768-5",
+    "publisher": "Cambridge University Press",
+    "title": "Geofuels",
+    "URL": "http://dx.doi.org/10.1017/cbo9781139047685",
+    "author": [
+      {
+        "family": "Carroll",
+        "given": "Alan R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          2,
+          28
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/KHTE2Z2I",
+    "type": "article-journal",
+    "citation-key": "Fraass2015",
+    "container-title": "Annual Review of Earth and Planetary Sciences",
+    "DOI": "10.1146/annurev-earth-060614-105059",
+    "ISSN": "0084-6597, 1545-4495",
+    "issue": "1",
+    "page": "139-166",
+    "publisher": "Annual Reviews",
+    "title": "Macroevolutionary History of the Planktic Foraminifera",
+    "URL": "http://dx.doi.org/10.1146/annurev-earth-060614-105059",
+    "volume": "43",
+    "author": [
+      {
+        "family": "Fraass",
+        "given": "Andrew J."
+      },
+      {
+        "family": "Kelly",
+        "given": "D. Clay"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2015",
+          5,
+          30
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/BDPEQAUR",
+    "type": "article-journal",
+    "citation-key": "Fan2014",
+    "container-title": "Geofluids",
+    "DOI": "10.1111/gfl.12114",
+    "ISSN": "1468-8115, 1468-8123",
+    "issue": "1-2",
+    "page": "372-379",
+    "publisher": "Wiley",
+    "title": "DigitalCrust – a 4D data system of material properties for transforming research on crustal fluid flow",
+    "URL": "http://dx.doi.org/10.1111/gfl.12114",
+    "volume": "15",
+    "author": [
+      {
+        "family": "Fan",
+        "given": "Y."
+      },
+      {
+        "family": "Richard",
+        "given": "S."
+      },
+      {
+        "family": "Bristol",
+        "given": "R. S."
+      },
+      {
+        "family": "Peters",
+        "given": "S. E."
+      },
+      {
+        "family": "Ingebritsen",
+        "given": "S. E."
+      },
+      {
+        "family": "Moosdorf",
+        "given": "N."
+      },
+      {
+        "family": "Packman",
+        "given": "A."
+      },
+      {
+        "family": "Gleeson",
+        "given": "T."
+      },
+      {
+        "family": "Zaslavsky",
+        "given": "I."
+      },
+      {
+        "family": "Peckham",
+        "given": "S."
+      },
+      {
+        "family": "Murdoch",
+        "given": "L."
+      },
+      {
+        "family": "Fienen",
+        "given": "M."
+      },
+      {
+        "family": "Cardiff",
+        "given": "M."
+      },
+      {
+        "family": "Tarboton",
+        "given": "D."
+      },
+      {
+        "family": "Jones",
+        "given": "N."
+      },
+      {
+        "family": "Hooper",
+        "given": "R."
+      },
+      {
+        "family": "Arrigo",
+        "given": "J."
+      },
+      {
+        "family": "Gochis",
+        "given": "D."
+      },
+      {
+        "family": "Olson",
+        "given": "J."
+      },
+      {
+        "family": "Wolock",
+        "given": "D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2014",
+          10,
+          7
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/98X8SGF7",
+    "type": "article-journal",
+    "citation-key": "Rook2013",
+    "container-title": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "DOI": "10.1016/j.palaeo.2012.10.006",
+    "ISSN": "0031-0182",
+    "page": "123-129",
+    "publisher": "Elsevier BV",
+    "title": "Contrasting patterns and connections of rock and biotic diversity in the marine and non-marine fossil records of North America",
+    "URL": "http://dx.doi.org/10.1016/j.palaeo.2012.10.006",
+    "volume": "372",
+    "author": [
+      {
+        "family": "Rook",
+        "given": "Deborah L."
+      },
+      {
+        "family": "Heim",
+        "given": "Noel A."
+      },
+      {
+        "family": "Marcot",
+        "given": "Jonathan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2013",
+          2
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/AEQMCA74",
+    "type": "article-journal",
+    "citation-key": "Benson2013",
+    "container-title": "Palaeogeography, Palaeoclimatology, Palaeoecology",
+    "DOI": "10.1016/j.palaeo.2012.10.028",
+    "ISSN": "0031-0182",
+    "page": "88-107",
+    "publisher": "Elsevier BV",
+    "title": "Cretaceous tetrapod fossil record sampling and faunal turnover: Implications for biogeography and the rise of modern clades",
+    "URL": "http://dx.doi.org/10.1016/j.palaeo.2012.10.028",
+    "volume": "372",
+    "author": [
+      {
+        "family": "Benson",
+        "given": "Roger B.J."
+      },
+      {
+        "family": "Mannion",
+        "given": "Philip D."
+      },
+      {
+        "family": "Butler",
+        "given": "Richard J."
+      },
+      {
+        "family": "Upchurch",
+        "given": "Paul"
+      },
+      {
+        "family": "Goswami",
+        "given": "Anjali"
+      },
+      {
+        "family": "Evans",
+        "given": "Susan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2013",
+          2
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/G24ILDQV",
+    "type": "article-journal",
+    "citation-key": "Peters2013",
+    "container-title": "Nature",
+    "DOI": "10.1038/nature11815",
+    "ISSN": "0028-0836, 1476-4687",
+    "issue": "7432",
+    "page": "398-401",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Oceanographic controls on the diversity and extinction of planktonic foraminifera",
+    "URL": "http://dx.doi.org/10.1038/nature11815",
+    "volume": "493",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Kelly",
+        "given": "Daniel C."
+      },
+      {
+        "family": "Fraass",
+        "given": "Andrew J."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2013",
+          1,
+          9
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/DBNBE4W3",
+    "type": "article-journal",
+    "citation-key": "Finnegan2012",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "DOI": "10.1073/pnas.1117039109",
+    "ISSN": "0027-8424, 1091-6490",
+    "issue": "18",
+    "page": "6829-6834",
+    "publisher": "National Academy of Sciences",
+    "title": "Climate change and the selective signature of the Late Ordovician mass extinction",
+    "URL": "http://dx.doi.org/10.1073/pnas.1117039109",
+    "volume": "109",
+    "author": [
+      {
+        "family": "Finnegan",
+        "given": "Seth"
+      },
+      {
+        "family": "Heim",
+        "given": "Noel A."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Fischer",
+        "given": "Woodward W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2012",
+          4,
+          17
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/GSAJHBB9",
+    "type": "article-journal",
+    "citation-key": "Peters2012",
+    "container-title": "Nature",
+    "DOI": "10.1038/nature10969",
+    "ISSN": "0028-0836, 1476-4687",
+    "issue": "7394",
+    "page": "363-366",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Formation of the ‘Great Unconformity’ as a trigger for the Cambrian explosion",
+    "URL": "http://dx.doi.org/10.1038/nature10969",
+    "volume": "484",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Gaines",
+        "given": "Robert R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2012",
+          4
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/QLFB3YXW",
+    "type": "article-journal",
+    "citation-key": "Halevy2012",
+    "container-title": "Science",
+    "DOI": "10.1126/science.1220224",
+    "ISSN": "0036-8075, 1095-9203",
+    "issue": "6092",
+    "page": "331-334",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "title": "Sulfate Burial Constraints on the Phanerozoic Sulfur Cycle",
+    "URL": "http://dx.doi.org/10.1126/science.1220224",
+    "volume": "337",
+    "author": [
+      {
+        "family": "Halevy",
+        "given": "Itay"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Fischer",
+        "given": "Woodward W."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2012",
+          7,
+          20
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/4RHZEUPW",
+    "type": "paper-conference",
+    "citation-key": "Finnegan2011",
+    "collection-number": "14",
+    "collection-title": "Cuadernos del Museo Geominero",
+    "container-title": "Ordovician of the World",
+    "page": "155-159",
+    "title": "Late Ordovician-Early Silurian selective extinction patterns in Laurentia and their relationship to climate change",
+    "author": [
+      {
+        "family": "Finnegan",
+        "given": "S."
+      },
+      {
+        "family": "Peters",
+        "given": "S. E."
+      },
+      {
+        "family": "Fischer",
+        "given": "W. W."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Gutiérrez-Marco",
+        "given": "J. C."
+      },
+      {
+        "family": "Rábano",
+        "given": "I."
+      },
+      {
+        "family": "Garcia-Bellido",
+        "given": "D."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/F96JVRHF",
+    "type": "article-journal",
+    "citation-key": "Heim2011",
+    "container-title": "PLoS ONE",
+    "DOI": "10.1371/journal.pone.0018946",
+    "ISSN": "1932-6203",
+    "issue": "5",
+    "page": "e18946",
+    "publisher": "Public Library of Science (PLoS)",
+    "title": "Regional Environmental Breadth Predicts Geographic Range and Longevity in Fossil Marine Genera",
+    "URL": "http://dx.doi.org/10.1371/journal.pone.0018946",
+    "volume": "6",
+    "author": [
+      {
+        "family": "Heim",
+        "given": "Noel A."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "editor": [
+      {
+        "family": "Turvey",
+        "given": "Samuel T."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          5,
+          4
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/LHFNLLQX",
+    "type": "article-journal",
+    "citation-key": "Melott2011",
+    "container-title": "Paleobiology",
+    "DOI": "10.1666/09054.1",
+    "ISSN": "0094-8373, 1938-5331",
+    "issue": "1",
+    "page": "92-112",
+    "publisher": "Cambridge University Press (CUP)",
+    "title": "A ubiquitous ∼62-Myr periodic fluctuation superimposed on general trends in fossil biodiversity. I. Documentation",
+    "URL": "http://dx.doi.org/10.1666/09054.1",
+    "volume": "37",
+    "author": [
+      {
+        "family": "Melott",
+        "given": "Adrian L."
+      },
+      {
+        "family": "Bambach",
+        "given": "Richard K."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/PHLC8NBK",
+    "type": "article-journal",
+    "citation-key": "Peters2011",
+    "container-title": "Geological Society, London, Special Publications",
+    "DOI": "10.1144/sp358.7",
+    "ISSN": "0305-8719, 2041-4927",
+    "issue": "1",
+    "page": "95-104",
+    "publisher": "Geological Society of London",
+    "title": "Macrostratigraphy and macroevolution in marine environments: testing the common-cause hypothesis",
+    "URL": "http://dx.doi.org/10.1144/sp358.7",
+    "volume": "358",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Heim",
+        "given": "Noel A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          1
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/RD8Q6XW2",
+    "type": "article-journal",
+    "citation-key": "Hannisdal2011",
+    "container-title": "Science",
+    "DOI": "10.1126/science.1210695",
+    "ISSN": "0036-8075, 1095-9203",
+    "issue": "6059",
+    "page": "1121-1124",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "title": "Phanerozoic Earth System Evolution and Marine Biodiversity",
+    "URL": "http://dx.doi.org/10.1126/science.1210695",
+    "volume": "334",
+    "author": [
+      {
+        "family": "Hannisdal",
+        "given": "Bjarte"
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          11,
+          25
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/S7XHC865",
+    "type": "article-journal",
+    "citation-key": "Meyers2011",
+    "container-title": "Earth and Planetary Science Letters",
+    "DOI": "10.1016/j.epsl.2010.12.044",
+    "ISSN": "0012-821X",
+    "issue": "3-4",
+    "page": "174-180",
+    "publisher": "Elsevier BV",
+    "title": "A 56million year rhythm in North American sedimentation during the Phanerozoic",
+    "URL": "http://dx.doi.org/10.1016/j.epsl.2010.12.044",
+    "volume": "303",
+    "author": [
+      {
+        "family": "Meyers",
+        "given": "Stephen R."
+      },
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          3
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/WABSVZC5",
+    "type": "article-journal",
+    "citation-key": "Peters2011a",
+    "container-title": "Geology",
+    "DOI": "10.1130/g31442.1",
+    "ISSN": "1943-2682, 0091-7613",
+    "issue": "3",
+    "page": "259-262",
+    "publisher": "Geological Society of America",
+    "title": "Stratigraphic distribution of marine fossils in North America",
+    "URL": "http://dx.doi.org/10.1130/g31442.1",
+    "volume": "39",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Heim",
+        "given": "Noel A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2011",
+          3
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/5IKGLVM7",
+    "type": "article-journal",
+    "citation-key": "Heim2010",
+    "container-title": "Geological Society of America Bulletin",
+    "DOI": "10.1130/b30215.1",
+    "ISSN": "0016-7606, 1943-2674",
+    "issue": "3-4",
+    "page": "620-630",
+    "publisher": "Geological Society of America",
+    "title": "Covariation in macrostratigraphic and macroevolutionary patterns in the marine record of North America",
+    "URL": "http://dx.doi.org/10.1130/b30215.1",
+    "volume": "123",
+    "author": [
+      {
+        "family": "Heim",
+        "given": "N. A."
+      },
+      {
+        "family": "Peters",
+        "given": "S. E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2010",
+          10,
+          18
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/MIIABWFV",
+    "type": "article-journal",
+    "citation-key": "Butler2010",
+    "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+    "DOI": "10.1098/rspb.2010.1754",
+    "ISSN": "0962-8452, 1471-2954",
+    "issue": "1709",
+    "page": "1165-1170",
+    "publisher": "The Royal Society",
+    "title": "Sea level, dinosaur diversity and sampling biases: investigating the ‘common cause’ hypothesis in the terrestrial realm",
+    "URL": "http://dx.doi.org/10.1098/rspb.2010.1754",
+    "volume": "278",
+    "author": [
+      {
+        "family": "Butler",
+        "given": "Richard J."
+      },
+      {
+        "family": "Benson",
+        "given": "Roger B. J."
+      },
+      {
+        "family": "Carrano",
+        "given": "Matthew T."
+      },
+      {
+        "family": "Mannion",
+        "given": "Philip D."
+      },
+      {
+        "family": "Upchurch",
+        "given": "Paul"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2010",
+          9,
+          29
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/RC7AKJG4",
+    "type": "article-journal",
+    "citation-key": "Peters2010",
+    "container-title": "Paleobiology",
+    "DOI": "10.1666/0094-8373-36.1.61",
+    "ISSN": "0094-8373, 1938-5331",
+    "issue": "1",
+    "page": "61-79",
+    "publisher": "Cambridge University Press (CUP)",
+    "title": "The geological completeness of paleontological sampling in North America",
+    "URL": "http://dx.doi.org/10.1666/0094-8373-36.1.61",
+    "volume": "36",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Heim",
+        "given": "Noel A."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/F5XAJ3AI",
+    "type": "article-journal",
+    "citation-key": "Peters2008a",
+    "container-title": "The Paleontological Society Papers",
+    "DOI": "10.1017/s1089332600001698",
+    "ISSN": "1089-3326, 2399-7575",
+    "page": "205-231",
+    "publisher": "Cambridge University Press (CUP)",
+    "title": "Macrostratigraphy and Its Promise for Paleobiology",
+    "URL": "http://dx.doi.org/10.1017/s1089332600001698",
+    "volume": "14",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2008",
+          10
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/FTG5SSMH",
+    "type": "article-journal",
+    "citation-key": "McGowan2008",
+    "container-title": "Paleobiology",
+    "DOI": "10.1666/07019.1",
+    "ISSN": "0094-8373, 1938-5331",
+    "issue": "1",
+    "page": "80-103",
+    "publisher": "Cambridge University Press (CUP)",
+    "title": "Are global Phanerozoic marine diversity curves truly global? A study of the relationship between regional rock records and global Phanerozoic marine diversity",
+    "URL": "http://dx.doi.org/10.1666/07019.1",
+    "volume": "34",
+    "author": [
+      {
+        "family": "McGowan",
+        "given": "Alistair J."
+      },
+      {
+        "family": "Smith",
+        "given": "Andrew B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/JISKRTF5",
+    "type": "article-journal",
+    "citation-key": "Marx2008",
+    "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+    "DOI": "10.1098/rspb.2008.1473",
+    "ISSN": "0962-8452, 1471-2954",
+    "issue": "1658",
+    "page": "887-892",
+    "publisher": "The Royal Society",
+    "title": "Marine mammals through time: when less is more in studying palaeodiversity",
+    "URL": "http://dx.doi.org/10.1098/rspb.2008.1473",
+    "volume": "276",
+    "author": [
+      {
+        "family": "Marx",
+        "given": "Felix G"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2008",
+          11,
+          18
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/MCPAP7A7",
+    "type": "article-journal",
+    "citation-key": "Peters2008b",
+    "container-title": "Paleobiology",
+    "DOI": "10.1666/07035.1",
+    "ISSN": "0094-8373, 1938-5331",
+    "issue": "1",
+    "page": "104-116",
+    "publisher": "Cambridge University Press (CUP)",
+    "title": "A sampling-adjusted macroevolutionary history for Ordovician-Early Silurian crinoids",
+    "URL": "http://dx.doi.org/10.1666/07035.1",
+    "volume": "34",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      },
+      {
+        "family": "Ausich",
+        "given": "William I."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2008
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/SYKW7Z6S",
+    "type": "article-journal",
+    "citation-key": "Peters2008",
+    "container-title": "Nature",
+    "DOI": "10.1038/nature07032",
+    "ISSN": "0028-0836, 1476-4687",
+    "issue": "7204",
+    "page": "626-629",
+    "publisher": "Springer Science and Business Media LLC",
+    "title": "Environmental determinants of extinction selectivity in the fossil record",
+    "URL": "http://dx.doi.org/10.1038/nature07032",
+    "volume": "454",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2008",
+          6,
+          15
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/6KH7ERTD",
+    "type": "article-journal",
+    "citation-key": "Peters2007",
+    "container-title": "Paleobiology",
+    "DOI": "10.1666/06067.1",
+    "ISSN": "0094-8373, 1938-5331",
+    "issue": "2",
+    "page": "165-181",
+    "publisher": "Cambridge University Press (CUP)",
+    "title": "The problem with the Paleozoic",
+    "URL": "http://dx.doi.org/10.1666/06067.1",
+    "volume": "33",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2007
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/LH7YA3VC",
+    "type": "article-journal",
+    "citation-key": "Mayhew2007",
+    "container-title": "Proceedings of the Royal Society B: Biological Sciences",
+    "DOI": "10.1098/rspb.2007.1302",
+    "ISSN": "0962-8452, 1471-2954",
+    "issue": "1630",
+    "page": "47-53",
+    "publisher": "The Royal Society",
+    "title": "A long-term association between global temperature and biodiversity, origination and extinction in the fossil record",
+    "URL": "http://dx.doi.org/10.1098/rspb.2007.1302",
+    "volume": "275",
+    "author": [
+      {
+        "family": "Mayhew",
+        "given": "Peter J"
+      },
+      {
+        "family": "Jenkins",
+        "given": "Gareth B"
+      },
+      {
+        "family": "Benton",
+        "given": "Timothy G"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2007",
+          10,
+          24
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/X3WPT3ZA",
+    "type": "article-journal",
+    "citation-key": "SMITH2007",
+    "container-title": "Journal of the Geological Society",
+    "DOI": "10.1144/0016/76492006-184",
+    "ISSN": "0016-7649, 2041-479X",
+    "issue": "4",
+    "page": "731-745",
+    "publisher": "Geological Society of London",
+    "title": "Marine diversity through the Phanerozoic: problems and prospects",
+    "URL": "http://dx.doi.org/10.1144/0016/76492006-184",
+    "volume": "164",
+    "author": [
+      {
+        "family": "SMITH",
+        "given": "ANDREW B."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2007",
+          6,
+          26
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/IUZH53G7",
+    "type": "article-journal",
+    "citation-key": "Peters2006",
+    "container-title": "The Journal of Geology",
+    "DOI": "10.1086/504176",
+    "ISSN": "0022-1376, 1537-5269",
+    "issue": "4",
+    "page": "391-412",
+    "publisher": "University of Chicago Press",
+    "title": "Macrostratigraphy of North America",
+    "URL": "http://dx.doi.org/10.1086/504176",
+    "volume": "114",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2006",
+          7
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  },
+  {
+    "id": "24870050/QQ89SZFI",
+    "type": "article-journal",
+    "citation-key": "Peters2005",
+    "container-title": "Proceedings of the National Academy of Sciences",
+    "DOI": "10.1073/pnas.0502616102",
+    "ISSN": "0027-8424, 1091-6490",
+    "issue": "35",
+    "page": "12326-12331",
+    "publisher": "National Academy of Sciences",
+    "title": "Geologic constraints on the macroevolutionary history of marine animals",
+    "URL": "http://dx.doi.org/10.1073/pnas.0502616102",
+    "volume": "102",
+    "author": [
+      {
+        "family": "Peters",
+        "given": "Shanan E."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          "2005",
+          8,
+          16
+        ]
+      ]
+    },
+    "macrostrat_collections": [
+      "Papers using Macrostrat",
+      "macrostrat-website-publications"
+    ]
+  }
+]

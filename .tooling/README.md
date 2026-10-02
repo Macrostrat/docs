@@ -56,3 +56,14 @@ Pushes/pulls the local `docs-assets/` mirror to/from the object store.
 ./sync-assets.sh push     # local -> bucket
 ./sync-assets.sh pull     # bucket -> local
 ```
+
+## Fetch citations — `fetch-citations.mjs`
+
+Writes `Site/data/publications.json` from the public Zotero group that holds
+Macrostrat's publications: CSL-JSON per item, plus the names of the collections
+it sits in. Run it after curating the library and commit the result; the website
+formats the records. No install needed.
+
+```sh
+node .tooling/fetch-citations.mjs   # from the vault root
+```
