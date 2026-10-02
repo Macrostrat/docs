@@ -1,56 +1,47 @@
 ---
-title: About Macrostrat
+title: About
 route: /about
 status: draft
 ---
 
-Macrostrat is a data system for the Earth's crust: a model of the rocks beneath every
-point on the planet, built by integrating geologic maps and stratigraphic columns into
-one framework through time. It is developed by the Macrostrat lab at the University of
-Wisconsin–Madison and by a growing community of geologists who contribute data, code
-and corrections.
+> [!logo]
+> Macrostrat is a data system for the Earth's crust: a model of the rocks beneath every
+> point on the planet, built by integrating geologic maps and stratigraphic columns into
+> one framework through time. It is developed by the Macrostrat lab at the University of
+> Wisconsin–Madison.
+
+> [!cards]
+> - [Documentation](/docs) #beta: How Macrostrat works, how to use it, and how to
+>   contribute.
 
 ## What Macrostrat does
 
-- **Geologic maps** from hundreds of sources, harmonized into a single multi-scale map of
-  the world with consistent ages, lithologies and names.
-- **Stratigraphic columns** that describe the rock record through time for regions,
-  measured sections and drill cores.
-- **A lexicon** of stratigraphic names, lithologies, time intervals and environments
-  that ties maps, columns and the published literature together.
-- **Open services**: an API, vector and raster tiles, and web components, so anyone can
-  build on the data.
+> [!cards]
+> - [Geologic maps](/map): Maps from hundreds of sources, harmonized into a single
+>   multi-scale map of the world.
+> - [Stratigraphic columns](/columns): The rock record through time for regions,
+>   measured sections and drill cores.
+> - [Geologic lexicon](/lex): Stratigraphic names, lithologies, time intervals and
+>   environments, tying maps and columns to the literature.
+> - [[Data services|API and tiles]]: An API, vector and raster tiles, and web
+>   components for building on the data.
 
-Rockd, the mobile field companion, runs on this platform.
+The [Rockd](https://rockd.org) mobile app is built on Macrostrat.
 
-## Macrostrat v2
+## History
 
-Macrostrat v1 harnessed geologic data. Macrostrat v2 sets out to harness the
-community: a contribution model in which geologists add and correct maps, columns and
-observations, and the system tracks every change. The vision was first described in a
-2021 GSA talk; the platform paper is in the *Geoscience Data Journal*
-([doi:10.1002/gdj3.189](https://doi.org/10.1002/gdj3.189)).
-
-The v2 site you are reading is in **beta**. The capabilities named in that paper are
-documented as they arrive:
-
-- How the system works: [[How Macrostrat works]]
-- Map ingestion and harmonization: [[Map ingestion]] and [[Maps|contributing maps]]
-- Stratigraphic column data: [[Stratigraphic columns]] and [[Accessing column data]]
-- The lexicon: [[Geologic lexicon]]
-- Data services and the API: [[Data services]] and [[The Macrostrat Geologic API]]
-- Change tracking and contributor accounts: coming with the beta
+Macrostrat began as a research database at the University of Wisconsin–Madison and
+grew into a platform that integrates geologic maps from around the world and serves
+them through public APIs. Since 2023 it has been opening to contribution, with
+workflows for adding and correcting maps and columns. See [[History and Version 2]].
 
 ## How to cite
 
-<!-- slot: CiteMacrostrat — the Infrastructure collection of the publications library,
-     formatted, with a copy button. The prose below stays. -->
+Cite the papers below and the original references for the data you used; the API
+returns those references alongside every record. In presentations, acknowledge
+Macrostrat by name and use the logos from the [brand page](/about/brand).
 
-In presentations, acknowledge Macrostrat by name and use the logos from our
-[brand page](/about/brand). In publications, cite the platform paper above and the
-original references for the data you used; those references are returned by the API
-alongside every record. If you publish work that uses Macrostrat, tell us and we will
-list it on the [publications page](/publications).
+<!-- slot: CiteMacrostrat — the platform papers from the publications library -->
 
 ## License
 
@@ -58,10 +49,8 @@ All Macrostrat data are provided under a
 [Creative Commons Attribution 4.0 International license](https://creativecommons.org/licenses/by/4.0/).
 Attribute Macrostrat and the original data sources.
 
-## Collaborate with us
+## Get involved
 
-Our team is small and our ambitions are not. We welcome scientific and geoinformatic
-collaboration: joint proposals, data partnerships, integrations with other systems, and
-contributions of every size. See [ways to contribute](/community), or write to us.
+See [ways to contribute](/community), or write to us.
 
 <!-- slot: Contact — channels from Site/data/contact.yml -->

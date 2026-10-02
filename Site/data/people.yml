@@ -1,18 +1,23 @@
-# Contributors to Macrostrat, rendered on /community/contributors.
+# Contributors to Macrostrat, rendered on /community.
 #
-# status: current | former
-# roles: from the vocabulary at the bottom of this file
-# active: { from: YYYY, to: YYYY } when known; omit rather than guess
+# lab: Macrostrat lab membership: current | former | a position, or a list of them.
+#      A position is { title, start: YYYY, end: YYYY }, all optional; a missing end
+#      means current. Omitted for outside contributors.
+# status: current | former, only where lab membership doesn't say: a former member
+#         still contributing, or an outside contributor.
+# roles: from the vocabulary at the bottom of this file. `researcher` is for
+#        people the lab has paid in a scientific role.
 # photo_url: existing bucket URL; the target convention is
 #            https://storage.macrostrat.org/assets/web/people/<id>.jpg
 # email: published only when the person has agreed; omitted otherwise
+# contributions: what the person has contributed, one short item each
 #
 # Seeded from the v1 People page and the Rockd acknowledgments. Titles and periods
 # need confirmation by the people themselves.
 people:
   - id: shanan-peters
     name: Shanan Peters
-    status: current
+    lab: current
     roles: [leader, researcher]
     title: Professor
     affiliation: UW–Madison Department of Geoscience
@@ -23,7 +28,7 @@ people:
 
   - id: daven-quinn
     name: Daven Quinn
-    status: current
+    lab: current
     roles: [leader, researcher, developer]
     title: Research Scientist
     affiliation: UW–Madison Department of Geoscience
@@ -34,7 +39,7 @@ people:
 
   - id: michael-mcclennen
     name: Michael McClennen
-    status: current
+    lab: current
     roles: [developer]
     title: Senior Programmer Analyst
     affiliation: UW–Madison Department of Geoscience
@@ -44,7 +49,7 @@ people:
 
   - id: evgeny-mazko
     name: Evgeny Mazko
-    status: current
+    lab: current
     roles: [student, researcher]
     title: Graduate Student
     affiliation: UW–Madison Department of Geoscience
@@ -53,26 +58,33 @@ people:
 
   - id: david-sklar
     name: David Sklar
-    status: current
+    lab: { start: 2024 }
     roles: [student, developer]
     title: Undergraduate Research Assistant
     affiliation: UW–Madison
     photo_url: https://storage.macrostrat.org/assets/web/main-page/david.jpg
-    active: { from: 2024 }
     projects: [macrostrat]
 
   - id: justin-janisch
     name: Justin Janisch
-    status: current
+    lab: current
     roles: [developer]
     title: Lead developer, Rockd
     website: https://github.com/justinjanisch
     projects: [rockd]
 
+  - id: amy-fromandi
+    name: Amy Fromandi
+    lab: current
+    roles: [developer]
+    projects: [macrostrat]
+
   - id: andrew-zaffos
     name: Andrew Zaffos
+    lab:
+      - { title: Postdoctoral Researcher, start: 2015, end: 2017 }
     status: current
-    roles: [collaborator, researcher]
+    roles: [researcher]
     title: Data Mobilization and Research Scientist
     affiliation: Arizona Geological Survey
     website: http://www.azstrata.org
@@ -81,8 +93,8 @@ people:
 
   - id: jon-husson
     name: Jon Husson
-    status: former
-    roles: [researcher, collaborator]
+    lab: former
+    roles: [researcher]
     title: Postdoctoral Researcher (former); now at the University of Victoria
     website: http://www.jonhusson.com
     photo_url: https://storage.macrostrat.org/assets/web/main-page/jon.jpg
@@ -90,7 +102,7 @@ people:
 
   - id: casey-idzikowski
     name: Casey Idzikowski
-    status: former
+    lab: former
     roles: [developer]
     title: Research Specialist, Developer
     website: https://idzikowski-casey.github.io/personal-site/
@@ -99,7 +111,7 @@ people:
 
   - id: daniel-segessenman
     name: Daniel Segessenman
-    status: former
+    lab: former
     roles: [student, researcher]
     title: Graduate Student
     website: http://strata.geology.wisc.edu
@@ -108,7 +120,7 @@ people:
 
   - id: shan-ye
     name: Shan Ye
-    status: former
+    lab: former
     roles: [student, researcher]
     title: Graduate Student
     photo_url: https://storage.macrostrat.org/assets/web/main-page/shan.jpg
@@ -116,7 +128,7 @@ people:
 
   - id: ben-linzmeier
     name: Ben Linzmeier
-    status: former
+    lab: former
     roles: [researcher]
     title: Postdoctoral Scholar
     photo_url: https://storage.macrostrat.org/assets/web/main-page/ben.jpg
@@ -124,7 +136,7 @@ people:
 
   - id: afiqah-rafi
     name: Afiqah Rafi
-    status: former
+    lab: former
     roles: [student]
     title: Undergraduate Student
     photo_url: https://storage.macrostrat.org/assets/web/main-page/afiqah.jpg
@@ -132,7 +144,7 @@ people:
 
   - id: sharon-mcmullen
     name: Sharon McMullen
-    status: former
+    lab: former
     roles: [researcher]
     title: Researcher
     photo_url: https://storage.macrostrat.org/assets/web/main-page/sharon.jpg
@@ -140,46 +152,95 @@ people:
 
   - id: john-czaplewski
     name: John Czaplewski
-    status: former
+    lab: former
     roles: [developer]
     title: Developer
     photo_url: https://storage.macrostrat.org/assets/web/main-page/john.jpg
     projects: [macrostrat, rockd]
-    note: Architect of Macrostrat v1's services and of Rockd versions 1 and 2.
+    contributions:
+      - Macrostrat v1 services
+      - Rockd versions 1 and 2
 
   - id: noel-heim
     name: Noel Heim
-    status: former
+    lab: former
     roles: [researcher]
     photo_url: https://storage.macrostrat.org/assets/web/main-page/noel.jpg
     projects: [macrostrat]
 
   - id: puneet-kishor
     name: Puneet Kishor
-    status: former
+    lab: former
     roles: [developer]
     photo_url: https://storage.macrostrat.org/assets/web/main-page/puneet.jpg
+    # The v1 page listed this entry under another name with this person's email;
+    # corrected here, please confirm.
     projects: [macrostrat]
-    note: The v1 page listed this entry under another name with this person's email; corrected here, please confirm.
 
   - id: erika-ito
     name: Erika Ito
-    status: former
+    lab: former
     roles: [student]
     photo_url: https://storage.macrostrat.org/assets/web/main-page/erika.jpg
     projects: [macrostrat]
 
   - id: victoria-khoo
     name: Victoria Khoo
-    status: former
+    lab: former
     roles: [student]
     photo_url: https://storage.macrostrat.org/assets/web/main-page/victoria.jpg
     projects: [macrostrat]
 
+  - id: scott-hartman
+    name: Scott Hartman
+    lab: former
+    projects: [macrostrat]
+
+  - id: aaron-kufner
+    name: Aaron Kufner
+    lab: current
+    projects: [macrostrat]
+
+  - id: pat-mclaughlin
+    name: Pat McLaughlin
+    lab: former
+    projects: [macrostrat]
+
+  - id: dave-lovelace
+    name: Dave Lovelace
+    lab: current
+    projects: [macrostrat]
+
+  - id: valerie-syverson
+    name: Valerie Syverson
+    lab: former
+    projects: [macrostrat]
+
+  - id: ben-barnes
+    name: Ben Barnes
+    lab: former
+    projects: [macrostrat]
+
+  - id: neal-auchter
+    name: Neal Auchter
+    lab: former
+    projects: [macrostrat]
+
+  - id: annaka-clement
+    name: Annaka Clement
+    lab: former
+    projects: [macrostrat]
+
+  - id: josie-sajbel
+    name: Josie Sajbel
+    lab: former
+    projects: [macrostrat]
+
+lab_definition: A member of the Macrostrat lab at the University of Wisconsin–Madison
+
 roles:
-  leader: Leads research or development and mentors others
-  researcher: Conducts the science the platform serves
-  developer: Writes and maintains software
-  student: Graduate or undergraduate student
-  intern: Intern
-  collaborator: Contributes from another institution or project
+  leader: Principal investigator of research program
+  researcher: Scientific contributor
+  developer: System design and management
+  student: A graduate or undergraduate student
+  intern: An intern

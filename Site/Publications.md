@@ -4,18 +4,10 @@ route: /publications
 status: draft
 ---
 
-Work that describes Macrostrat, and work built with it. The list is maintained in a
-public Zotero group library and published here from it.
-
 ## Citing Macrostrat
 
 <!-- slot: CiteMacrostrat — the Infrastructure collection -->
 
-## Bibliography
+## Publications using Macrostrat
 
-<!-- slot: Bibliography — Site/data/publications.json, grouped by year, filter by collection -->
-
-## Getting your work listed
-
-We list papers that cite one of the platform papers or that demonstrably used
-Macrostrat's data or API. If yours does and is missing, send us the DOI.
+<!-- slot: Bibliography, with BibliographySummary beside the heading — Site/data/publications.json, two columns, newest first -->
