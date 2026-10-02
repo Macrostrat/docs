@@ -1,0 +1,66 @@
+# Applications, libraries and tools built with Macrostrat, rendered on /community/apps.
+# kind: app | library | site | notebook
+# status: active | archived
+# by: who made it (an organization or person)
+apps:
+  - id: rockd
+    name: Rockd
+    kind: app
+    status: active
+    url: https://rockd.org
+    by: Macrostrat
+    logo: https://storage.macrostrat.org/assets/web/main-page/rockd.png
+    blurb: A mobile field book, Macrostrat style. Explore the geology around you and record what you see.
+
+  - id: macrostrat-map
+    name: Macrostrat map interface
+    kind: site
+    status: active
+    url: /map
+    by: Macrostrat
+    logo: https://storage.macrostrat.org/assets/web/main-page/burwell.png
+    blurb: The world's geologic maps, integrated and explorable with columns, fossils and literature.
+
+  - id: sift
+    name: Sift
+    kind: site
+    status: archived
+    url: /sift
+    by: Macrostrat
+    logo: https://storage.macrostrat.org/assets/web/main-page/logo.png
+    blurb: The v1 explorer for Macrostrat's columns, units and names. Superseded by the v2 site.
+
+  - id: macrostratpy
+    name: macrostratpy
+    kind: library
+    status: active
+    url: https://github.com/DARPA-CRITICALMAAS/macrostratpy
+    by: Macrostrat, for CriticalMAAS
+    blurb: A Python library for downloading Macrostrat map tiles over large areas into GIS-ready GeoPackages.
+
+  - id: mancos
+    name: Mancos
+    kind: app
+    status: archived
+    url: https://itunes.apple.com/us/app/mancos/id541570878?mt=8
+    by: Hunt Mountain Software
+    logo: https://storage.macrostrat.org/assets/web/main-page/mancos.jpg
+    blurb: Explore Macrostrat and the Paleobiology Database on iOS.
+
+  - id: flyover-country
+    name: Flyover Country
+    kind: app
+    status: archived
+    url: https://flyovercountry.io/
+    by: Amy Myrbo, Shane Loeffler and colleagues
+    logo: https://storage.macrostrat.org/assets/web/main-page/foc.png
+    blurb: A glass-bottom jet. Geology and fossils along your flight path, offline.
+
+  - id: node-api-template
+    name: API template
+    kind: library
+    status: archived
+    url: https://github.com/UW-Macrostrat/node-api-template
+    by: Macrostrat
+    logo: https://storage.macrostrat.org/assets/web/main-page/api.png
+    blurb: The Node foundation of Macrostrat's v1 services.

@@ -1,0 +1,25 @@
+# Contact channels, rendered in the footer and on /community and /about.
+# The email address is a placeholder until one is set up (see the feature plan).
+channels:
+  - kind: email
+    label: Email
+    value: contact@macrostrat.org
+    url: mailto:contact@macrostrat.org
+    note: placeholder; confirm the address exists before publishing
+
+  - kind: bluesky
+    label: Bluesky
+    value: "@macrostrat.org"
+    url: https://bsky.app/profile/macrostrat.org
+
+  - kind: github
+    label: GitHub issues
+    value: UW-Macrostrat
+    url: https://github.com/UW-Macrostrat
+    note: bug reports go to the repository they concern
+
+  - kind: x
+    label: X
+    value: "@UWMacrostrat"
+    url: https://x.com/UWMacrostrat
+    note: monitored, not primary

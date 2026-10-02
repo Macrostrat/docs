@@ -1,0 +1,45 @@
+# Systems and organizations Macrostrat exchanges data or identifiers with,
+# rendered on /community/integrations.
+# direction: in | out | both   (relative to Macrostrat)
+integrations:
+  - id: pbdb
+    name: Paleobiology Database
+    url: https://paleobiodb.org
+    direction: both
+    what: Fossil occurrences shown on the map and in columns; Macrostrat units and ages inform PBDB's stratigraphic context.
+
+  - id: xdd
+    name: xDD
+    url: https://xdd.wisc.edu
+    direction: in
+    what: Literature mentions of geologic units and stratigraphic names, linked from unit and lexicon pages.
+
+  - id: earthbyte
+    name: EarthByte and GPlates
+    url: https://www.earthbyte.org
+    direction: in
+    what: Plate rotation models and paleogeographic reconstructions used to place maps and columns in deep time.
+
+  - id: sgp
+    name: Sedimentary Geochemistry and Paleoenvironments Project
+    url: https://sgp-search.io
+    direction: both
+    what: Geochemical proxy records linked to Macrostrat's stratigraphic framework under the NSF Elements award.
+
+  - id: strabospot
+    name: StraboSpot
+    url: https://strabospot.org
+    direction: both
+    what: Field data system; a shared open-source ecosystem under the NSF RISE award.
+
+  - id: ngmdb
+    name: USGS National Geologic Map Database
+    url: https://ngmdb.usgs.gov
+    direction: in
+    what: Source maps and metadata for much of the United States coverage.
+
+  - id: geologic-time
+    name: International Commission on Stratigraphy
+    url: https://stratigraphy.org
+    direction: in
+    what: The international chronostratigraphic chart, the backbone of Macrostrat's time model.

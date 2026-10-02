@@ -1,0 +1,185 @@
+# Contributors to Macrostrat, rendered on /community/contributors.
+#
+# status: current | former
+# roles: from the vocabulary at the bottom of this file
+# active: { from: YYYY, to: YYYY } when known; omit rather than guess
+# photo_url: existing bucket URL; the target convention is
+#            https://storage.macrostrat.org/assets/web/people/<id>.jpg
+# email: published only when the person has agreed; omitted otherwise
+#
+# Seeded from the v1 People page and the Rockd acknowledgments. Titles and periods
+# need confirmation by the people themselves.
+people:
+  - id: shanan-peters
+    name: Shanan Peters
+    status: current
+    roles: [leader, researcher]
+    title: Professor
+    affiliation: UW–Madison Department of Geoscience
+    website: http://strata.geology.wisc.edu
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/shanan.jpg
+    projects: [macrostrat, rockd]
+    note: Founder and principal investigator.
+
+  - id: daven-quinn
+    name: Daven Quinn
+    status: current
+    roles: [leader, researcher, developer]
+    title: Research Scientist
+    affiliation: UW–Madison Department of Geoscience
+    website: https://davenquinn.com
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/daven.jpg
+    projects: [macrostrat, rockd]
+    note: Principal investigator for Macrostrat v2.
+
+  - id: michael-mcclennen
+    name: Michael McClennen
+    status: current
+    roles: [developer]
+    title: Senior Programmer Analyst
+    affiliation: UW–Madison Department of Geoscience
+    website: https://geoscience.wisc.edu/geoscience/people/staff/name/michael-mcclennen/
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/michael.jpg
+    projects: [macrostrat]
+
+  - id: evgeny-mazko
+    name: Evgeny Mazko
+    status: current
+    roles: [student, researcher]
+    title: Graduate Student
+    affiliation: UW–Madison Department of Geoscience
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/evgeny.jpg
+    projects: [macrostrat]
+
+  - id: david-sklar
+    name: David Sklar
+    status: current
+    roles: [student, developer]
+    title: Undergraduate Research Assistant
+    affiliation: UW–Madison
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/david.jpg
+    active: { from: 2024 }
+    projects: [macrostrat]
+
+  - id: justin-janisch
+    name: Justin Janisch
+    status: current
+    roles: [developer]
+    title: Lead developer, Rockd
+    website: https://github.com/justinjanisch
+    projects: [rockd]
+
+  - id: andrew-zaffos
+    name: Andrew Zaffos
+    status: current
+    roles: [collaborator, researcher]
+    title: Data Mobilization and Research Scientist
+    affiliation: Arizona Geological Survey
+    website: http://www.azstrata.org
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/andrew.jpg
+    projects: [macrostrat]
+
+  - id: jon-husson
+    name: Jon Husson
+    status: former
+    roles: [researcher, collaborator]
+    title: Postdoctoral Researcher (former); now at the University of Victoria
+    website: http://www.jonhusson.com
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/jon.jpg
+    projects: [macrostrat]
+
+  - id: casey-idzikowski
+    name: Casey Idzikowski
+    status: former
+    roles: [developer]
+    title: Research Specialist, Developer
+    website: https://idzikowski-casey.github.io/personal-site/
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/casey.jpg
+    projects: [macrostrat]
+
+  - id: daniel-segessenman
+    name: Daniel Segessenman
+    status: former
+    roles: [student, researcher]
+    title: Graduate Student
+    website: http://strata.geology.wisc.edu
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/daniel.jpg
+    projects: [macrostrat]
+
+  - id: shan-ye
+    name: Shan Ye
+    status: former
+    roles: [student, researcher]
+    title: Graduate Student
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/shan.jpg
+    projects: [macrostrat]
+
+  - id: ben-linzmeier
+    name: Ben Linzmeier
+    status: former
+    roles: [researcher]
+    title: Postdoctoral Scholar
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/ben.jpg
+    projects: [macrostrat]
+
+  - id: afiqah-rafi
+    name: Afiqah Rafi
+    status: former
+    roles: [student]
+    title: Undergraduate Student
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/afiqah.jpg
+    projects: [macrostrat]
+
+  - id: sharon-mcmullen
+    name: Sharon McMullen
+    status: former
+    roles: [researcher]
+    title: Researcher
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/sharon.jpg
+    projects: [macrostrat]
+
+  - id: john-czaplewski
+    name: John Czaplewski
+    status: former
+    roles: [developer]
+    title: Developer
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/john.jpg
+    projects: [macrostrat, rockd]
+    note: Architect of Macrostrat v1's services and of Rockd versions 1 and 2.
+
+  - id: noel-heim
+    name: Noel Heim
+    status: former
+    roles: [researcher]
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/noel.jpg
+    projects: [macrostrat]
+
+  - id: puneet-kishor
+    name: Puneet Kishor
+    status: former
+    roles: [developer]
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/puneet.jpg
+    projects: [macrostrat]
+    note: The v1 page listed this entry under another name with this person's email; corrected here, please confirm.
+
+  - id: erika-ito
+    name: Erika Ito
+    status: former
+    roles: [student]
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/erika.jpg
+    projects: [macrostrat]
+
+  - id: victoria-khoo
+    name: Victoria Khoo
+    status: former
+    roles: [student]
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/victoria.jpg
+    projects: [macrostrat]
+
+roles:
+  leader: Leads research or development and mentors others
+  researcher: Conducts the science the platform serves
+  developer: Writes and maintains software
+  student: Graduate or undergraduate student
+  intern: Intern
+  collaborator: Contributes from another institution or project

@@ -1,0 +1,115 @@
+# Supporters of Macrostrat, rendered on /about/support.
+# tier: funder | institutional | in-kind
+# projects: which projects the support is for (macrostrat, rockd)
+# Periods are from the v1 pages and memory; confirm against award records.
+supporters:
+  - id: nsf-ear-1150082
+    name: U.S. National Science Foundation
+    program: CAREER award EAR-1150082
+    tier: funder
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1150082
+    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    blurb: Founding support for the Macrostrat database and its first infrastructure.
+    period: { from: 2012, to: 2017 }
+    projects: [macrostrat]
+
+  - id: nsf-icer-1440312
+    name: U.S. National Science Foundation
+    program: EarthCube ICER-1440312
+    tier: funder
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1440312
+    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    blurb: Turned a research database into a public platform, including the API and Rockd.
+    period: { from: 2014, to: 2019 }
+    projects: [macrostrat, rockd]
+
+  - id: nsf-ear-1948843
+    name: U.S. National Science Foundation
+    program: EAR-1948843
+    tier: funder
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1948843
+    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    blurb: Ongoing support for data acquisition.
+    period: { from: 2019 }
+    projects: [macrostrat]
+
+  - id: nsf-icer-1928323
+    name: U.S. National Science Foundation
+    program: ICER-1928323
+    tier: funder
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1928323
+    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    blurb: Ongoing support for data infrastructure.
+    period: { from: 2019 }
+    projects: [macrostrat]
+
+  - id: nsf-elements-2311091
+    name: U.S. National Science Foundation
+    program: Elements 2311091 (with Stanford, 2311092)
+    tier: funder
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2311091
+    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    blurb: Linking geochemical proxy records to crustal stratigraphic context via community-interactive cyberinfrastructure, with the Sedimentary Geochemistry and Paleoenvironments Project.
+    period: { from: 2023 }
+    projects: [macrostrat]
+
+  - id: nsf-rise-2324579
+    name: U.S. National Science Foundation
+    program: Open-Source Ecosystem RISE-2324579
+    tier: funder
+    url: https://www.nsf.gov/awardsearch/showAward.do?AwardNumber=2324579
+    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    blurb: The Macrostrat and StraboSpot open-source ecosystem.
+    period: { from: 2023 }
+    projects: [macrostrat]
+
+  - id: darpa-criticalmaas
+    name: DARPA
+    program: CriticalMAAS
+    tier: funder
+    url: https://www.darpa.mil/research/programs/critical-mineral-assessments-with-ai-support
+    blurb: Map ingestion and harmonization at national scale.
+    period: { from: 2023 }
+    projects: [macrostrat]
+
+  - id: uw-geoscience
+    name: UW–Madison Department of Geoscience
+    tier: institutional
+    url: https://geoscience.wisc.edu
+    blurb: Continuous institutional support for the project and the people who build it.
+    period: { from: 2013 }
+    projects: [macrostrat, rockd]
+
+  - id: aapg-foundation
+    name: AAPG Foundation
+    tier: funder
+    url: https://aapgfoundation.org
+    blurb: Support for ongoing Rockd development, including Rockd v4.
+    period: { from: 2025 }
+    projects: [rockd]
+
+  - id: chtc
+    name: UW–Madison Center for High Throughput Computing
+    tier: in-kind
+    url: https://chtc.cs.wisc.edu
+    blurb: Cloud computing infrastructure for Macrostrat and Rockd.
+    projects: [macrostrat, rockd]
+
+  - id: mapbox
+    name: Mapbox
+    tier: in-kind
+    url: https://www.mapbox.com
+    blurb: Has supported intensive use of its location and basemap services by Rockd since 2016.
+    period: { from: 2016 }
+    projects: [rockd, macrostrat]
+
+  - id: xdd
+    name: xDD
+    tier: in-kind
+    url: https://xdd.wisc.edu
+    blurb: Links from geologic units to the published literature.
+    projects: [macrostrat, rockd]
+
+giving:
+  name: Paleontology Program Fund in Geology, University of Wisconsin Foundation
+  url: https://secure.supportuw.org/give/?id=E0A03FA3-B2A0-431C-83EE-A121A04EEB5D
