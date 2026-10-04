@@ -63,7 +63,7 @@ New column data are prepared as spreadsheets in Macrostrat's column ingestion fo
 (see [[Format documentation]]), which describes columns, units, facies, metadata and
 references in separate sheets. The format is loaded by Macrostrat's command-line
 tools. A web-based column editor is in development; contributors interested in
-adding columns should get in touch (see [[Contributing]]).
+adding columns should get in touch (see [Contributing](/community/contributing)).
 
 ## Getting columns out
 

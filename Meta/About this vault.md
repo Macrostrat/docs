@@ -32,8 +32,14 @@ it. Nothing here needs to be built to be edited — Obsidian previews it locally
 - **Media** (images, gifs, video) goes to the object store, referenced by URL —
   see the `docs-assets/` directory. Text/markup assets (SVG, Mermaid) may live
   beside the Markdown.
-- **Drafts** — put work-in-progress under a `__drafts__/` folder to keep it out
-  of the published index.
+- **Drafts** — a page under `__drafts__/` is not published at all. A site page with
+  `status: draft` is published at its route with a draft notice. Nothing else marks a
+  draft.
+- **Format** — `.md` is plain GitHub markdown with `[[wikilinks]]` and Obsidian
+  callouts, and every source honours it. `.mdx` is reserved for pages that need
+  components.
+- **Writing** — the rules for voice, status words, names and links are in
+  [[Writing documentation]].
 
 ## Site pages and records (`Site/`)
 

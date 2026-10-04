@@ -37,14 +37,14 @@ These pages replace the older "Sift" explorer.
 
 ## Contributor tools
 
-Anyone with an ORCID iD can sign in (see [[Contributing#Accounts]]). Signed-in
+Anyone with an ORCID iD can sign in (see [Accounts](/community/contributing#accounts)). Signed-in
 contributors have access to tools for adding and improving data:
 
 - the **map ingestion** interface (`/maps/ingestion`), a spreadsheet-like editor for
   harmonizing newly ingested maps (see [[Map ingestion]]);
 - a **column editor**, in development, for creating and revising columns.
 
-See [[Contributing]] for how to get involved.
+See [Contributing](/community/contributing) for how to get involved.
 
 ## Rockd
 
