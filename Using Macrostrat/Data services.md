@@ -49,8 +49,10 @@ The tile server's interactive API documentation is at
 
 New services are being built as part of Macrostrat v2 and are not yet stable:
 
-- **API version 3**, a Python service for map ingestion, compilations, column
-  ingestion and user accounts;
+- **API version 3**, a Python service for the workflows version 2 introduces: map
+  ingestion, compilations, column ingestion, and user accounts with tokens. It is in
+  early development; its routes may change, and it should not be relied on for
+  published work. API version 2 is unchanged and remains the stable way to read data;
 - direct, query-based access to curated views of the database for contributors and
   integrations;
 - tiles for individual maps and compilations, alongside the carto map;

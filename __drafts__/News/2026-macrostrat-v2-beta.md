@@ -1,5 +1,5 @@
 ---
-title: Macrostrat v2 is in beta
+title: Macrostrat version 2 is in beta
 date: 2026-10-01
 author: daven-quinn
 summary: A new site, a new map, and the first steps toward a Macrostrat that the community builds together.
@@ -16,6 +16,8 @@ v2**: a rebuilt site, a rebuilt maps system, and the beginnings of a platform th
 geologists can contribute to directly.
 
 ## What is new
+
+The full account is in [Version 2](/about/version-2).
 
 ### The maps
 
@@ -38,5 +40,8 @@ The site is live, the data are real, and some things will be rough. Tell us what
 find: [ways to contribute](/community).
 
 ## What is next
+
+Building on version 2 continues through small, continuous releases, which the new
+architecture makes far more practical than before.
 
 ## Thanks

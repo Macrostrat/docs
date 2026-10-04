@@ -26,7 +26,7 @@ it.
 ## Background
 
 - [[Scientific approach]]: why Macrostrat exists and the science it supports
-- [[History and Version 2]]: where Macrostrat came from and where it is going
+- [Version 2](/about/version-2): what version 2 changed, and what comes next
 - [[Related systems]]: the data systems Macrostrat connects with
 - [[Glossary]]: the vocabulary used throughout these pages
 

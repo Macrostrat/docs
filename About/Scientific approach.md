@@ -65,7 +65,7 @@ encoding geologic insight.
 
 Macrostrat aims to be one of the connective frameworks such a model needs: a shared,
 linked representation of the crust that a broad community can build on and improve.
-Macrostrat v2 is a step in that direction (see [[History and Version 2]]).
+Version 2 of Macrostrat is a step in that direction (see [Version 2](/about/version-2)).
 
 ## Further reading
 

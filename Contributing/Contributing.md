@@ -7,6 +7,15 @@ Macrostrat is improved by the geologists and developers who use it. Contribution
 every size are welcome, from reporting a misplaced contact to adding a regional
 compilation or a new software feature.
 
+## Accounts
+
+Before version 2, Macrostrat had no user accounts and all data were entered by the
+core team. Anyone with an [ORCID](https://orcid.org) iD can sign in to the website.
+Signing in opens the first contributor tools, such as a dry run of column ingestion
+that checks a column dataset against Macrostrat's format without saving it. The tools
+that write data, map harmonization first and column editing next, are in development:
+they are being tested with collaborators, and a public beta will follow.
+
 ## Data
 
 - **Geologic maps.** If you have published or unpublished geologic mapping you would
