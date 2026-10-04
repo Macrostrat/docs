@@ -11,7 +11,7 @@ status: draft
 2. **Report what is wrong.** A misplaced unit, a bad legend, a missing name. Use the
    feedback link on any page, or the channels below.
 3. **Digitize existing geologic data.** Maps, stratigraphic columns and measured
-   sections, following the guides in the documentation: [[Maps]],
+   sections, following the guides in the documentation: [[Contributing maps]],
    [[Accessing column data]].
 4. **Build on Macrostrat.** The API, tiles and web components. Add your app to
    [apps built with Macrostrat](/community/apps).

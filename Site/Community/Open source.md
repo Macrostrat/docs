@@ -18,7 +18,7 @@ documentation and newer community-facing repositories).
 Open an issue first for anything beyond a small fix, so we can point you to the right
 place; the platform spans several repositories that release independently. Each
 repository's README says how to run it. Conventions for the web codebases are in the
-[[Contributor guide]].
+[the website's code style guide](https://github.com/UW-Macrostrat/web/blob/main/CONTRIBUTING.md).
 
 ## Contributing documentation
 

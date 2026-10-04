@@ -10,7 +10,7 @@ collected in this section and in [[Codebase]].
 
 ## The database
 
-Everything described in [[How Macrostrat works]] lives in one PostgreSQL database with
+Everything described under [[Maps]], [[Columns]] and [[Lexicon]] lives in one PostgreSQL database with
 the PostGIS spatial extension, organized into schemas by subsystem:
 
 | Area | Schemas | Holds |

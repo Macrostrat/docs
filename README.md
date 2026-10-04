@@ -25,14 +25,13 @@ federated sources into one tree and renders it at `macrostrat.org/docs`.
 - **Media** (screenshots, gifs, datasets) lives in the Macrostrat object store,
   not in git. See [`docs-assets/`](./docs-assets).
 
-See the full architecture in the workbench feature doc, *Documentation*.
+How the vault is organized and published is in [`Meta/About this vault.md`](./Meta/About%20this%20vault.md);
+the writing rules are in [`Meta/Writing documentation.md`](./Meta/Writing%20documentation.md).
 
 ## Contributing prose
 
-1. Clone this repo and open the folder as an Obsidian vault.
-2. Edit or add Markdown. Link between pages with `[[Wikilinks]]`.
-3. Reference images by their object-store URL (see [`docs-assets/`](./docs-assets)).
-4. Open a pull request.
+Clone this repo, open the folder as an Obsidian vault, edit, and open a pull request.
+Read [`Meta/Writing documentation.md`](./Meta/Writing%20documentation.md) first.
 
 Link direction runs **general → specific**: pages here may link down into
 code-coupled docs, but code-coupled docs should not depend on pages here (so they

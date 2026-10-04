@@ -1,5 +1,6 @@
 ---
 title: Scientific approach
+route: /about/scientific-approach
 ---
 
 Macrostrat exists to make the rock record quantitative: to describe how much rock of

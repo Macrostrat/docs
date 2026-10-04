@@ -42,7 +42,7 @@ A map source holds three kinds of geometry:
 Polygons that share a description form a **legend entry**. The legend is the unit
 of harmonization: matching a legend entry to Macrostrat's vocabulary applies to every
 polygon drawn with it. The fields Macrostrat expects for polygons are described in
-[[Maps|Contributing maps to Macrostrat]].
+[[Contributing maps|Contributing maps to Macrostrat]].
 
 ## From many maps to one
 
