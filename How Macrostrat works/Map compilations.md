@@ -2,15 +2,17 @@
 title: Map compilations
 ---
 
-> [!note] In active development
-> Macrostrat's compilation system is being rebuilt as part of Macrostrat v2. This page
-> describes the model and its vocabulary; details of how compilations are authored and
-> served are still changing.
-
 Most of the maps people use are themselves assembled from other maps. A state
 geologic map is stitched together from county or quadrangle sheets; a national
 compilation is built from state maps; Macrostrat's global map is built from all of
 these. Macrostrat represents this directly, as **compilations**.
+
+Before version 2, Macrostrat's multiscale map was assembled by hand-set priorities among
+its sources. Since October 2026, overlaps are resolved by the topology model described
+here, which is what lets a quadrangle sit inside a state map inside a continental map
+without seams or double coverage. The first compilations released this way are the
+USGS National Geologic Synthesis of the United States, the geologic map of Japan, and
+Arizona.
 
 ## Maps and compilations
 

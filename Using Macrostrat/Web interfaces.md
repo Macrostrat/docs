@@ -4,11 +4,9 @@ title: Web interfaces
 
 Macrostrat's website presents its data the way geologists are used to seeing them:
 as maps, as columns, and as pages about named units and terms. Everything shown is
-built on the public [[Data services]].
-
-> [!note] The new website is in beta
-> These interfaces belong to the new Macrostrat website, which is being rolled out
-> alongside the existing one. Some pages are still being developed.
+built on the public [[Data services]]. Before version 2 the map, the columns and the
+"Sift" lexicon explorer were separate applications; since October 2026 they are one
+website, and columns are drawn on the site for the first time.
 
 ## Geologic map (`/map`)
 
@@ -39,7 +37,8 @@ These pages replace the older "Sift" explorer.
 
 ## Contributor tools
 
-Signed-in contributors have access to tools for adding and improving data:
+Anyone with an ORCID iD can sign in (see [[Contributing#Accounts]]). Signed-in
+contributors have access to tools for adding and improving data:
 
 - the **map ingestion** interface (`/maps/ingestion`), a spreadsheet-like editor for
   harmonizing newly ingested maps (see [[Map ingestion]]);

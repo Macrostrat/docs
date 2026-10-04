@@ -28,6 +28,12 @@ The schema is defined declaratively in the `macrostrat` repository and applied w
 Macrostrat's command-line tools, which compare the definitions to a running database
 and plan the changes needed.
 
+Before version 2, columns and the lexicon were held in MariaDB and maps in PostgreSQL,
+with copies of some tables moving between the two. The conversion to one database began
+in late 2024 and finished in March 2026 without interrupting any service. Query results
+that once depended on periodic copies are live, and the public API's responses did not
+change.
+
 ## Services
 
 Several services sit between the database and its users:
@@ -68,6 +74,13 @@ Throughput Computing. Its deployment is described as code in a configuration rep
 and applied continuously from version control (GitOps), with separate production and
 development environments. The database runs under a PostgreSQL operator that manages
 replication and backups.
+
+Before version 2, the database, APIs and websites ran on a single server; the move to
+the cluster was released in March 2026. Because the deployment is applied from version
+control, the production environment and the one where changes are tested are built the
+same way and a change to either is reviewed before it is applied, a failed component
+recovers on its own, and services such as background workers for long-running jobs can
+be added without touching the rest of the system.
 
 ## Command-line tools
 

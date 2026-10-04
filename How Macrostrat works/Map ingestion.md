@@ -7,6 +7,12 @@ of Macrostrat. A map moves through a sequence of stages; at each one it is check
 cleaned or enriched, and its progress is tracked so that many maps can be in flight at
 once.
 
+Before version 2, maps were added through scripts run by the core team, one map at a
+time. Since October 2026 the pipeline described here, with its web interface for
+harmonizing legends, is how every map enters Macrostrat: new and updated maps appear
+sooner, each map unit records its source and how it was harmonized, and a correction to
+one map does not rebuild the whole.
+
 ## 1. Acquisition
 
 Map packages (shapefiles, geodatabases, GeoPackages, georeferenced images and their
