@@ -1,5 +1,6 @@
 ---
 title: Data services
+permalink: index
 ---
 
 Macrostrat's data are available through public web services, free to use under a

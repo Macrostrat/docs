@@ -27,7 +27,7 @@ what changed and what comes next.
   unchanged. *In development.* [[Data services]]
 - **Accounts.** Sign-in with ORCID for everyone; tools that write data are being
   tested with collaborators, with a public beta to follow. *In development.*
-  [[Contributing]]
+  [Contributing](/community/contributing)
 - **Rockd.** Moving to the same infrastructure, in parallel. *In progress.*
   [rockd.org](https://rockd.org)
 
@@ -37,12 +37,12 @@ release notes when they have a public home. -->
 ## What comes next
 
 - **Contribution tools for the community**, as the data tools open in a public beta.
-  [[Contributing]]
+  [Contributing](/community/contributing)
 - **Domain data through a shared "facet" model**, attaching geochemical,
   geochronological and other datasets to units and ages. [[Linking data]]
 - **Paleogeography**, placing maps and columns through time with
   [Corelle](https://github.com/UW-Macrostrat/corelle).
 - **Three-dimensional and structural geology**, from the map surface into the
-  subsurface, with field systems such as StraboSpot. [[Related systems]]
+  subsurface, with field systems such as StraboSpot. [Integrations](/community/integrations)
 
 Each gets its own page here as it reaches users.

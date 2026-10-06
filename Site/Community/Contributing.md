@@ -1,6 +1,6 @@
 ---
 title: Contributing
-permalink: index
+route: /community/contributing
 ---
 
 Macrostrat is improved by the geologists and developers who use it. Contributions of
@@ -21,7 +21,7 @@ they are being tested with collaborators, and a public beta will follow.
 - **Geologic maps.** If you have published or unpublished geologic mapping you would
   like to see in Macrostrat, get in touch. Maps arrive in many formats; the fields
   Macrostrat needs for each map unit are described in
-  [[Maps|Contributing maps to Macrostrat]], and how a map moves into the system is
+  [[Contributing maps|Contributing maps to Macrostrat]], and how a map moves into the system is
   described in [[Map ingestion]].
 - **Stratigraphic columns.** New columns are prepared in Macrostrat's column ingestion
   format ([[Format documentation]]), a set of spreadsheet templates. A web-based column
@@ -38,7 +38,7 @@ they are being tested with collaborators, and a public beta will follow.
 Macrostrat's software is open source and developed on GitHub, mainly in the
 [UW-Macrostrat](https://github.com/UW-Macrostrat) organization. Issues, bug reports and
 pull requests are welcome. [[Codebase]] describes the repositories and what each
-holds; [[Contributor guide]] covers code style for the website; and
+holds; [the website's code style guide](https://github.com/UW-Macrostrat/web/blob/main/CONTRIBUTING.md) covers code style for the website; and
 [[System architecture]] explains how the pieces fit together.
 
 Many of Macrostrat's components are reusable in other projects, notably its
@@ -50,7 +50,8 @@ data tables, and its [Python libraries](https://github.com/UW-Macrostrat/python-
 These pages are open to contribution too. They live in the
 [Macrostrat/docs](https://github.com/Macrostrat/docs) repository as a vault of Markdown
 files that can be edited in [Obsidian](https://obsidian.md) or any text editor; no
-build tools are needed. Open a pull request with your changes. Documentation that is
+build tools are needed. Open a pull request with your changes; the writing rules are
+in [[Writing documentation]]. Documentation that is
 tied to a particular piece of code, such as a format specification or developer
 guide, lives in that code's repository and is pulled into these pages automatically.
 

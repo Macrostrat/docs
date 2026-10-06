@@ -39,7 +39,7 @@ states, is visible in Macrostrat's map ingestion interface.
 The staging tables are brought into Macrostrat's standard form. Original attribute
 columns are copied or transformed into the fields Macrostrat expects (unit name,
 stratigraphic name, age, lithologies, description; see
-[[Maps|Contributing maps to Macrostrat]]). Values are cleaned and checked: ages are
+[[Contributing maps|Contributing maps to Macrostrat]]). Values are cleaned and checked: ages are
 translated into formal intervals, structural measurements are validated, and features
 that should not be shown are flagged for omission.
 
@@ -80,4 +80,4 @@ documentation for the pipeline lives with the code in the
 staging file schema ([[Map Ingestion - Files Schema]]).
 
 If you have a map you would like to see in Macrostrat, see
-[[Maps|Contributing maps to Macrostrat]].
+[[Contributing maps|Contributing maps to Macrostrat]].
