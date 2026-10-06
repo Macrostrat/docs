@@ -15,15 +15,6 @@ whenever that code changes.
   they fit together
 - [[Codebase]]: the repositories that make up Macrostrat and what each holds
 
-## Running Macrostrat
-
-- [[Macrostrat in a Box]]: running a complete local instance
-- [[Installation notes]]
-- [[Environment configuration and write safety]]: configuring environments, and the
-  safeguards against writing to the wrong one
-- [[Loading working data]]
-- [[Testing Macrostrat]]
-
 ## Data formats and services
 
 - [[Map Ingestion - Files Schema]]: the structure of staged map files
