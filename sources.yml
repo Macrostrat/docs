@@ -30,6 +30,7 @@ sources:
     include:
       - "README.md"
       - "Column ingestion quickstart.md"
+      - "Column ingestion FAQ.md"
       - "Full specification.md"
       - "Future updates.md"
     mount: formats/column-ingestion
