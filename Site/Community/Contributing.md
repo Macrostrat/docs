@@ -24,7 +24,7 @@ they are being tested with collaborators, and a public beta will follow.
   [[Contributing maps|Contributing maps to Macrostrat]], and how a map moves into the system is
   described in [[Map ingestion]].
 - **Stratigraphic columns.** New columns are prepared in Macrostrat's column ingestion
-  format ([[Format documentation]]), a set of spreadsheet templates. A web-based column
+  format ([[Full specification]]), a set of spreadsheet templates. A web-based column
   editor is in development; in the meantime, contact us to contribute columns or a
   dataset of them.
 - **Corrections.** If something on the map or in a column is wrong, tell us, ideally

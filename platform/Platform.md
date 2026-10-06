@@ -18,5 +18,6 @@ whenever that code changes.
 ## Data formats and services
 
 - [[Map Ingestion - Files Schema]]: the structure of staged map files
-- [[Format documentation]]: the column ingestion format
+- [[Full specification]]: the column ingestion format
+- [[Column ingestion quickstart]]: building a column spreadsheet, step by step
 - [[Using raster layers in QGIS]]: Macrostrat's raster tile services

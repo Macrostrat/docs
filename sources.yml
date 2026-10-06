@@ -28,9 +28,10 @@ sources:
     repo: https://github.com/Macrostrat/column-ingestion.git
     ref: main
     include:
-      - "Format documentation.md"
-      - "Future updates.md"
       - "README.md"
+      - "Column ingestion quickstart.md"
+      - "Full specification.md"
+      - "Future updates.md"
     mount: formats/column-ingestion
     # The stratigraphic-column ingestion format spec — iterates with its parser.
 
