@@ -15,17 +15,6 @@
 # Seeded from the v1 People page and the Rockd acknowledgments. Titles and periods
 # need confirmation by the people themselves.
 people:
-  - id: shanan-peters
-    name: Shanan Peters
-    lab: current
-    roles: [leader, researcher]
-    title: Professor
-    affiliation: UW–Madison Department of Geoscience
-    website: http://strata.geology.wisc.edu
-    photo_url: https://storage.macrostrat.org/assets/web/main-page/shanan.jpg
-    projects: [macrostrat, rockd]
-    note: Founder and principal investigator.
-
   - id: daven-quinn
     name: Daven Quinn
     lab: current
@@ -35,7 +24,49 @@ people:
     website: https://davenquinn.com
     photo_url: https://storage.macrostrat.org/assets/web/main-page/daven.jpg
     projects: [macrostrat, rockd]
-    note: Principal investigator for Macrostrat v2.
+    note: Principal investigator
+    contributions:
+      - Phase 2 lead (2022–present)
+      - Tectonics and mineral systems applications
+      - Rockd technical leadership
+  - id: shanan-peters
+    name: Shanan Peters
+    lab: current
+    roles: [leader, researcher]
+    title: Professor
+    affiliation: UW–Madison Department of Geoscience
+    website: http://strata.geology.wisc.edu
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/shanan.jpg
+    projects: [macrostrat, rockd]
+    note: Principal investigator
+    contributions:
+      - Founder and phase 1 lead (~2005-2022)
+      - Macrostratigraphy and paleobiology applications
+      - Rockd sustainability
+  - id: amy-fromandi
+    name: Amy Fromandi
+    affiliation: UW–Madison Department of Geoscience
+    lab: current
+    photo_url: https://storage.macrostrat.org/assets/web/people/amy-fromandi.jpg
+    roles: [developer]
+    projects: [macrostrat, rockd]
+
+  - id: evgeny-mazko
+    name: Evgeny Mazko
+    lab: current
+    roles: [student, researcher]
+    title: Graduate Student
+    affiliation: UW–Madison Department of Geoscience
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/evgeny.jpg
+    projects: [macrostrat]
+
+  - id: justin-janisch
+    name: Justin Janisch
+    lab: current
+    roles: [developer]
+    title: Lead developer, Rockd
+    website: https://github.com/justinjanisch
+    projects: [rockd]
 
   - id: michael-mcclennen
     name: Michael McClennen
@@ -47,15 +78,6 @@ people:
     photo_url: https://storage.macrostrat.org/assets/web/main-page/michael.jpg
     projects: [macrostrat]
 
-  - id: evgeny-mazko
-    name: Evgeny Mazko
-    lab: current
-    roles: [student, researcher]
-    title: Graduate Student
-    affiliation: UW–Madison Department of Geoscience
-    photo_url: https://storage.macrostrat.org/assets/web/main-page/evgeny.jpg
-    projects: [macrostrat]
-
   - id: david-sklar
     name: David Sklar
     lab: { start: 2024 }
@@ -63,20 +85,6 @@ people:
     title: Undergraduate Research Assistant
     affiliation: UW–Madison
     photo_url: https://storage.macrostrat.org/assets/web/main-page/david.jpg
-    projects: [macrostrat]
-
-  - id: justin-janisch
-    name: Justin Janisch
-    lab: current
-    roles: [developer]
-    title: Lead developer, Rockd
-    website: https://github.com/justinjanisch
-    projects: [rockd]
-
-  - id: amy-fromandi
-    name: Amy Fromandi
-    lab: current
-    roles: [developer]
     projects: [macrostrat]
 
   - id: andrew-zaffos
@@ -93,9 +101,10 @@ people:
 
   - id: jon-husson
     name: Jon Husson
-    lab: former
+    lab:
+      - { title: Postdoctoral Researcher, start: 2014, end: 2017 }
     roles: [researcher]
-    title: Postdoctoral Researcher (former); now at the University of Victoria
+    affiliation: University of Victoria
     website: http://www.jonhusson.com
     photo_url: https://storage.macrostrat.org/assets/web/main-page/jon.jpg
     projects: [macrostrat]
@@ -104,10 +113,21 @@ people:
     name: Casey Idzikowski
     lab: former
     roles: [developer]
-    title: Research Specialist, Developer
+    title: Research specialist
     website: https://idzikowski-casey.github.io/personal-site/
     photo_url: https://storage.macrostrat.org/assets/web/main-page/casey.jpg
     projects: [macrostrat]
+
+  - id: john-czaplewski
+    name: John Czaplewski
+    lab: former
+    roles: [developer]
+    title: Developer
+    photo_url: https://storage.macrostrat.org/assets/web/main-page/john.jpg
+    projects: [macrostrat, rockd]
+    contributions:
+      - Macrostrat v1 services
+      - Rockd versions 1 and 2
 
   - id: daniel-segessenman
     name: Daniel Segessenman
@@ -150,17 +170,6 @@ people:
     photo_url: https://storage.macrostrat.org/assets/web/main-page/sharon.jpg
     projects: [macrostrat]
 
-  - id: john-czaplewski
-    name: John Czaplewski
-    lab: former
-    roles: [developer]
-    title: Developer
-    photo_url: https://storage.macrostrat.org/assets/web/main-page/john.jpg
-    projects: [macrostrat, rockd]
-    contributions:
-      - Macrostrat v1 services
-      - Rockd versions 1 and 2
-
   - id: noel-heim
     name: Noel Heim
     lab: former
@@ -200,6 +209,18 @@ people:
     name: Aaron Kufner
     lab: current
     projects: [macrostrat]
+
+  - id: cannon-lock
+    name: Cannon Lock
+    roles: [developer]
+    projects: [xdd]
+    affiliation: UW–Madison CHTC
+
+  - id: brian-aydemir
+    name: Brian Aydemir
+    projects: [macrostrat]
+    roles: [developer]
+    affiliation: UW–Madison CHTC
 
   - id: pat-mclaughlin
     name: Pat McLaughlin

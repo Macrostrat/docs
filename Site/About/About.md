@@ -8,6 +8,10 @@ status: draft
 > Macrostrat is a data system for the Earth's crust, integrating geologic maps and
 > stratigraphic columns through time.
 
+## The platform
+
+Macrostrat began as a research database supporting "macrostratigraphy", an approach to the rock record implemented at scale by Shanan Peters from the early 2000s; see our [scientific approach](/about/scientific-approach). Since then, the system has grown into a comprehensive platform for geologic data, an evolution which we continue with the [Version 2](/about/version-2) effort. It is developed by the Macrostrat lab at the University of Wisconsin–Madison.
+
 > [!cards]
 > - [Apps](/about/apps): The Rockd mobile app and other applications built with
 >   Macrostrat.
@@ -15,19 +19,32 @@ status: draft
 > - [Publications](/publications): Research built on Macrostrat, and how to cite it.
 > - [Support us](/about/support): How Macrostrat is funded, and how to give.
 
-## Key elements
+## Data elements
 
 > [!cards]
 > - [Geologic maps](/map): Hundreds of geologic maps, harmonized into a single
 >   multi-scale mapping layer.
 > - [Stratigraphic columns](/columns): Navigating the rock record through time.
 > - [Lexicon](/lex): Stratigraphic names, timescales, and other ways to link geologic information together
-> - [Documentation and API](/docs): How Macrostrat works, and the APIs for building
->   geologic applications on its maps and stratigraphy.
 
-## History
+## Documentation
 
-Macrostrat began as a research database supporting "macrostratigraphy", an approach to the rock record implemented at scale by Shanan Peters from the early 2000s. Since then, the system has grown into a comprehensive platform for geologic data, an evolution which we continue with the [Version 2](/about/version-2) effort. It is developed by the Macrostrat lab at the University of Wisconsin–Madison.
+> [!cards]
+> - [Documentation](/docs): How Macrostrat works, how to use it, and how to
+>   contribute.
+
+## Data services
+
+Free, public services for building geologic applications, described in the
+[[Data services|documentation]].
+
+> [!cards]
+> - [Tile server](https://tiles.macrostrat.org/docs): Vector and raster tiles of the
+>   integrated geologic map.
+> - [API v2](https://macrostrat.org/api/v2): Columns, units, maps and the lexicon, as
+>   JSON, CSV and GeoJSON.
+> - [API v3](https://macrostrat.org/api/v3/docs) #alpha: The next-generation API, in
+>   development.
 
 ## How to cite
 
