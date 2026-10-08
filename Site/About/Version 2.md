@@ -43,6 +43,6 @@ release notes when they have a public home. -->
 - **Paleogeography**, placing maps and columns through time with
   [Corelle](https://github.com/UW-Macrostrat/corelle).
 - **Three-dimensional and structural geology**, from the map surface into the
-  subsurface, with field systems such as StraboSpot. [Integrations](/community/integrations)
+  subsurface, with field systems such as StraboSpot. [Collaborators](/community/collaborators)
 
 Each gets its own page here as it reaches users.

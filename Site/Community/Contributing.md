@@ -7,6 +7,22 @@ Macrostrat is improved by the geologists and developers who use it. Contribution
 every size are welcome, from reporting a misplaced contact to adding a regional
 compilation or a new software feature.
 
+## Ways to contribute
+
+1. **Collect and document your geologic world.** Rockd checkins, photos and
+   strike-and-dip measurements. [Get Rockd](https://rockd.org).
+2. **Report what is wrong.** A misplaced unit, a bad legend, a missing name. Use the
+   feedback link on any page, or [write to us](/community#contact).
+3. **Digitize existing geologic data.** Maps, stratigraphic columns and measured
+   sections, following the guides in the documentation: [[Contributing maps]],
+   [[Accessing column data]].
+4. **Build on Macrostrat.** The API, tiles and web components. Add your app to
+   [apps built with Macrostrat](/about/apps).
+5. **Connect a system.** Data exchange and shared identifiers: see
+   [collaborators](/community/collaborators).
+6. **Contribute code and documentation.** See [open source](/community/open-source).
+7. **Fund the work.** See the [support page](/about/support).
+
 ## Accounts
 
 Before version 2, Macrostrat had no user accounts and all data were entered by the

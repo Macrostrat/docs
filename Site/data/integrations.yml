@@ -1,5 +1,5 @@
 # Systems and organizations Macrostrat exchanges data or identifiers with,
-# rendered on /community/integrations.
+# rendered on /community/collaborators.
 # direction: in | out | both   (relative to Macrostrat)
 integrations:
   - id: pbdb

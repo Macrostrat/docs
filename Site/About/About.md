@@ -5,14 +5,15 @@ status: draft
 ---
 
 > [!logo]
-> Macrostrat is a data system for the Earth's crust: a model of the rocks beneath every
-> point on the planet, built by integrating geologic maps and stratigraphic columns into
-> one framework through time. It is developed by the Macrostrat lab at the University of
-> Wisconsin–Madison.
+> Macrostrat is a data system for the Earth's crust, integrating geologic maps and
+> stratigraphic columns through time.
 
 > [!cards]
-> - [Documentation](/docs): How Macrostrat works, how to use it, and how to
->   contribute.
+> - [Apps](/about/apps): The Rockd mobile app and other applications built with
+>   Macrostrat.
+> - [People](/about/people): The team that builds Macrostrat, past and present.
+> - [Publications](/publications): Research built on Macrostrat, and how to cite it.
+> - [Support us](/about/support): How Macrostrat is funded, and how to give.
 
 ## Key elements
 
@@ -21,13 +22,12 @@ status: draft
 >   multi-scale mapping layer.
 > - [Stratigraphic columns](/columns): Navigating the rock record through time.
 > - [Lexicon](/lex): Stratigraphic names, timescales, and other ways to link geologic information together
-> - [[Data services]]: Freely available APIs for maps and stratigraphy for building geologic applications
-
-The [Rockd](https://rockd.org) mobile app, and [[Apps|many other applications]] are built with Macrostrat
+> - [Documentation and API](/docs): How Macrostrat works, and the APIs for building
+>   geologic applications on its maps and stratigraphy.
 
 ## History
 
-Macrostrat began as a research database supporting "macrostratigraphy", an approach to the rock record implemented at scale by Shanan Peters from the early 2000s. Since then, the system has grown into a comprehensive platform for geologic data, an evolution which we continue with the [Version 2](/about/version-2) effort.
+Macrostrat began as a research database supporting "macrostratigraphy", an approach to the rock record implemented at scale by Shanan Peters from the early 2000s. Since then, the system has grown into a comprehensive platform for geologic data, an evolution which we continue with the [Version 2](/about/version-2) effort. It is developed by the Macrostrat lab at the University of Wisconsin–Madison.
 
 ## How to cite
 
@@ -45,6 +45,6 @@ Attribute Macrostrat and the original data sources.
 
 ## Get involved
 
-See [ways to contribute](/community), or write to us.
+See the [community](/community) and [ways to contribute](/community/contributing), or write to us.
 
 <!-- slot: Contact — channels from Site/data/contact.yml -->

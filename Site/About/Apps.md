@@ -1,6 +1,6 @@
 ---
-title: Built with Macrostrat
-route: /community/apps
+title: Apps
+route: /about/apps
 status: draft
 ---
 
