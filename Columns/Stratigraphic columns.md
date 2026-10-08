@@ -60,7 +60,7 @@ the rock record, and they bound where the age model may interpolate.
 ## Getting columns into Macrostrat
 
 New column data are prepared as spreadsheets in Macrostrat's column ingestion format
-(see [[Format documentation]]), which describes columns, units, facies, metadata and
+(see [[Full specification]]), which describes columns, units, facies, metadata and
 references in separate sheets. The format is loaded by Macrostrat's command-line
 tools. A web-based column editor is in development; contributors interested in
 adding columns should get in touch (see [Contributing](/community/contributing)).

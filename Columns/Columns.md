@@ -11,7 +11,9 @@ Macrostrat and the basis of most of its scientific results.
 > - [[Stratigraphic columns]]: The column model: units, sections, boundaries, and how columns are organized.
 > - [[Age model]]: How units are placed in geologic time, and how ages flow to everything linked to them.
 > - [[Accessing column data]]: Getting column footprints, units and measurements through the API.
-> - [[Format documentation|Column ingestion format]]: The spreadsheet format for preparing new columns.
+> - [[Column ingestion quickstart]]: Step-by-step guide to building a column spreadsheet.
+> - [[Column ingestion FAQ]]: Common questions about preparing and uploading a column spreadsheet.
+> - [[Full specification|Column ingestion format]]: The full spreadsheet format for preparing new columns.
 
 ## Glossary
 
