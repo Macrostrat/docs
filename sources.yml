@@ -11,6 +11,8 @@
 #   path:     subdirectory within the source to pull (default: repo root)
 #   include:  optional list of globs within `path` to select (default: all *.md)
 #   mount:    where the pulled docs land in the assembled tree (under /docs)
+#   flatten:  optional subdirectory whose pages are lifted to the mount root, with
+#             relative links into and out of it rewritten to match
 #
 # The same manifest drives two assembly modes (see .tooling/README.md):
 #   publish   — read-only, lightweight clone → flat tree for the website build
@@ -31,6 +33,7 @@ sources:
       - "README.md"
       - "Docs"
     mount: formats/column-ingestion
+    flatten: Docs
     # The stratigraphic-column ingestion format spec — iterates with its parser.
 
   # Website

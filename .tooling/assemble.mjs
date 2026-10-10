@@ -9,7 +9,9 @@
 //
 // See .tooling/README.md. Depends on `yaml` (yarn install in this directory).
 
-import { readFileSync, readdirSync, mkdirSync, rmSync, cpSync, existsSync } from "node:fs";
+import {
+  readFileSync, writeFileSync, readdirSync, mkdirSync, rmSync, cpSync, renameSync, existsSync,
+} from "node:fs";
 import { execFileSync } from "node:child_process";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -85,8 +87,38 @@ function assemblePublish(sources, out) {
     const srcDir = s.path ? join(clone, s.path) : clone;
     const dest = join(out, s.mount ?? s.id);
     copySelected(srcDir, dest, s.include);
+    if (s.flatten) flattenInto(dest, s.flatten);
   }
   console.log("[assemble] done.");
+}
+
+// Lift the pages of `sub` to the mount root, and fix the relative links that crossed it:
+// `./sub/X.md` in the pages already at the root, `../X.md` in the lifted ones.
+function flattenInto(dest, sub) {
+  const inner = join(dest, sub);
+  if (!existsSync(inner)) {
+    console.warn(`[assemble]   ! flatten: ${sub} not found`);
+    return;
+  }
+  const lifted = readdirSync(inner);
+  for (const name of lifted) {
+    if (existsSync(join(dest, name))) {
+      throw new Error(`[assemble] flatten ${sub}: ${name} already exists at the mount root`);
+    }
+    renameSync(join(inner, name), join(dest, name));
+  }
+  rmSync(inner, { recursive: true });
+
+  const escaped = encodeURI(sub).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const intoSub = new RegExp(`(\\]\\(|\\]:\\s*)(?:\\./)?${escaped}/`, "g");
+  for (const name of readdirSync(dest)) {
+    if (!/\.mdx?$/i.test(name)) continue;
+    const path = join(dest, name);
+    const text = readFileSync(path, "utf8");
+    let relinked = text.replace(intoSub, "$1./");
+    if (lifted.includes(name)) relinked = relinked.replace(/(\]\(|\]:\s*)\.\.\//g, "$1./");
+    if (relinked !== text) writeFileSync(path, relinked);
+  }
 }
 
 // Copy either the whole dir or only files matching `include` globs.
