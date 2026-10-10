@@ -13,7 +13,7 @@ released independently. Most live in the
 | [macrostrat](https://github.com/UW-Macrostrat/macrostrat) | The core of the system: database schema definitions, the `macrostrat` command-line tool, map and column ingestion libraries, and services including the tile server, API v3 and background workers. Developer documentation in this section comes from its `docs/` directory. |
 | [macrostrat-api](https://github.com/UW-Macrostrat/macrostrat-api) | API v2, the stable public data API (Node.js) |
 | [web](https://github.com/UW-Macrostrat/web) | The Macrostrat website (TypeScript, React, Vike), including the map, columns, lexicon and contributor interfaces and the renderer for these documentation pages |
-| [column-ingestion](https://github.com/Macrostrat/column-ingestion) | The specification and templates for the column ingestion format ([[Full specification]]; [[Column ingestion quickstart]]) |
+| [column-ingestion](https://github.com/Macrostrat/column-ingestion) | The specification and templates for the column ingestion format ([[Full specification]]; [[Quickstart|Column ingestion quickstart]]) |
 | [docs](https://github.com/Macrostrat/docs) | These documentation pages |
 
 ## Libraries
