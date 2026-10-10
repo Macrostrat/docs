@@ -29,10 +29,7 @@ sources:
     ref: main
     include:
       - "README.md"
-      - "Column ingestion quickstart.md"
-      - "Column ingestion FAQ.md"
-      - "Full specification.md"
-      - "Future updates.md"
+      - "Docs"
     mount: formats/column-ingestion
     # The stratigraphic-column ingestion format spec — iterates with its parser.
 

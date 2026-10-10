@@ -19,5 +19,5 @@ whenever that code changes.
 
 - [[Map Ingestion - Files Schema]]: the structure of staged map files
 - [[Full specification]]: the column ingestion format
-- [[Column ingestion quickstart]]: building a column spreadsheet, step by step
+- [[Quickstart|Column ingestion quickstart]]: building a column spreadsheet, step by step
 - [[Using raster layers in QGIS]]: Macrostrat's raster tile services
