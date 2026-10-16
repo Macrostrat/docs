@@ -26,8 +26,7 @@ Responses are available as JSON and CSV, and many routes also return GeoJSON or
 TopoJSON for use in GIS. Every response states its license, and records carry
 references to their original sources.
 
-For a guided tour with examples, see [[The Macrostrat Geologic API]] and
-[[Accessing column data]].
+For a guided tour with examples, see [[Accessing column data]].
 
 ## Map tiles
 
