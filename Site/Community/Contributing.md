@@ -9,7 +9,7 @@ compilation or a new software feature.
 
 ## Ways to contribute
 
-1. **Collect and document your geologic world.** Rockd checkins, photos and
+1. **Collect geologic observations.** Rockd checkins, photos and
    strike-and-dip measurements. [Get Rockd](https://rockd.org).
 2. **Report what is wrong.** A misplaced unit, a bad legend, a missing name. Use the
    feedback link on any page, or [write to us](/community#contact).

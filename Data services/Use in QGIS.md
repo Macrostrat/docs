@@ -38,11 +38,6 @@ If you only need a background map, add an **XYZ Tiles** connection with the URL
 https://tiles.macrostrat.org/carto/{z}/{x}/{y}.png
 ```
 
-## Raster datasets
-
-Macrostrat also serves gridded datasets, such as mineral maps from remote sensing,
-over WMTS and XYZ. See [[Using raster layers in QGIS]].
-
 ## Limitations
 
 Vector tiles stream the map at the level of detail suited to each zoom, which makes
