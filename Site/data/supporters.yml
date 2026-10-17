@@ -1,111 +1,137 @@
 # Supporters of Macrostrat, rendered on /about/support.
 # tier: funder | institutional | in-kind
 # projects: which projects the support is for (macrostrat, rockd)
-# Periods are from the v1 pages and memory; confirm against award records.
+# Grants (tier: funder) also carry title, program, award and pi (the lead PI);
+#   other support carries contribution, a short name for what is given, shown
+#   where a grant shows its program. Grants lead with their title; other cards
+#   have none. The organization (name) follows the program or contribution.
+#   Ordered by tier, then newest first by period.
+# NSF titles, programs, PIs and periods are from the NSF award records.
 supporters:
   - id: nsf-ear-1150082
     name: U.S. National Science Foundation
-    program: CAREER award EAR-1150082
+    title: "CAREER: Towards a high-resolution quantification of the North American rock record: integrating field data, citizen science, and participatory education for macrostratigraphy"
+    program: CAREER
+    award: EAR-1150082
+    pi: Shanan Peters
     tier: funder
     url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1150082
-    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/nsf.png
     blurb: Founding support for the Macrostrat database and its first infrastructure.
-    period: { from: 2012, to: 2017 }
+    period: { from: 2012, to: 2019 }
     projects: [macrostrat]
 
   - id: nsf-icer-1440312
     name: U.S. National Science Foundation
-    program: EarthCube ICER-1440312
+    title: "EarthCube Building Blocks: Digital Crust – A 4D Exploratory Environment for Earth Science Research and Learning"
+    program: EarthCube
+    award: ICER-1440312
+    pi: Shanan Peters
     tier: funder
     url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1440312
-    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/nsf.png
     blurb: Turned a research database into a public platform, including the API and Rockd.
-    period: { from: 2014, to: 2019 }
+    period: { from: 2014, to: 2017 }
     projects: [macrostrat, rockd]
 
   - id: nsf-ear-1948843
     name: U.S. National Science Foundation
-    program: EAR-1948843
+    title: "Geoinformatics: Facility: Paleobiology Database: Preserving and Presenting Ancient Data for Future Research"
+    program: Geoinformatics
+    award: EAR-1948843
+    pi: Shanan Peters
     tier: funder
     url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1948843
-    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/nsf.png
     blurb: Ongoing support for data acquisition.
-    period: { from: 2019 }
+    period: { from: 2020, to: 2025 }
     projects: [macrostrat]
 
   - id: nsf-icer-1928323
     name: U.S. National Science Foundation
-    program: ICER-1928323
+    title: "Extending Ocean Drilling Pursuits [eODP]: Microfossils and Stratigraphy"
+    program: EarthCube
+    award: ICER-1928323
+    pi: Shanan Peters
     tier: funder
     url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1928323
-    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/nsf.png
     blurb: Ongoing support for data infrastructure.
-    period: { from: 2019 }
-    projects: [macrostrat]
-
-  - id: nsf-elements-2311091
-    name: U.S. National Science Foundation
-    program: Elements 2311091 (with Stanford, 2311092)
-    tier: funder
-    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2311091
-    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
-    blurb: Linking geochemical proxy records to crustal stratigraphic context via community-interactive cyberinfrastructure, with the Sedimentary Geochemistry and Paleoenvironments Project.
-    period: { from: 2023 }
+    period: { from: 2019, to: 2025 }
     projects: [macrostrat]
 
   - id: nsf-rise-2324579
     name: U.S. National Science Foundation
-    program: Open-Source Ecosystem RISE-2324579
+    title: "Building a multiscale community-led ecosystem for crustal geology through the integration of Macrostrat and StraboSpot"
+    program: GEO Open-Source Ecosystems
+    award: RISE-2324579
+    pi: Daven Quinn
     tier: funder
     url: https://www.nsf.gov/awardsearch/showAward.do?AwardNumber=2324579
-    logo: https://storage.macrostrat.org/assets/web/main-page/nsf.png
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/nsf.png
     blurb: The Macrostrat and StraboSpot open-source ecosystem.
-    period: { from: 2023 }
+    period: { from: 2023, to: 2027 }
     projects: [macrostrat]
+
+  - id: nsf-elements-2311091
+    name: U.S. National Science Foundation
+    title: "Linking geochemical proxy records to crustal stratigraphic context via community-interactive cyberinfrastructure"
+    program: CSSI Elements
+    award: 2311091 (with Stanford, 2311092)
+    pi: Daven Quinn
+    tier: funder
+    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=2311091
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/nsf.png
+    blurb: Pertnership with the Sedimentary Geochemistry and Paleoenvironments Project for time correlation
+    period: { from: 2023, to: 2027 }
+    projects: [macrostrat]
+
 
   - id: darpa-criticalmaas
     name: DARPA
     program: CriticalMAAS
     tier: funder
+    pi: Daven Quinn
+    title: An interactive, literature-integrated digital crust in support of critical minerals assessment
     url: https://www.darpa.mil/research/programs/critical-mineral-assessments-with-ai-support
     blurb: Map ingestion and harmonization at national scale.
-    period: { from: 2023 }
+    period: { from: 2023, to: 2024 }
     projects: [macrostrat]
 
   - id: uw-geoscience
     name: UW–Madison Department of Geoscience
     tier: institutional
+    contribution: Institutional support
     url: https://geoscience.wisc.edu
-    blurb: Continuous institutional support for the project and the people who build it.
-    period: { from: 2013 }
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/uw-madison.svg
+    blurb: Continuous institutional support for the project and staff.
+    period: { from: 2013, to: present }
     projects: [macrostrat, rockd]
-
-  - id: aapg-foundation
-    name: AAPG Foundation
-    tier: funder
-    url: https://aapgfoundation.org
-    blurb: Support for ongoing Rockd development, including Rockd v4.
-    period: { from: 2025 }
-    projects: [rockd]
 
   - id: chtc
     name: UW–Madison Center for High Throughput Computing
     tier: in-kind
+    contribution: Computing infrastructure
     url: https://chtc.cs.wisc.edu
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/chtc.svg
     blurb: Cloud computing infrastructure for Macrostrat and Rockd.
+    period: { from: 2023, to: present }
     projects: [macrostrat, rockd]
 
   - id: mapbox
     name: Mapbox
     tier: in-kind
+    contribution: Location and basemap services
     url: https://www.mapbox.com
-    blurb: Has supported intensive use of its location and basemap services by Rockd since 2016.
-    period: { from: 2016 }
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/mapbox.svg
+    blurb: Intensive use of location and basemap services under a nonprofit agreement.
+    period: { from: 2016, to: present }
     projects: [rockd, macrostrat]
 
   - id: xdd
     name: xDD
     tier: in-kind
+    contribution: Literature links
     url: https://xdd.wisc.edu
     blurb: Links from geologic units to the published literature.
     projects: [macrostrat, rockd]

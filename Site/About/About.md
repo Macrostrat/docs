@@ -10,14 +10,14 @@ status: draft
 
 ## Platform
 
-Macrostrat began as a research database supporting "macrostratigraphy", an approach to the rock record implemented at scale by Shanan Peters from the early 2000s; see our [scientific approach](/about/scientific-approach). Since then, the system has grown into a comprehensive platform for geologic data, an evolution which we continue with the [Version 2](/about/version-2) effort. It is developed by the Macrostrat lab at the University of Wisconsin–Madison.
+Macrostrat began as a research database supporting _macrostratigraphy_, a [novel approach](/about/scientific-approach) to quantifying the rock record at scale. Since then, the system has grown into a comprehensive platform for geologic data, an evolution which we continue with the [Version 2](/about/version-2) effort. Its development is centered at the Macrostrat lab at the University of Wisconsin–Madison.
 
 > [!cards]
 > - [Apps](/about/apps): The Rockd mobile app and other applications built with
 >   Macrostrat.
-> - [People](/about/people): The team that builds Macrostrat, past and present.
-> - [Publications](/publications): Research built on Macrostrat.
-> - [Support us](/about/support): How Macrostrat is funded, and how to give.
+> - [People](/about/people): Contributors to the Macrostrat platform.
+> - [Publications](/publications): Research using Macrostrat.
+> - [Support](/about/support): How Macrostrat is funded, and how to give.
 
 > [!panels]
 > - **Data**
@@ -37,23 +37,26 @@ Macrostrat began as a research database supporting "macrostratigraphy", an appro
 >     in development.
 > - [Documentation](/docs): How Macrostrat works, how to use it, and how to
 >   contribute.
->   - Maps, columns and the lexicon: concepts and data model
+>   - Concepts and data model
+>   - System architecture and codebase
 >   - Contributing maps and columns
 >   - Using the API, tiles and QGIS
->   - System architecture and codebase
 
-## How to cite
 
-Cite the paper that matches what you used, along with the original references for
-the data; the API returns those references alongside every record. In presentations,
-acknowledge Macrostrat by name and use the logos from the [brand page](/about/brand).
+## Citing Macrostrat
 
 > [!cite]
-> - [Data and analysis](https://doi.org/10.1029/2018gc007467): Cite when you used
->   Macrostrat's data, API or tiles in research.
-> - [Website and project](https://doi.org/10.1002/gdj3.189): Cite when you used the
->   website, or are writing about the project and its collaborative design.
+> - [Data and analysis](https://doi.org/10.1029/2018gc007467): Analytical use of Macrostrat APIs and data sets.
+> - [Website and project](https://doi.org/10.1002/gdj3.189): The website, project, and its current collaborative design.
 
+Macrostrat is a shared community resource that must be credited in scientific products.
+
+- Acknowledge Macrostrat as the source of any information or data.
+- Cite the paper describing Macrostrat's platform and/or data services that you used in your work.
+- In presentations, acknowledge Macrostrat by name and use the logos from the [brand page](/about/brand).
+- If specific data sets were targeted, you should also include citations to the original references. These references are accessible from the API and web interface.
+
+We seek to highlight [apps](/apps) and [publications](/publications) that use our data services. If you would like your paper or product listed, send it to us or ask to join the [Macrostrat Zotero group](https://www.zotero.org/groups/6644229/macrostrat).
 ## Get involved
 
 See the [community](/community) and [ways to contribute](/community/contributing), or write to us.

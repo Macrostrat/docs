@@ -20,6 +20,8 @@ The initial public release of Macrostrat [[Version 2]]!
   [API v2 changelog](https://github.com/UW-Macrostrat/macrostrat-api/blob/main/CHANGELOG.md)
 - **API v3** remains *in development*; its routes may change. [[Data services]]
 
+Macrostrat's old website and the Sift application are still available [here](https://web-legacy.production.svc.macrostrat.org/).
+
 ## March 2026
 
 - **Cloud-native platform:** Macrostrat moved from a single server to containers on a Kubernetes cluster at UW–Madison's Center for High Throughput Computing.

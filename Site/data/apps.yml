@@ -1,7 +1,10 @@
 # Applications, libraries and tools built with Macrostrat, rendered on /about/apps.
-# kind: app | library | site | notebook
+# kind: app | library | site | notebook | exhibit
 # status: active | archived
 # by: who made it (an organization or person)
+# integration: core | light (default core). Light: shows Macrostrat's map or links to it
+#   among other sources; listed compactly below the core entries.
+# uses: what it does with Macrostrat, in one line. Omitted for Macrostrat's own work.
 apps:
   - id: rockd
     name: Rockd
@@ -18,7 +21,7 @@ apps:
     status: active
     url: /map
     by: Macrostrat
-    logo: https://storage.macrostrat.org/assets/web/main-page/burwell.png
+    logo: https://storage.macrostrat.org/assets/web/macrostrat-icons/macrostrat-icon.svg
     blurb: The world's geologic maps, integrated and explorable with columns, fossils and literature.
 
   - id: sift
@@ -30,37 +33,207 @@ apps:
     logo: https://storage.macrostrat.org/assets/web/main-page/logo.png
     blurb: The v1 explorer for Macrostrat's columns, units and names. Superseded by the v2 site.
 
-  - id: macrostratpy
-    name: macrostratpy
-    kind: library
-    status: active
-    url: https://github.com/DARPA-CRITICALMAAS/macrostratpy
-    by: Macrostrat, for CriticalMAAS
-    blurb: A Python library for downloading Macrostrat map tiles over large areas into GIS-ready GeoPackages.
-
   - id: mancos
     name: Mancos
     kind: app
-    status: archived
+    status: active
     url: https://itunes.apple.com/us/app/mancos/id541570878?mt=8
     by: Hunt Mountain Software
     logo: https://storage.macrostrat.org/assets/web/main-page/mancos.jpg
     blurb: Explore Macrostrat and the Paleobiology Database on iOS.
+    uses: Macrostrat's geologic map and columns, with PBDB fossils.
 
   - id: flyover-country
     name: Flyover Country
     kind: app
     status: archived
-    url: https://flyovercountry.io/
-    by: Amy Myrbo, Shane Loeffler and colleagues
-    logo: https://storage.macrostrat.org/assets/web/main-page/foc.png
+    url: https://flyovercountry.app/
+    by: Shane Loeffler, Amy Myrbo, and colleagues
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/flyover-country.svg
     blurb: A glass-bottom jet. Geology and fossils along your flight path, offline.
+    uses: Macrostrat's geologic map along your flight path, saved for offline use.
 
-  - id: node-api-template
-    name: API template
+  - id: mapboard-gis
+    name: Mapboard GIS
+    kind: app
+    status: active
+    url: https://mapboard-gis.app
+    by: Daven Quinn
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/mapboard-gis.png
+    blurb: Draw topologically consistent geologic maps on an iPad with an Apple Pencil.
+    uses: Shares its map topology engine with Macrostrat's map compilations.
+
+  - id: backseat-geologist
+    name: Backseat Geologist
+    kind: app
+    status: active
+    url: https://backseatgeologist.com
+    by: Blake Morgan
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/backseat-geologist.png
+    blurb: A geologist riding along. Macrostrat's map units, read aloud as you travel.
+    uses: Reads aloud the Macrostrat map units beneath your route.
+
+  - id: strabofield
+    name: StraboField
+    kind: app
+    status: active
+    url: https://strabospot.org
+    by: StraboSpot, University of Kansas
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/strabofield.png
+    blurb: StraboSpot's field app for observations, measurements, maps and sections, online or off.
+    integration: light
+    uses: Macrostrat's geologic map as a field basemap.
+
+  - id: imineralogist
+    name: iMineralogist
+    kind: app
+    status: active
+    url: https://imineralogist.org
+    by: Iaroslav Bezruchko
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/imineralogist.png
+    blurb: A field map for rockhounds and collectors, with a community to share finds.
+    integration: light
+    uses: A Macrostrat geology overlay, with map-unit details for a tapped point.
+
+  - id: rmacrostrat
+    name: rmacrostrat
+    kind: library
+    status: active
+    url: https://rmacrostrat.palaeoverse.org
+    by: Lewis A. Jones, William Gearty, Christopher D. Dean and Bethany Allen (Palaeoverse)
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/rmacrostrat.png
+    blurb: Macrostrat's data in R, for analysis and plotting.
+    uses: A client for the v2 API, covering columns, units, maps and definitions.
+
+  # Light integrations
+
+  - id: mindat
+    name: Mindat
+    kind: site
+    status: active
+    integration: light
+    url: https://www.mindat.org
+    by: Hudson Institute of Mineralogy
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/mindat.png
+    blurb: The open mineralogy database, with minerals and localities worldwide.
+    uses: A Macrostrat geology layer on its maps, and regional geology on locality pages.
+
+  - id: inaturalist
+    name: iNaturalist
+    kind: site
+    status: active
+    integration: light
+    url: https://www.inaturalist.org
+    by: iNaturalist
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/inaturalist.png
+    blurb: A community for recording and identifying observations of nature.
+    uses: Links each observation's location to Macrostrat's map.
+
+  - id: gaia-gps
+    name: Gaia GPS
+    kind: app
+    status: active
+    integration: light
+    url: https://www.gaiagps.com
+    by: Gaia GPS
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/gaia-gps.svg
+    blurb: Topographic maps and navigation for the backcountry.
+    uses: A worldwide Bedrock Geology map layer from Macrostrat.
+
+  - id: mineralienatlas
+    name: Mineralienatlas
+    kind: site
+    status: active
+    integration: light
+    url: https://www.mineralienatlas.de/macrostrat/
+    by: Mineralienatlas
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/mineralienatlas.jpg
+    blurb: A German-language encyclopedia of minerals, rocks and localities.
+    uses: A geologic map page built on Macrostrat's tiles.
+
+  - id: berkeleymapper
+    name: BerkeleyMapper
+    kind: site
+    status: active
+    integration: light
+    url: https://berkeleymapper.berkeley.edu
+    by: Berkeley Natural History Museums
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/berkeleymapper.svg
+    blurb: Maps of natural history specimen records.
+    uses: A Macrostrat geology overlay on specimen maps.
+
+  - id: symbiota
+    name: Symbiota
+    kind: site
+    status: active
+    integration: light
+    url: https://symbiota.org
+    by: Symbiota Support Hub (iDigBio)
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/symbiota.png
+    blurb: Open-source software behind hundreds of biodiversity collection portals.
+    uses: A Macrostrat geologic map layer in every portal's mapping interface.
+
+  - id: gbif-paleosphere
+    name: PaleoSphere
+    kind: site
+    status: active
+    integration: light
+    url: https://paleo.hp.gbif.org
+    by: GBIF
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/gbif-paleosphere.svg
+    blurb: GBIF's portal for fossil occurrence data.
+    uses: A Macrostrat geology basemap for occurrence maps.
+
+  - id: jupytergis
+    name: JupyterGIS
+    kind: library
+    status: active
+    integration: light
+    url: https://jupytergis.readthedocs.io
+    by: GeoJupyter
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/jupytergis.svg
+    blurb: Collaborative GIS editing in Jupyter.
+    uses: Macrostrat's map in its layer gallery, ready to add to a notebook map.
+
+  - id: planarian
+    name: Planarian
+    kind: site
+    status: active
+    integration: light
+    url: https://app.planarian.org
+    by: kmichael500
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/planarian.png
+    blurb: Manages cave survey data for state cave surveys and caving groups.
+    uses: A Macrostrat geology layer on cave maps.
+
+  - id: rockhound-go
+    name: RockHound GO
+    kind: app
+    status: active
+    integration: light
+    url: https://rhgo.me
+    by: RockHound GO
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/rockhound-go.png
+    blurb: A field companion for rockhounds, with mineral identification and collecting guidance.
+    uses: A Macrostrat bedrock overlay on its rockhounding map.
+
+  - id: deeptime
+    name: deeptime
+    kind: library
+    status: active
+    integration: light
+    url: https://williamgearty.com/deeptime/
+    by: William Gearty
+    logo: https://storage.macrostrat.org/assets/web/docs/logos/deeptime.png
+    blurb: R plotting tools for anyone working in deep time.
+    uses: Pulls geologic timescales from Macrostrat's API for its plots.
+
+  - id: velociraptr
+    name: velociraptr
     kind: library
     status: archived
-    url: https://github.com/UW-Macrostrat/node-api-template
-    by: Macrostrat
-    logo: https://storage.macrostrat.org/assets/web/main-page/api.png
-    blurb: The Node foundation of Macrostrat's v1 services.
+    integration: light
+    url: https://cran.r-project.org/package=velociraptr
+    by: Andrew A. Zaffos
+    blurb: R tools for fossil analysis with the Paleobiology Database.
+    uses: Downloads timescales, places and paleogeography from Macrostrat's API.

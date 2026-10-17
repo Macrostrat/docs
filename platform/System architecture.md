@@ -8,7 +8,7 @@ the web; and command-line tools manage it. This page is an overview across the w
 system. Developer documentation for individual components lives with their code and is
 collected in this section and in [[Codebase]].
 
-## The database
+## Database
 
 Everything described under [[Maps]], [[Columns]] and [[Lexicon]] lives in one PostgreSQL database with
 the PostGIS spatial extension, organized into schemas by subsystem:
