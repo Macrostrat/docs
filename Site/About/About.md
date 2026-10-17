@@ -16,7 +16,7 @@ Macrostrat began as a research database supporting _macrostratigraphy_, a [novel
 > - [Apps](/community/apps): The Rockd mobile app and other applications built with
 >   Macrostrat.
 > - [People](/about/people): Contributors to the Macrostrat platform.
-> - [Publications](/publications): Research using Macrostrat.
+> - [Publications](/community/publications): Research using Macrostrat.
 > - [Support](/about/support): How Macrostrat is funded, and how to give.
 
 > [!panels]
@@ -56,7 +56,7 @@ Macrostrat is a shared community resource that must be credited in scientific pr
 - In presentations, acknowledge Macrostrat by name and use the logos from the [brand page](/about/brand).
 - If specific data sets were targeted, you should also include citations to the original references. These references are accessible from the API and web interface.
 
-We seek to highlight [apps](/community/apps) and [publications](/publications) that use our data services. If you would like your paper or product listed, send it to us or ask to join the [Macrostrat Zotero group](https://www.zotero.org/groups/6644229/macrostrat).
+We seek to highlight [apps](/community/apps) and [publications](/community/publications) that use our data services. If you would like your paper or product listed, send it to us or ask to join the [Macrostrat Zotero group](https://www.zotero.org/groups/6644229/macrostrat).
 ## Get involved
 
 See the [community](/community) and [ways to contribute](/docs/contributing), or [write to us](/contact).

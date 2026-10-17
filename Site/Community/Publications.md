@@ -1,6 +1,6 @@
 ---
 title: Publications
-route: /publications
+route: /community/publications
 status: draft
 ---
 
