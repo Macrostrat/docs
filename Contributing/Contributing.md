@@ -1,6 +1,6 @@
 ---
 title: Contributing
-route: /community/contributing
+permalink: index
 ---
 
 Macrostrat is improved by the geologists and developers who use it. Contributions of
@@ -12,15 +12,16 @@ compilation or a new software feature.
 1. **Collect geologic observations.** Rockd checkins, photos and
    strike-and-dip measurements. [Get Rockd](https://rockd.org).
 2. **Report what is wrong.** A misplaced unit, a bad legend, a missing name. Use the
-   feedback link on any page, or [write to us](/community#contact).
+   feedback link on any page, or [write to us](/contact).
 3. **Digitize existing geologic data.** Maps, stratigraphic columns and measured
    sections, following the guides in the documentation: [[Contributing maps]],
    [[Accessing column data]].
 4. **Build on Macrostrat.** The API, tiles and web components. Add your app to
-   [apps built with Macrostrat](/about/apps).
+   [apps built with Macrostrat](/community/apps).
 5. **Connect a system.** Data exchange and shared identifiers: see
-   [collaborators](/community/collaborators).
-6. **Contribute code and documentation.** See [open source](/community/open-source).
+   [integrations](/community/integrations).
+6. **Contribute code and documentation.** See [software](#software) and
+   [documentation](#documentation) below.
 7. **Fund the work.** See the [support page](/about/support).
 
 ## Accounts
@@ -53,7 +54,9 @@ they are being tested with collaborators, and a public beta will follow.
 
 Macrostrat's software is open source and developed on GitHub, mainly in the
 [UW-Macrostrat](https://github.com/UW-Macrostrat) organization. Issues, bug reports and
-pull requests are welcome. [[Codebase]] describes the repositories and what each
+pull requests are welcome; open an issue first for anything beyond a small fix, so we
+can point you to the right place, since the platform spans several repositories that
+release independently. [[Codebase]] describes the repositories and what each
 holds; [the website's code style guide](https://github.com/UW-Macrostrat/web/blob/main/CONTRIBUTING.md) covers code style for the website; and
 [[System architecture]] explains how the pieces fit together.
 
@@ -73,4 +76,4 @@ guide, lives in that code's repository and is pulled into these pages automatica
 
 ## Get in touch
 
-See the [community page](/community) for ways to reach the Macrostrat team.
+See the [contact page](/contact) for ways to reach the Macrostrat team.

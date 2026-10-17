@@ -29,4 +29,4 @@ it underlies the [Rockd](https://rockd.org) mobile app and many other applicatio
 > - [Python libraries](/docs/python-libraries): Macrostrat's Python packages.
 
 These pages are open source, and contributions are welcome: see
-[Contributing](/community/contributing).
+[Contributing](/docs/contributing).

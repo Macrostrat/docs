@@ -4,17 +4,15 @@ route: /community
 status: draft
 ---
 
+Macrostrat is part of a broad geoinformatics ecosystem. These are the applications built
+on it, the systems it exchanges data and identifiers with, and the sources it builds on.
+Organizations that fund the work are on the [support page](/about/support). Some
+appear in more than one place.
+
 > [!cards]
-> - [People](/about/people): The team that builds Macrostrat, past and present.
-> - [Collaborators](/community/collaborators): Systems and organizations we exchange
->   data and identifiers with.
-> - [Supporters](/about/support#supporters): The funders and partners behind the work.
-> - [Publications](/publications): Research built on Macrostrat.
-> - [Apps](/about/apps): Applications built with Macrostrat.
-> - [Contributing](/community/contributing): Ways to contribute, from a Rockd checkin
->   to a regional compilation.
-> - [Open source](/community/open-source): Our repositories, and how to contribute code.
-
-## Contact
-
-<!-- slot: Contact — Site/data/contact.yml -->
+> - [Apps](/community/apps): Applications, libraries and tools that use Macrostrat's
+>   data and services.
+> - [Integrations](/community/integrations): Systems that exchange data and
+>   identifiers with Macrostrat in both directions.
+> - [Providers](/community/providers): The maps, timescales, rotation models and
+>   literature Macrostrat builds on.

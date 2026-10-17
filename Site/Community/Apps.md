@@ -1,6 +1,6 @@
 ---
 title: Apps
-route: /about/apps
+route: /community/apps
 status: draft
 ---
 

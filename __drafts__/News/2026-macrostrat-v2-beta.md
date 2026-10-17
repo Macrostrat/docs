@@ -39,6 +39,9 @@ The full account is in [Version 2](/about/version-2).
 The site is live, the data are real, and some things will be rough. Tell us what you
 find: [ways to contribute](/community).
 
+The v1 version of the Macrostrat website can be accessed at
+[v1.macrostrat.org](https://v1.macrostrat.org).
+
 ## What is next
 
 Building on version 2 continues through small, continuous releases, which the new

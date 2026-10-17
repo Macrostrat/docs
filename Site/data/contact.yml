@@ -1,4 +1,4 @@
-# Contact channels, rendered in the footer and on /community and /about.
+# Contact channels, rendered on /contact, /about and /about/support.
 # The email address is a placeholder until one is set up (see the feature plan).
 channels:
   - kind: email
