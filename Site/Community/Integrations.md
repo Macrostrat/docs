@@ -24,5 +24,4 @@ builds on are [providers](/community/providers).
 ## Connect a system
 
 If your data system shares ground with Macrostrat, in stratigraphic names, geologic
-time, map units, localities or literature, we would like to link up. Shared
-identifiers are the usual starting point. [Write to us](/contact).
+time, map units, localities or literature, we would like to link up. [Write to us](/contact).
