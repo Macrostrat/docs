@@ -237,3 +237,13 @@ apps:
     by: Andrew A. Zaffos
     blurb: R tools for fossil analysis with the Paleobiology Database.
     uses: Downloads timescales, places and paleogeography from Macrostrat's API.
+
+  - id: geostrix
+    name: GeoStrix
+    kind: app
+    status: active
+    url: https://geostrix.com
+    by: Matt Mendes
+    logo: https://geostrix.com/img/icon-128.png
+    blurb: Free, open-source 3D software for mineral exploration.
+    uses: Macrostrat's geologic map draped on the project terrain.
